@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pena Ara</title>
+    <link>https://pena-ara.github.io/</link>
+    <description>Recent content on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 10 Oct 2020 16:45:33 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Web Server Apache Dan DBMS Mysql</title>
+      <link>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</link>
+      <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</guid>
+      <description>Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ? web server adalah sebuah software yang meberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada client yang biasa kita sebut web browser dan untuk mengirimkan kembali dalam bentuk halaman web dan pada umumnya akan berbentuk HTML.
+sekarang sudah tahukan apa itu web server ?, yang akan kita install sekarang adalah salah satu contoh web server yang lumayan banyak penggunanya yakni apache, langsung saja keproses installasinya, disini ara menggunakan arch linux untuk menginstall apache.</description>
+    </item>
+    
+    <item>
+      <title>Mengelola File Pada Gnu Linux</title>
+      <link>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</link>
+      <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
+      <description>Pada kesempatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
+chgrp Perintah ini sudah dijelaskan pada kesempatan sebelumnya.
+Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesempatan ini akan sedikit di jabarkan, ada beberapa penggunaan perintah cp untuk mengelola file di gnu/linux anatar lain:</description>
+    </item>
+    
+    <item>
+      <title>Mengelola Directori Pada Gnu Linux</title>
+      <link>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</link>
+      <pubDate>Fri, 09 Oct 2020 18:16:29 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</guid>
+      <description>Pada kesempatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?? Langsung kita bahas saja satu persatu.
+Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perintah cd antara lain:
+ cd .. =&amp;gt; digunakan untuk pindah direktori ke level atas, misal kita berada di direktori linux yang berada didalam direktori home jika kita memasukan perintah cd .</description>
+    </item>
+    
+    <item>
+      <title>Sejarah Linux</title>
+      <link>https://pena-ara.github.io/catatan/sejarah-linux/</link>
+      <pubDate>Fri, 09 Oct 2020 18:07:45 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/sejarah-linux/</guid>
+      <description>Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux. UNIX mendapatkan perhatian besar karena merupakan sistem operasi pertama yang dibuat bukan oleh hardware maker. Selain itu juga karena seluruh source code-nya dibuat dengan bahasa C, sehingga mempermudah pemindahannya ke berbagai platform.
+Dalam waktu singkat UNIX berkembang secara pesat dan terpecah menjadi dua yakni UNIX yang dikembangkan oleh Universitas Berkeley dan yang dikembangkan oleh AT&amp;amp;T.</description>
+    </item>
+    
+  </channel>
+</rss>

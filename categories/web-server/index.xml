@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Server on Pena Ara</title>
+    <link>https://pena-ara.github.io/categories/web-server/</link>
+    <description>Recent content in Web Server on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 10 Oct 2020 16:45:33 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/web-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Web Server Apache Dan DBMS Mysql</title>
+      <link>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</link>
+      <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</guid>
+      <description>Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ? web server adalah sebuah software yang meberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada client yang biasa kita sebut web browser dan untuk mengirimkan kembali dalam bentuk halaman web dan pada umumnya akan berbentuk HTML.
+sekarang sudah tahukan apa itu web server ?, yang akan kita install sekarang adalah salah satu contoh web server yang lumayan banyak penggunanya yakni apache, langsung saja keproses installasinya, disini ara menggunakan arch linux untuk menginstall apache.</description>
+    </item>
+    
+  </channel>
+</rss>

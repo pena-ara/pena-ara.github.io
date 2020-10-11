@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Pena Ara</title>
+    <link>https://pena-ara.github.io/tags/</link>
+    <description>Recent content in Tags on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 10 Oct 2020 16:45:33 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>apache</title>
+      <link>https://pena-ara.github.io/tags/apache/</link>
+      <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://pena-ara.github.io/tags/mysql/</link>
+      <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>file</title>
+      <link>https://pena-ara.github.io/tags/file/</link>
+      <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://pena-ara.github.io/tags/linux/</link>
+      <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>directori</title>
+      <link>https://pena-ara.github.io/tags/directori/</link>
+      <pubDate>Fri, 09 Oct 2020 18:16:29 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/directori/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
