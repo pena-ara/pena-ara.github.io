@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web-Programing on Pena Ara</title>
+    <link>https://pena-ara.github.io/categories/web-programing/</link>
+    <description>Recent content in Web-Programing on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Oct 2020 00:39:07 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/web-programing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sejarah Php</title>
+      <link>https://pena-ara.github.io/catatan/sejarah-php/</link>
+      <pubDate>Mon, 12 Oct 2020 00:39:07 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/sejarah-php/</guid>
+      <description>Sejarah Singkat PHP
+ PHP pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1995, pada awalnya PHP merupakan singkatan dari Personal Home Page, pada waktu itu PHP masih bernama Form Interpreted (FI), yang masih berupa sekumpulan skrip yang digunakan untuk mengelola data formulir dari web, kemudian pada tahun 1996 Rasmus Lerdorf merlilis kode sumber tersebut untuk umum dan diberi nama PHP/FI.
+Pada tahun berikutnya Rasmus Lerdorf merilis kembali PHP/FI dengan versi 2.</description>
+    </item>
+    
+  </channel>
+</rss>

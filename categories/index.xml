@@ -5,7 +5,34 @@
     <link>https://pena-ara.github.io/categories/</link>
     <description>Recent content in Categories on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Oct 2020 16:45:33 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2020 00:39:07 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web-Programing</title>
+      <link>https://pena-ara.github.io/categories/web-programing/</link>
+      <pubDate>Mon, 12 Oct 2020 00:39:07 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/categories/web-programing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desktop Environment</title>
+      <link>https://pena-ara.github.io/categories/desktop-environment/</link>
+      <pubDate>Mon, 12 Oct 2020 00:18:51 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/categories/desktop-environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GNU-Linux</title>
+      <link>https://pena-ara.github.io/categories/gnu-linux/</link>
+      <pubDate>Mon, 12 Oct 2020 00:18:51 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/categories/gnu-linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>DBMS</title>
       <link>https://pena-ara.github.io/categories/dbms/</link>
@@ -21,15 +48,6 @@
       <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/categories/web-server/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GNU-Linux</title>
-      <link>https://pena-ara.github.io/categories/gnu-linux/</link>
-      <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
-      
-      <guid>https://pena-ara.github.io/categories/gnu-linux/</guid>
       <description></description>
     </item>
     

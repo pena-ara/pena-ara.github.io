@@ -5,7 +5,27 @@
     <link>https://pena-ara.github.io/</link>
     <description>Recent content on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Oct 2020 16:45:33 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2020 00:39:07 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sejarah Php</title>
+      <link>https://pena-ara.github.io/catatan/sejarah-php/</link>
+      <pubDate>Mon, 12 Oct 2020 00:39:07 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/sejarah-php/</guid>
+      <description>Sejarah Singkat PHP
+ PHP pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1995, pada awalnya PHP merupakan singkatan dari Personal Home Page, pada waktu itu PHP masih bernama Form Interpreted (FI), yang masih berupa sekumpulan skrip yang digunakan untuk mengelola data formulir dari web, kemudian pada tahun 1996 Rasmus Lerdorf merlilis kode sumber tersebut untuk umum dan diberi nama PHP/FI.
+Pada tahun berikutnya Rasmus Lerdorf merilis kembali PHP/FI dengan versi 2.</description>
+    </item>
+    
+    <item>
+      <title>Top 3 Desktop Environment</title>
+      <link>https://pena-ara.github.io/catatan/top-3-desktop-environment/</link>
+      <pubDate>Mon, 12 Oct 2020 00:18:51 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/top-3-desktop-environment/</guid>
+      <description>Desktop environment atau Lingkungan desktop umumnya merujuk ke gaya grafis antarmuka pengguna (GUI=Graphical User Interface) yang mememperlihatkan kiasan desktop di layar komputer modern. Lingkungan desktop adalah alternatif yang paling populer sebagai pengganti antarmuka baris perintah (command line interface) (CLI) yang saat ini umumnya digunakan terbatas oleh para pakar komputer. Sistem operasi seperti Microsoft Windows dan Mac OS X masing-masing mempunyai lingkungan desktop tersendiri. GNU/Linux juga mempunyai berbagai lingkungan desktop, diantaranya yang terpopuler adalah KDE, GNOME, dan XFCE.</description>
+    </item>
+    
     <item>
       <title>Install Web Server Apache Dan DBMS Mysql</title>
       <link>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</link>
