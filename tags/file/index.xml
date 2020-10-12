@@ -12,8 +12,8 @@
       <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
-      <description>Pada kesempatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
-chgrp Perintah ini sudah dijelaskan pada kesempatan sebelumnya.
+      <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
+chgrp Perintah ini sudah dijelaskan pada catatan sebelumnya.mengelola directori
 Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesempatan ini akan sedikit di jabarkan, ada beberapa penggunaan perintah cp untuk mengelola file di gnu/linux anatar lain:</description>
     </item>
     

@@ -5,7 +5,17 @@
     <link>https://pena-ara.github.io/catatan/</link>
     <description>Recent content in Catatans on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Oct 2020 00:39:07 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2020 15:12:47 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix Screen Flickering</title>
+      <link>https://pena-ara.github.io/catatan/fix-screen-flickering/</link>
+      <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
+      <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
+ Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.  </description>
+    </item>
+    
     <item>
       <title>Sejarah Php</title>
       <link>https://pena-ara.github.io/catatan/sejarah-php/</link>
@@ -42,8 +52,8 @@ sekarang sudah tahukan apa itu web server ?, yang akan kita install sekarang ada
       <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
-      <description>Pada kesempatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
-chgrp Perintah ini sudah dijelaskan pada kesempatan sebelumnya.
+      <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
+chgrp Perintah ini sudah dijelaskan pada catatan sebelumnya.mengelola directori
 Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesempatan ini akan sedikit di jabarkan, ada beberapa penggunaan perintah cp untuk mengelola file di gnu/linux anatar lain:</description>
     </item>
     
@@ -53,7 +63,7 @@ Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesemp
       <pubDate>Fri, 09 Oct 2020 18:16:29 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</guid>
-      <description>Pada kesempatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?? Langsung kita bahas saja satu persatu.
+      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?? Langsung kita bahas saja satu persatu.
 Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perintah cd antara lain:
  cd .. =&amp;gt; digunakan untuk pindah direktori ke level atas, misal kita berada di direktori linux yang berada didalam direktori home jika kita memasukan perintah cd .</description>
     </item>
