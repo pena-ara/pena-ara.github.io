@@ -43,7 +43,8 @@ Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perin
       <pubDate>Fri, 09 Oct 2020 18:07:45 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/sejarah-linux/</guid>
-      <description>Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux. UNIX mendapatkan perhatian besar karena merupakan sistem operasi pertama yang dibuat bukan oleh hardware maker. Selain itu juga karena seluruh source code-nya dibuat dengan bahasa C, sehingga mempermudah pemindahannya ke berbagai platform.
+      <description>Sejarah Singkat Linux
+Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux. UNIX mendapatkan perhatian besar karena merupakan sistem operasi pertama yang dibuat bukan oleh hardware maker. Selain itu juga karena seluruh source code-nya dibuat dengan bahasa C, sehingga mempermudah pemindahannya ke berbagai platform.
 Dalam waktu singkat UNIX berkembang secara pesat dan terpecah menjadi dua yakni UNIX yang dikembangkan oleh Universitas Berkeley dan yang dikembangkan oleh AT&amp;amp;T.</description>
     </item>
     
