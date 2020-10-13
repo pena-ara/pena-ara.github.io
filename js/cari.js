@@ -3,13 +3,7 @@ let searchInput = document.querySelector('#searchInput'),
 
 let dataJSON;
 
-// ketika tombol 'c' di tekan pencarian dimulai
-window.addEventListener('keydown', function(event) {
-    if (event.key === 'c') {
-        event.preventDefault()
-        searchInput.focus()
-    }
-})
+
 // ketika tombol 'esc' di tekan pencarian dihentikan
 window.addEventListener('keydown', function(event) {
     if (event.keyCode === 27)
@@ -28,8 +22,6 @@ const getPostsJSON = async () => {
     return data
 }
 /**
- * @param query, element.
- * query: the keyword that user given.
  * element: target element to show the result.
  */
 const filterPostsJSON = (query, element) => {
@@ -37,17 +29,14 @@ const filterPostsJSON = (query, element) => {
     query = new RegExp(query, 'ig')
     result = dataJSON.filter(item => query.test(item.title))
     itemsWithElement = result.map(item => (
-        `<li class="search-result-item">
-            <a href="${item.url}">
+        `<li class="search-result-item col-12 d-flex width-full py-2 border-bottom">
+            <h4><a href="${item.url}">
                 ${item.title}
-                <span class="icon">
-                    <i class="fas fa-external-link-alt"></i>
-                </span>
-            </a>
+            </a></h4>
         </li>`
     ))
     element.style.display = 'block';
-    itemsWithElement.unshift(`<p class="is-size-7 px-2 py-2 has-text-dark">Tekan 'ESC' untuk membatalkan pencarian.</p>`)
+    itemsWithElement.unshift
     element.innerHTML = itemsWithElement.join('');
 }
 /**
@@ -57,10 +46,10 @@ const searchInputAction = (event, callback) => {
     searchInput.addEventListener(event, callback)
 }
 /**
- * When user focus on the search input, function getPostsJSON called.
+ * focus on the search input, function getPostsJSON .
  */
 searchInputAction('focus', () => getPostsJSON().then(data => dataJSON = data))
 /**
- * filtering result with the query that user given on search input.
+ * filtering result with the query on search input.
  */
 searchInputAction('keyup', (event) => filterPostsJSON(event.target.value, searchResult))

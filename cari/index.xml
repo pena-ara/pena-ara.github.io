@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pena Ara</title>
+    <link>https://pena-ara.github.io/cari/</link>
+    <description>Recent content on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://pena-ara.github.io/cari/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
