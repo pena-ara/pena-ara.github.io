@@ -47,6 +47,8 @@
 
     
     
+    <link href="/index.json" rel="alternate" type="application/json" title="Pena Ara" />
+    
 
     
     
@@ -235,7 +237,7 @@ if (!doNotTrack) {
 
 
 <div class="col-lg-9 col-md-8 col-12 float-md-left pl-md-2">
-    <div class="UnderlineNav width-full user-profile-nav js-sticky top-0">
+    <div class="UnderlineNav width-full user-profile-nav js-sticky top-0 ">
         <nav class="UnderlineNav-body" aria-label="User profile">
             <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected " href="https://pena-ara.github.io/">
                 Overview
@@ -254,6 +256,12 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div class="mt-4">
             <div class="js-pinned-items-reorder-container">
+              
+                  <div class="form-group">
+                    <input id="searchInput" type="text" class="form-control" placeholder="Tekan 'c' untuk memulai pencarian" />
+                    <ul id="searchResult"></ul>
+                  </div>
+              
                 <h2 class="f4 mb-2 text-normal">
                     New Post
                 </h2>
@@ -575,6 +583,8 @@ Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesemp
     type="application/javascript" src="https://pena-ara.github.io/js/github-bootstrap.js"></script>
 <script src="https://pena-ara.github.io/js/stop.js"></script>
 <script src="https://pena-ara.github.io/js/contributions.js"></script>
+<script src="https://pena-ara.github.io/js/cari.js"></script>
+
 
 </body>
 
