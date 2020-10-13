@@ -5,7 +5,17 @@
     <link>https://pena-ara.github.io/</link>
     <description>Recent content on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Oct 2020 15:12:47 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Oct 2020 15:34:49 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix Exists in Filesystem</title>
+      <link>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
+      <pubDate>Tue, 13 Oct 2020 15:34:49 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
+      <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.
+Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in Filesystem langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S &amp;lt;nama aplikasi yang bermasalah&amp;gt; --overwrite &#39;*&#39; dan masalahpun terselesaikan :)</description>
+    </item>
+    
     <item>
       <title>Fix Screen Flickering</title>
       <link>https://pena-ara.github.io/catatan/fix-screen-flickering/</link>
@@ -13,7 +23,8 @@
       
       <guid>https://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
       <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
- Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.  </description>
+ Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.
+ </description>
     </item>
     
     <item>
