@@ -5,7 +5,17 @@
     <link>https://pena-ara.github.io/</link>
     <description>Recent content on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Oct 2020 15:34:49 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Oct 2020 02:59:39 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Kernel Linux Terbaru</title>
+      <link>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</link>
+      <pubDate>Wed, 14 Oct 2020 02:59:39 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</guid>
+      <description>Catatan kali ini ara akan membagikan bagaimana cara install kernel linux terbaru di sistem operasi arch linux, saat catatan ini di buat kernel linux terbaru memasuki versi 5.9. Kita bisa cek versi dari kernel linux ini di situs resminya kernel.
+Langsung saja ketopik utama, oh iya sekedar menginfokan pada saat catatan ini di buat KDE Plasma baru saja merilis versi barunya yakni 5.20, jadi langsung saja kita install keduanya :).</description>
+    </item>
+    
     <item>
       <title>Fix Exists in Filesystem</title>
       <link>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
