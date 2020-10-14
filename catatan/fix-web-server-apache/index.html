@@ -192,7 +192,7 @@ if (!doNotTrack) {
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
                             <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal di jalankan.</p>
-<p><img src="images/catatan/httpd-stop.png" alt="httpd-stop"></p>
+<p><img src="/images/catatan/httpd-stop.png" alt="httpd-stop"></p>
 <p>Problem ini di dapatkan ara pada saat <a href="https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/">upgrade kernel</a> versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.</p>
 <blockquote>
 <p>Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah <code>systemctl stop httpd</code>.</p>
@@ -201,7 +201,7 @@ if (!doNotTrack) {
 <p>Kedua matikan service httpd dengan perintah <code>systemctl disable httpd</code>.</p>
 </blockquote>
 <p>Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah <code>sudo pacman -S apache</code>, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah <code>systemctl enable httpd</code> untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah <code>systemctl start httpd</code>, dan untuk mengecek statusnya gunakan perintah <code>systemctl status httpd</code>. Dan web serverpun berjalan seperti semuala :).</p>
-<p><img src="images/catatan/httpd-run.png" alt="httpd-run"></p>
+<p><img src="/images/catatan/httpd-run.png" alt="httpd-run"></p>
 </article>
                         </div>
                     </div>
