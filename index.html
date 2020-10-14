@@ -245,7 +245,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://pena-ara.github.io/catatan/">
                 Post
                 <span class="Counter hide-lg hide-md hide-sm">
-                    9
+                    10
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://pena-ara.github.io/tentang/">
@@ -264,6 +264,36 @@ if (!doNotTrack) {
                 </h2>
 
                 <ol class="d-flex flex-wrap list-style-none gutter-condensed mb-4 js-pinned-items-reorder-list">
+                    
+                    <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
+                        <div
+                            class="Box pinned-item-list-item d-flex p-3 width-full js-pinned-item-list-item public source  sortable-button-item">
+                            <div class="pinned-item-list-item-content" name="pinned-post">
+                                <div class="d-flex width-full flex-items-center position-relative">
+                                    <svg class="octicon octicon-repo mr-2 text-gray flex-shrink-0" viewBox="0 0 12 16"
+                                        version="1.1" width="12" height="16" aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z" />
+                                    </svg>
+                                    <a href="https://pena-ara.github.io/catatan/fix-web-server-apache/" class="text-bold flex-auto min-width-0 ">
+                                        <span class="repo js-pinnable-item" title="Fix Web Server Apache">Fix Web Server Apache</span>
+                                    </a>
+                                </div>
+                                <div class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
+                                    Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal di jalankan.
+Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
+ Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
+  Kedua matikan service httpd dengan perintah systemctl disable httpd.
+ Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah sudo pacman -S apache, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah systemctl enable httpd untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah systemctl start httpd, dan untuk mengecek statusnya gunakan perintah systemctl status httpd.
+                                </div>
+                                <div class="f6 text-gray mt-2">
+                                    Updated <relative-time datetime="2020-10-14"
+                                        class="no-wrap" title="Modify at 2020/10/14">
+                                        October 14, 2020</relative-time>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     
                     <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
                         <div
@@ -401,39 +431,18 @@ Pada tahun berikutnya Rasmus Lerdorf merilis kembali PHP/FI dengan versi 2.
                         </div>
                     </li>
                     
-                    <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
-                        <div
-                            class="Box pinned-item-list-item d-flex p-3 width-full js-pinned-item-list-item public source  sortable-button-item">
-                            <div class="pinned-item-list-item-content" name="pinned-post">
-                                <div class="d-flex width-full flex-items-center position-relative">
-                                    <svg class="octicon octicon-repo mr-2 text-gray flex-shrink-0" viewBox="0 0 12 16"
-                                        version="1.1" width="12" height="16" aria-hidden="true">
-                                        <path fill-rule="evenodd"
-                                            d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z" />
-                                    </svg>
-                                    <a href="https://pena-ara.github.io/catatan/install-apache-dan-mysql/" class="text-bold flex-auto min-width-0 ">
-                                        <span class="repo js-pinnable-item" title="Install Web Server Apache Dan DBMS Mysql">Install Web Server Apache Dan DBMS Mysql</span>
-                                    </a>
-                                </div>
-                                <div class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                                    Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ? web server adalah sebuah software yang meberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada client yang biasa kita sebut web browser dan untuk mengirimkan kembali dalam bentuk halaman web dan pada umumnya akan berbentuk HTML.
-sekarang sudah tahukan apa itu web server ?, yang akan kita install sekarang adalah salah satu contoh web server yang lumayan banyak penggunanya yakni apache, langsung saja keproses installasinya, disini ara menggunakan arch linux untuk menginstall apache.
-                                </div>
-                                <div class="f6 text-gray mt-2">
-                                    Updated <relative-time datetime="2020-10-10"
-                                        class="no-wrap" title="Modify at 2020/10/10">
-                                        October 10, 2020</relative-time>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
                 </ol>
             </div>
         </div>
         
         
         <div id="contributions" data='[
+{
+    "title": "Fix%20Web%20Server%20Apache",
+    "link": "https://pena-ara.github.io/catatan/fix-web-server-apache/",
+    "publishDate": "2020-10-14%2007:52:40"
+},
+
 {
     "title": "Install%20Kernel%20Linux%20Terbaru",
     "link": "https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/",

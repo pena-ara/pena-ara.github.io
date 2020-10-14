@@ -245,7 +245,7 @@ if (!doNotTrack) {
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected" href="https://pena-ara.github.io/catatan/">
                 Post
                 <span class="Counter hide-lg hide-md hide-sm">
-                    9
+                    10
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://pena-ara.github.io/tentang/">
@@ -260,6 +260,30 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div id="user-repositories-list">
             <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://pena-ara.github.io/catatan/fix-web-server-apache/">Fix Web Server Apache</a>
+                            </h3>
+                        </div>
+
+                        <div name="catatan-post" class="text-gray mb-2 pr-4">
+                            Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal di jalankan.
+Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
+ Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
+  Kedua matikan service httpd dengan perintah systemctl disable httpd.
+ Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah sudo pacman -S apache, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah systemctl enable httpd untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah systemctl start httpd, dan untuk mengecek statusnya gunakan perintah systemctl status httpd.
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2020-10-14" class="no-wrap"
+                                title="Modifyd at 2020/10/14">
+                                October 14, 2020</relative-time>
+                        </div>
+                    </div>
+                </li>
                 
                 <li class="col-12 d-flex width-full py-4 border-bottom public fork">
                     <div class="col-12 col-lg-12 d-inline-block">

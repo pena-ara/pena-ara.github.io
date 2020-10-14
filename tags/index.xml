@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/tags/</link>
     <description>Recent content in Tags on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Oct 2020 02:59:39 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Oct 2020 07:52:40 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>apache</title>
+      <link>https://pena-ara.github.io/tags/apache/</link>
+      <pubDate>Wed, 14 Oct 2020 07:52:40 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/apache/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>arch linux</title>
       <link>https://pena-ara.github.io/tags/arch-linux/</link>
@@ -57,15 +66,6 @@
       <pubDate>Mon, 12 Oct 2020 00:39:07 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>apache</title>
-      <link>https://pena-ara.github.io/tags/apache/</link>
-      <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
-      
-      <guid>https://pena-ara.github.io/tags/apache/</guid>
       <description></description>
     </item>
     
