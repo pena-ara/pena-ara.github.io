@@ -12,7 +12,7 @@
       <pubDate>Wed, 14 Oct 2020 07:52:40 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-web-server-apache/</guid>
-      <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal di jalankan.
+      <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.
 Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
  Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
   Kedua matikan service httpd dengan perintah systemctl disable httpd.
