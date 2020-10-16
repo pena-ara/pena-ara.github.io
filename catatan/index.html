@@ -257,7 +257,7 @@ if (!doNotTrack) {
                       d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z" />
               </svg> Post
                 <span class="Counter hide-lg hide-md hide-sm">
-                    10
+                    11
                 </span>
             </a>
             <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 " href="https://pena-ara.github.io/tentang/">
@@ -276,6 +276,27 @@ if (!doNotTrack) {
     <div class="position-relative">
         <div id="user-repositories-list">
             <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://pena-ara.github.io/catatan/reinstall-all-package-using-pacman/">Reinstall All Package Using Pacman</a>
+                            </h3>
+                        </div>
+
+                        <div name="catatan-post" class="text-gray mb-2 pr-4">
+                            Catatan ini berisikan bagaimana cara reinstall semua paket/aplikasi yang sudah terinstal di sistem operasi kita menggunakan pacman, langsung saja buka terminal kesayangan kita dan masukan perintah pacman -Qq &gt; reinstall.txt perintah -Qq digunakan muntuk melist semua paket/aplikasi yang terinstall di sistem operasi kita maksud dari &gt; reinstall.txt adalah list paket/aplikasi akan disimpan di file reinstall.txt.
+Setelah semua list paket/aplikasi sudah tersimpan di reinstall.txt, saatnya kita reinstall semua paket/aplikasi yang berada di reinstall.
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            Updated <relative-time datetime="2020-10-16" class="no-wrap"
+                                title="Modifyd at 2020/10/16">
+                                October 16, 2020</relative-time>
+                        </div>
+                    </div>
+                </li>
                 
                 <li class="col-12 d-flex width-full py-4 border-bottom public fork">
                     <div class="col-12 col-lg-12 d-inline-block">
@@ -472,29 +493,18 @@ Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perin
                     </div>
                 </li>
                 
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://pena-ara.github.io/catatan/sejarah-linux/">Sejarah Linux</a>
-                            </h3>
-                        </div>
-
-                        <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Sejarah Singkat Linux
-Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux. UNIX mendapatkan perhatian besar karena merupakan sistem operasi pertama yang dibuat bukan oleh hardware maker. Selain itu juga karena seluruh source code-nya dibuat dengan bahasa C, sehingga mempermudah pemindahannya ke berbagai platform.
-Dalam waktu singkat UNIX berkembang secara pesat dan terpecah menjadi dua yakni UNIX yang dikembangkan oleh Universitas Berkeley dan yang dikembangkan oleh AT&amp;T.
-                        </div>
-
-                        <div class="f6 text-gray mt-2">
-                            Updated <relative-time datetime="2020-10-09" class="no-wrap"
-                                title="Modifyd at 2020/10/09">
-                                October 9, 2020</relative-time>
-                        </div>
-                    </div>
-                </li>
-                
             </ul>
+            
+            <div class="paginate-container">
+                <div class="BtnGroup" data-test-selector="pagination">
+                    
+                    <button class="btn btn-outline BtnGroup-item" disabled="disabled">Previous</button>
+                    
+                    
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item" href="/catatan/page/2/">Next</a>
+                    
+                </div>
+            </div>
             
         </div>
     </div>

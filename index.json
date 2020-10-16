@@ -1,5 +1,9 @@
 [
     {
+      "title": "Reinstall All Package Using Pacman",
+      "url": "/catatan/reinstall-all-package-using-pacman/"
+    },
+    {
       "title": "Fix Web Server Apache",
       "url": "/catatan/fix-web-server-apache/"
     },
