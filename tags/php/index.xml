@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/tags/php/</link>
     <description>Recent content in php on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Oct 2020 00:39:07 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2020 15:21:21 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install PHP on Arch Linux</title>
+      <link>https://pena-ara.github.io/catatan/install-php/</link>
+      <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/install-php/</guid>
+      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.conf, lakukan konfigurasi pada httpd.conf, disable mod_mpm_event.so dengan cara menambahkan tanda #, dan enable mod_mpm_prefork.so dengan cara menghilangkan tanda # kurang lebih seperti ini :</description>
+    </item>
+    
     <item>
       <title>Sejarah Php</title>
       <link>https://pena-ara.github.io/catatan/sejarah-php/</link>

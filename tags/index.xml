@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/tags/</link>
     <description>Recent content in Tags on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Oct 2020 15:48:06 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2020 15:21:21 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>php</title>
+      <link>https://pena-ara.github.io/tags/php/</link>
+      <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>bash</title>
       <link>https://pena-ara.github.io/tags/bash/</link>
@@ -75,15 +84,6 @@
       <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/tags/kde-plasma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>php</title>
-      <link>https://pena-ara.github.io/tags/php/</link>
-      <pubDate>Mon, 12 Oct 2020 00:39:07 +0700</pubDate>
-      
-      <guid>https://pena-ara.github.io/tags/php/</guid>
       <description></description>
     </item>
     

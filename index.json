@@ -1,5 +1,9 @@
 [
     {
+      "title": "Install PHP on Arch Linux",
+      "url": "/catatan/install-php/"
+    },
+    {
       "title": "Reinstall All Package Using Pacman",
       "url": "/catatan/reinstall-all-package-using-pacman/"
     },
