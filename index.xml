@@ -5,7 +5,17 @@
     <link>https://pena-ara.github.io/</link>
     <description>Recent content on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Oct 2020 15:21:21 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2020 15:23:32 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World Php</title>
+      <link>https://pena-ara.github.io/catatan/hello-world-php/</link>
+      <pubDate>Sat, 17 Oct 2020 15:23:32 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/hello-world-php/</guid>
+      <description>Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php. PHP memiliki aturan dalam penulisan scriptnya, berikut cara penulisan script pada php;
+1. &amp;lt;? echo &amp;#34;Hello World&amp;#34;; ?&amp;gt;2. &amp;lt;? php echo &amp;#34;Hello World&amp;#34;; ?&amp;gt; 3. &amp;lt;script language=&amp;#34;php&amp;#34;&amp;gt; echo &amp;#34;Hello World&amp;#34;; &amp;lt;/script&amp;gt; 4. &amp;lt;% echo &amp;#34;Hello World&amp;#34;; %&amp;gt; dari gaya penulisan diatas yang paling banyak digunakan yaitu nomer satu dan dua, pada umumnya PHP memiliki aturan dalam penulisan scriptnya yaitu diawali tanda &amp;lt;?</description>
+    </item>
+    
     <item>
       <title>Install PHP on Arch Linux</title>
       <link>https://pena-ara.github.io/catatan/install-php/</link>
