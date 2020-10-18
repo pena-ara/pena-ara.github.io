@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bahasa Pemrogrmana on Pena Ara</title>
+    <link>https://pena-ara.github.io/categories/bahasa-pemrogrmana/</link>
+    <description>Recent content in Bahasa Pemrogrmana on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 18 Oct 2020 21:24:50 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/bahasa-pemrogrmana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variable Php</title>
+      <link>https://pena-ara.github.io/catatan/variable-php/</link>
+      <pubDate>Sun, 18 Oct 2020 21:24:50 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/variable-php/</guid>
+      <description>Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?, variable merupakan memori sementara untuk menyimpan nilai suatu data. Penulisan variable di php diawali dengan tanda $ dan dilanjutkan dengan nama variablenya, ada beberapa aturan penulisan variable di php, antara lain sebagai berikut :
+ Nama variable harus diawali dengan huruf atau _. Nama variable hanya bisa menggunakan karakter a-z, A-Z, 0-9, dan _.</description>
+    </item>
+    
+  </channel>
+</rss>

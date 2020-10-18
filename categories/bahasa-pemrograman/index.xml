@@ -13,7 +13,7 @@
       
       <guid>https://pena-ara.github.io/catatan/komentar-php/</guid>
       <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php. Penggunaan komentar pada php dapat ditulis menggunakan // diawal komentar dan bisa juga menggunakan /* langsung saja kecontohnya kurang lebih seperti ini:
-// ini komentar /* ini juga komentar komentar tidak akan dijalankan oleh php */ :).</description>
+// ini komentar /* ini juga komentar komentar tidak akan dijalankan oleh php */ lanjut variable pada php.</description>
     </item>
     
     <item>

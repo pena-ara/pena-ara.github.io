@@ -5,7 +5,17 @@
     <link>https://pena-ara.github.io/tags/php/</link>
     <description>Recent content in php on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Oct 2020 16:04:07 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2020 21:24:50 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variable Php</title>
+      <link>https://pena-ara.github.io/catatan/variable-php/</link>
+      <pubDate>Sun, 18 Oct 2020 21:24:50 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/variable-php/</guid>
+      <description>Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?, variable merupakan memori sementara untuk menyimpan nilai suatu data. Penulisan variable di php diawali dengan tanda $ dan dilanjutkan dengan nama variablenya, ada beberapa aturan penulisan variable di php, antara lain sebagai berikut :
+ Nama variable harus diawali dengan huruf atau _. Nama variable hanya bisa menggunakan karakter a-z, A-Z, 0-9, dan _.</description>
+    </item>
+    
     <item>
       <title>Komentar Php</title>
       <link>https://pena-ara.github.io/catatan/komentar-php/</link>
@@ -13,7 +23,7 @@
       
       <guid>https://pena-ara.github.io/catatan/komentar-php/</guid>
       <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php. Penggunaan komentar pada php dapat ditulis menggunakan // diawal komentar dan bisa juga menggunakan /* langsung saja kecontohnya kurang lebih seperti ini:
-// ini komentar /* ini juga komentar komentar tidak akan dijalankan oleh php */ :).</description>
+// ini komentar /* ini juga komentar komentar tidak akan dijalankan oleh php */ lanjut variable pada php.</description>
     </item>
     
     <item>
