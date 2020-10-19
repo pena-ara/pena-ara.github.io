@@ -14,11 +14,11 @@
     <meta name="keywords"
         content="blog, gnu-linux, opensource" />
     <meta name="robots" content="noodp" />
-    <link rel="canonical" href="https://pena-ara.github.io/categories/problem/" />
+    <link rel="canonical" href="https://pena-ara.github.io/tags/phpmyadmin/" />
 
     
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Problem - Pena Ara" />
+    <meta name="twitter:title" content="phpmyadmin - Pena Ara" />
     <meta name="twitter:description"
         content="" />
     <meta name="twitter:site" content="https://pena-ara.github.io/" />
@@ -28,11 +28,11 @@
 
     
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Problem - Pena Ara">
+    <meta property="og:title" content="phpmyadmin - Pena Ara">
     <meta property="og:description"
         content="" />
-    <meta property="og:url" content="https://pena-ara.github.io/categories/problem/" />
-    <meta property="og:site_name" content="Problem" />
+    <meta property="og:url" content="https://pena-ara.github.io/tags/phpmyadmin/" />
+    <meta property="og:site_name" content="phpmyadmin" />
     <meta property="og:image"
         content="https://pena-ara.github.io/">
     <meta property="og:image:width" content="2048">
@@ -41,7 +41,7 @@
 
     
     
-    <link href="/categories/problem/index.xml" rel="alternate" type="application/rss+xml" title="Pena Ara" />
+    <link href="/tags/phpmyadmin/index.xml" rel="alternate" type="application/rss+xml" title="Pena Ara" />
     
 
     
@@ -50,7 +50,7 @@
     
     
       
-    <title>Problem - Pena Ara</title>
+    <title>phpmyadmin - Pena Ara</title>
 
     <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://pena-ara.github.io/images/favicon.ico">
     <meta name="theme-color" content="#1e2327">
@@ -281,51 +281,12 @@ if (!doNotTrack) {
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
-                                <a href="https://pena-ara.github.io/catatan/fix-web-server-apache/">Fix Web Server Apache</a>
+                                <a href="https://pena-ara.github.io/catatan/install-phpmyadmin/">Install Phpmyadmin</a>
                             </h3>
                         </div>
 
                         <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.
-Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
- Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
-  Kedua matikan service httpd dengan perintah systemctl disable httpd.
- Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah sudo pacman -S apache, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah systemctl enable httpd untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah systemctl start httpd, dan untuk mengecek statusnya gunakan perintah systemctl status httpd.
-                        </div>
-
-                        
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://pena-ara.github.io/catatan/fix-exists-in-filesystem/">Fix Exists in Filesystem</a>
-                            </h3>
-                        </div>
-
-                        <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.
-Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in Filesystem langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S &lt;nama aplikasi yang bermasalah&gt; --overwrite '*' dan masalahpun terselesaikan :)
-                        </div>
-
-                        
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://pena-ara.github.io/catatan/fix-screen-flickering/">Fix Screen Flickering</a>
-                            </h3>
-                        </div>
-
-                        <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
- Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.
- 
+                            Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.ini kurang lebih akan menjadi seperti ini :
                         </div>
 
                         

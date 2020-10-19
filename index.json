@@ -1,5 +1,9 @@
 [
     {
+      "title": "Install Phpmyadmin",
+      "url": "/catatan/install-phpmyadmin/"
+    },
+    {
       "title": "Variable Php",
       "url": "/catatan/variable-php/"
     },
