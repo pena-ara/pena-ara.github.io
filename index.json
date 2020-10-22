@@ -1,5 +1,9 @@
 [
     {
+      "title": "Install Archlinux",
+      "url": "/catatan/install-archlinux/"
+    },
+    {
       "title": "Install Phpmyadmin",
       "url": "/catatan/install-phpmyadmin/"
     },

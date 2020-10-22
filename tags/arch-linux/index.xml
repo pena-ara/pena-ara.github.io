@@ -5,7 +5,18 @@
     <link>https://pena-ara.github.io/tags/arch-linux/</link>
     <description>Recent content in arch linux on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Oct 2020 02:59:39 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 19:47:45 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Archlinux</title>
+      <link>https://pena-ara.github.io/catatan/install-archlinux/</link>
+      <pubDate>Thu, 22 Oct 2020 19:47:45 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/install-archlinux/</guid>
+      <description>Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatn ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :
+/dev/sda1 untuk partisi swap /dev/sda2 untuk partisi / /dev/sda3 untuk partisi /home Jadi langsung saja ke proses mount partisinya
+mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format partisi efinya dengan `mkfs.</description>
+    </item>
+    
     <item>
       <title>Install Kernel Linux Terbaru</title>
       <link>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</link>
