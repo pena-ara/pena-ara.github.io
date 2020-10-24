@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/categories/</link>
     <description>Recent content in Categories on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 22 Oct 2020 19:47:45 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2020 19:31:40 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem</title>
+      <link>https://pena-ara.github.io/categories/problem/</link>
+      <pubDate>Sat, 24 Oct 2020 19:31:40 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/categories/problem/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Arch Linux</title>
       <link>https://pena-ara.github.io/categories/arch-linux/</link>
@@ -39,15 +48,6 @@
       <pubDate>Fri, 16 Oct 2020 15:48:06 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/categories/pacman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Problem</title>
-      <link>https://pena-ara.github.io/categories/problem/</link>
-      <pubDate>Wed, 14 Oct 2020 07:52:40 +0700</pubDate>
-      
-      <guid>https://pena-ara.github.io/categories/problem/</guid>
       <description></description>
     </item>
     

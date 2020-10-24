@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/categories/problem/</link>
     <description>Recent content in Problem on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Oct 2020 07:52:40 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/problem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2020 19:31:40 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/problem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix Cant Login Google Account on Falkon</title>
+      <link>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</link>
+      <pubDate>Sat, 24 Oct 2020 19:31:40 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</guid>
+      <description>Catatan kalai ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/82.0, and now u can login your Google Account. :) </description>
+    </item>
+    
     <item>
       <title>Fix Web Server Apache</title>
       <link>https://pena-ara.github.io/catatan/fix-web-server-apache/</link>

@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
    
   <url>
+    <loc>https://pena-ara.github.io/catatan/</loc>
+    <lastmod>2020-10-24T19:31:40+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/categories/</loc>
+    <lastmod>2020-10-24T19:31:40+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/tags/falkon/</loc>
+    <lastmod>2020-10-24T19:31:40+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</loc>
+    <lastmod>2020-10-24T19:31:40+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/</loc>
+    <lastmod>2020-10-24T19:31:40+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/categories/problem/</loc>
+    <lastmod>2020-10-24T19:31:40+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/tags/</loc>
+    <lastmod>2020-10-24T19:31:40+07:00</lastmod>
+  </url>
+    
+  <url>
     <loc>https://pena-ara.github.io/categories/arch-linux/</loc>
     <lastmod>2020-10-22T19:47:45+07:00</lastmod>
   </url>
@@ -13,27 +48,7 @@
   </url>
     
   <url>
-    <loc>https://pena-ara.github.io/catatan/</loc>
-    <lastmod>2020-10-22T19:47:45+07:00</lastmod>
-  </url>
-    
-  <url>
-    <loc>https://pena-ara.github.io/categories/</loc>
-    <lastmod>2020-10-22T19:47:45+07:00</lastmod>
-  </url>
-    
-  <url>
     <loc>https://pena-ara.github.io/catatan/install-archlinux/</loc>
-    <lastmod>2020-10-22T19:47:45+07:00</lastmod>
-  </url>
-    
-  <url>
-    <loc>https://pena-ara.github.io/</loc>
-    <lastmod>2020-10-22T19:47:45+07:00</lastmod>
-  </url>
-    
-  <url>
-    <loc>https://pena-ara.github.io/tags/</loc>
     <lastmod>2020-10-22T19:47:45+07:00</lastmod>
   </url>
     
@@ -109,11 +124,6 @@
     
   <url>
     <loc>https://pena-ara.github.io/catatan/fix-web-server-apache/</loc>
-    <lastmod>2020-10-14T07:52:40+07:00</lastmod>
-  </url>
-    
-  <url>
-    <loc>https://pena-ara.github.io/categories/problem/</loc>
     <lastmod>2020-10-14T07:52:40+07:00</lastmod>
   </url>
     
