@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Pena Ara</title>
+    <link>https://pena-ara.github.io/categories/terminal/</link>
+    <description>Recent content in Terminal on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 31 Oct 2020 18:20:19 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Emoji on Terminal Konsole</title>
+      <link>https://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</link>
+      <pubDate>Sat, 31 Oct 2020 18:20:19 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</guid>
+      <description>Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font &amp;lsquo;Noto Color Emoji&amp;rsquo; untuk emojji dan &amp;lsquo;MeslolGS NF&amp;rsquo; untuk font di konsolenya, langsung saja buat file konfigurasinya &amp;lsquo;99-color-emoji.conf&amp;rsquo; di folder &amp;lsquo;.config/fontconfig/conf.d/&amp;rsquo;, isi dari file &amp;lsquo;99-color-emoji.conf&amp;rsquo; kurang lebih seperti berikut :
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;!DOCTYPE fontconfig SYSTEM &amp;quot;fonts.dtd&amp;quot;&amp;gt; &amp;lt;fontconfig&amp;gt; &amp;lt;match&amp;gt; &amp;lt;test name=&amp;quot;family&amp;quot;&amp;gt;&amp;lt;string&amp;gt;MesloLGS NF&amp;lt;/string&amp;gt;&amp;lt;/test&amp;gt; &amp;lt;edit name=&amp;quot;family&amp;quot; mode=&amp;quot;prepend&amp;quot; binding=&amp;quot;strong&amp;quot;&amp;gt; &amp;lt;string&amp;gt;Noto Color Emoji&amp;lt;/string&amp;gt; &amp;lt;/edit&amp;gt; &amp;lt;/match&amp;gt; &amp;lt;/fontconfig&amp;gt; Setelah membuat file konfigurasi, buka konsole kita dan jalankan &amp;lsquo;fc-cache&amp;rsquo;, dan jangan lupa restart konsole untuk melihat hasilnya &amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>
