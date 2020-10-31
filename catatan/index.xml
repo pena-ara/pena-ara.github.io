@@ -12,8 +12,7 @@
       <pubDate>Sat, 31 Oct 2020 18:20:19 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</guid>
-      <description>Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.conf di folder .config/fontconfig/conf.d/, isi dari file 99-color-emoji.conf kurang lebih seperti berikut :
-&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;!DOCTYPE fontconfig SYSTEM &amp;quot;fonts.dtd&amp;quot;&amp;gt; &amp;lt;fontconfig&amp;gt; &amp;lt;match&amp;gt; &amp;lt;test name=&amp;quot;family&amp;quot;&amp;gt;&amp;lt;string&amp;gt;MesloLGS NF&amp;lt;/string&amp;gt;&amp;lt;/test&amp;gt; &amp;lt;edit name=&amp;quot;family&amp;quot; mode=&amp;quot;prepend&amp;quot; binding=&amp;quot;strong&amp;quot;&amp;gt; &amp;lt;string&amp;gt;Noto Color Emoji&amp;lt;/string&amp;gt; &amp;lt;/edit&amp;gt; &amp;lt;/match&amp;gt; &amp;lt;/fontconfig&amp;gt; Setelah membuat file konfigurasi, buka konsole kita dan jalankan fc-cache, dan jangan lupa restart konsole untuk melihat hasilnya &amp;hellip;.</description>
+      <description>Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.</description>
     </item>
     
     <item>
@@ -22,7 +21,7 @@
       <pubDate>Sat, 24 Oct 2020 19:31:40 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</guid>
-      <description>Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/82.0, untuk mengganti user agent kita bisa masuk ke preferences &amp;gt; other &amp;gt; user agent manager and now u can login your Google Account.</description>
+      <description>Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.</description>
     </item>
     
     <item>
@@ -31,9 +30,7 @@
       <pubDate>Thu, 22 Oct 2020 19:47:45 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-archlinux/</guid>
-      <description>Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatan ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :
-/dev/sda1 untuk partisi swap /dev/sda2 untuk partisi / /dev/sda3 untuk partisi /home Jadi langsung saja ke proses mount partisinya
-mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format partisi efinya dengan `mkfs.</description>
+      <description>Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatan ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :</description>
     </item>
     
     <item>
@@ -42,7 +39,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
       <pubDate>Mon, 19 Oct 2020 22:04:12 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-phpmyadmin/</guid>
-      <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.ini kurang lebih akan menjadi seperti ini :</description>
+      <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.</description>
     </item>
     
     <item>
@@ -51,8 +48,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
       <pubDate>Sun, 18 Oct 2020 21:24:50 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/variable-php/</guid>
-      <description>Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?, variable merupakan memori sementara untuk menyimpan nilai suatu data. Penulisan variable di php diawali dengan tanda $ dan dilanjutkan dengan nama variablenya, ada beberapa aturan penulisan variable di php, antara lain sebagai berikut :
- Nama variable harus diawali dengan huruf atau _. Nama variable hanya bisa menggunakan karakter a-z, A-Z, 0-9, dan _.</description>
+      <description>Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?</description>
     </item>
     
     <item>
@@ -61,8 +57,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
       <pubDate>Sun, 18 Oct 2020 16:04:07 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/komentar-php/</guid>
-      <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php. Penggunaan komentar pada php dapat ditulis menggunakan // diawal komentar dan bisa juga menggunakan /* langsung saja kecontohnya kurang lebih seperti ini:
-// ini komentar /* ini juga komentar komentar tidak akan dijalankan oleh php */ lanjut variable pada php.</description>
+      <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php.</description>
     </item>
     
     <item>
@@ -71,8 +66,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
       <pubDate>Sat, 17 Oct 2020 15:23:32 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/hello-world-php/</guid>
-      <description>Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php. PHP memiliki aturan dalam penulisan scriptnya, berikut cara penulisan script pada php;
-&amp;lt;? echo &amp;quot;Hello World&amp;quot;; ?&amp;gt; &amp;lt;? php echo &amp;quot;Hello World&amp;quot;; ?&amp;gt; &amp;lt;script language=&amp;quot;php&amp;quot;&amp;gt; echo &amp;quot;Hello World&amp;quot;; &amp;lt;/script&amp;gt; &amp;lt;% echo &amp;quot;Hello World&amp;quot;; %&amp;gt; dari gaya penulisan diatas yang paling banyak digunakan yaitu nomer satu dan dua, pada umumnya PHP memiliki aturan dalam penulisan scriptnya yaitu diawali tanda &amp;lt;?</description>
+      <description>Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php.</description>
     </item>
     
     <item>
@@ -81,7 +75,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-php/</guid>
-      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.conf, lakukan konfigurasi pada httpd.conf, disable mod_mpm_event.so dengan cara menambahkan tanda #, dan enable mod_mpm_prefork.so dengan cara menghilangkan tanda # kurang lebih seperti ini :</description>
+      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.</description>
     </item>
     
     <item>
@@ -90,8 +84,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
       <pubDate>Fri, 16 Oct 2020 15:48:06 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/reinstall-all-package-using-pacman/</guid>
-      <description>Catatan ini berisikan bagaimana cara reinstall semua paket/aplikasi yang sudah terinstal di sistem operasi kita menggunakan pacman, langsung saja buka terminal kesayangan kita dan masukan perintah pacman -Qq &amp;gt; reinstall.txt perintah -Qq digunakan muntuk melist semua paket/aplikasi yang terinstall di sistem operasi kita maksud dari &amp;gt; reinstall.txt adalah list paket/aplikasi akan disimpan di file reinstall.txt.
-Setelah semua list paket/aplikasi sudah tersimpan di reinstall.txt, saatnya kita reinstall semua paket/aplikasi yang berada di reinstall.</description>
+      <description>Catatan ini berisikan bagaimana cara reinstall semua paket/aplikasi yang sudah terinstal di sistem operasi kita menggunakan pacman, langsung saja buka terminal kesayangan kita dan masukan perintah pacman -Qq &amp;gt; reinstall.</description>
     </item>
     
     <item>
@@ -100,11 +93,7 @@ Setelah semua list paket/aplikasi sudah tersimpan di reinstall.txt, saatnya kita
       <pubDate>Wed, 14 Oct 2020 07:52:40 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-web-server-apache/</guid>
-      <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.
-Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
- Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
-  Kedua matikan service httpd dengan perintah systemctl disable httpd.
- Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah sudo pacman -S apache, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah systemctl enable httpd untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah systemctl start httpd, dan untuk mengecek statusnya gunakan perintah systemctl status httpd.</description>
+      <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.</description>
     </item>
     
     <item>
@@ -113,8 +102,7 @@ Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saj
       <pubDate>Wed, 14 Oct 2020 02:59:39 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</guid>
-      <description>Catatan kali ini ara akan membagikan bagaimana cara menginstall kernel linux versi terbaru di sistem operasi arch linux, saat catatan ini di buat kernel linux terbaru memasuki versi 5.9. Kita bisa cek versi dari kernel linux ini di situs resminya kernel.
-Langsung saja ketopik utama, oh iya sekedar menginfokan pada saat catatan ini di buat KDE Plasma baru saja merilis versi barunya yakni 5.20, jadi langsung saja kita install keduanya :).</description>
+      <description>Catatan kali ini ara akan membagikan bagaimana cara menginstall kernel linux versi terbaru di sistem operasi arch linux, saat catatan ini di buat kernel linux terbaru memasuki versi 5.</description>
     </item>
     
     <item>
@@ -123,8 +111,7 @@ Langsung saja ketopik utama, oh iya sekedar menginfokan pada saat catatan ini di
       <pubDate>Tue, 13 Oct 2020 15:34:49 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
-      <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.
-Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in Filesystem langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S &amp;lt;nama aplikasi yang bermasalah&amp;gt; --overwrite &#39;*&#39; dan masalahpun terselesaikan :)</description>
+      <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.</description>
     </item>
     
     <item>
@@ -133,9 +120,7 @@ Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in File
       <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
-      <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
- Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.
- </description>
+      <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.</description>
     </item>
     
     <item>
@@ -145,8 +130,7 @@ Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in File
       
       <guid>https://pena-ara.github.io/catatan/sejarah-php/</guid>
       <description>Sejarah Singkat PHP
- PHP pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1995, pada awalnya PHP merupakan singkatan dari Personal Home Page, pada waktu itu PHP masih bernama Form Interpreted (FI), yang masih berupa sekumpulan skrip yang digunakan untuk mengelola data formulir dari web, kemudian pada tahun 1996 Rasmus Lerdorf merlilis kode sumber tersebut untuk umum dan diberi nama PHP/FI.
-Pada tahun berikutnya Rasmus Lerdorf merilis kembali PHP/FI dengan versi 2.</description>
+ PHP pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1995, pada awalnya PHP merupakan singkatan dari Personal Home Page, pada waktu itu PHP masih bernama Form Interpreted (FI), yang masih berupa sekumpulan skrip yang digunakan untuk mengelola data formulir dari web, kemudian pada tahun 1996 Rasmus Lerdorf merlilis kode sumber tersebut untuk umum dan diberi nama PHP/FI.</description>
     </item>
     
     <item>
@@ -155,7 +139,7 @@ Pada tahun berikutnya Rasmus Lerdorf merilis kembali PHP/FI dengan versi 2.</des
       <pubDate>Mon, 12 Oct 2020 00:18:51 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/top-3-desktop-environment/</guid>
-      <description>Desktop environment atau Lingkungan desktop umumnya merujuk ke gaya grafis antarmuka pengguna (GUI=Graphical User Interface) yang mememperlihatkan kiasan desktop di layar komputer modern. Lingkungan desktop adalah alternatif yang paling populer sebagai pengganti antarmuka baris perintah (command line interface) (CLI) yang saat ini umumnya digunakan terbatas oleh para pakar komputer. Sistem operasi seperti Microsoft Windows dan Mac OS X masing-masing mempunyai lingkungan desktop tersendiri. GNU/Linux juga mempunyai berbagai lingkungan desktop, diantaranya yang terpopuler adalah KDE, GNOME, dan XFCE.</description>
+      <description>Desktop environment atau Lingkungan desktop umumnya merujuk ke gaya grafis antarmuka pengguna (GUI=Graphical User Interface) yang mememperlihatkan kiasan desktop di layar komputer modern.</description>
     </item>
     
     <item>
@@ -164,8 +148,7 @@ Pada tahun berikutnya Rasmus Lerdorf merilis kembali PHP/FI dengan versi 2.</des
       <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</guid>
-      <description>Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ? web server adalah sebuah software yang meberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada client yang biasa kita sebut web browser dan untuk mengirimkan kembali dalam bentuk halaman web dan pada umumnya akan berbentuk HTML.
-sekarang sudah tahukan apa itu web server ?, yang akan kita install sekarang adalah salah satu contoh web server yang lumayan banyak penggunanya yakni apache, langsung saja keproses installasinya, disini ara menggunakan arch linux untuk menginstall apache.</description>
+      <description>Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ?</description>
     </item>
     
     <item>
@@ -174,9 +157,7 @@ sekarang sudah tahukan apa itu web server ?, yang akan kita install sekarang ada
       <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
-      <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
-chgrp Perintah ini sudah dijelaskan pada catatan sebelumnya.mengelola directori
-Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesempatan ini akan sedikit di jabarkan, ada beberapa penggunaan perintah cp untuk mengelola file di gnu/linux anatar lain:</description>
+      <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.</description>
     </item>
     
     <item>
@@ -185,9 +166,7 @@ Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesemp
       <pubDate>Fri, 09 Oct 2020 18:16:29 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</guid>
-      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?? Langsung kita bahas saja satu persatu.
-Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perintah cd antara lain:
- cd .. =&amp;gt; digunakan untuk pindah direktori ke level atas, misal kita berada di direktori linux yang berada didalam direktori home jika kita memasukan perintah cd .</description>
+      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?</description>
     </item>
     
     <item>
@@ -197,8 +176,7 @@ Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perin
       
       <guid>https://pena-ara.github.io/catatan/sejarah-linux/</guid>
       <description>Sejarah Singkat Linux
-Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux. UNIX mendapatkan perhatian besar karena merupakan sistem operasi pertama yang dibuat bukan oleh hardware maker. Selain itu juga karena seluruh source code-nya dibuat dengan bahasa C, sehingga mempermudah pemindahannya ke berbagai platform.
-Dalam waktu singkat UNIX berkembang secara pesat dan terpecah menjadi dua yakni UNIX yang dikembangkan oleh Universitas Berkeley dan yang dikembangkan oleh AT&amp;amp;T.</description>
+Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux.</description>
     </item>
     
   </channel>

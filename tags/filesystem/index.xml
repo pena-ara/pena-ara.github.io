@@ -12,8 +12,7 @@
       <pubDate>Tue, 13 Oct 2020 15:34:49 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
-      <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.
-Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in Filesystem langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S &amp;lt;nama aplikasi yang bermasalah&amp;gt; --overwrite &#39;*&#39; dan masalahpun terselesaikan :)</description>
+      <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.</description>
     </item>
     
   </channel>

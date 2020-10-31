@@ -12,8 +12,7 @@
       <pubDate>Wed, 14 Oct 2020 02:59:39 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</guid>
-      <description>Catatan kali ini ara akan membagikan bagaimana cara menginstall kernel linux versi terbaru di sistem operasi arch linux, saat catatan ini di buat kernel linux terbaru memasuki versi 5.9. Kita bisa cek versi dari kernel linux ini di situs resminya kernel.
-Langsung saja ketopik utama, oh iya sekedar menginfokan pada saat catatan ini di buat KDE Plasma baru saja merilis versi barunya yakni 5.20, jadi langsung saja kita install keduanya :).</description>
+      <description>Catatan kali ini ara akan membagikan bagaimana cara menginstall kernel linux versi terbaru di sistem operasi arch linux, saat catatan ini di buat kernel linux terbaru memasuki versi 5.</description>
     </item>
     
     <item>
@@ -22,9 +21,7 @@ Langsung saja ketopik utama, oh iya sekedar menginfokan pada saat catatan ini di
       <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
-      <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
-chgrp Perintah ini sudah dijelaskan pada catatan sebelumnya.mengelola directori
-Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesempatan ini akan sedikit di jabarkan, ada beberapa penggunaan perintah cp untuk mengelola file di gnu/linux anatar lain:</description>
+      <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.</description>
     </item>
     
     <item>
@@ -33,9 +30,7 @@ Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesemp
       <pubDate>Fri, 09 Oct 2020 18:16:29 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</guid>
-      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?? Langsung kita bahas saja satu persatu.
-Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perintah cd antara lain:
- cd .. =&amp;gt; digunakan untuk pindah direktori ke level atas, misal kita berada di direktori linux yang berada didalam direktori home jika kita memasukan perintah cd .</description>
+      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?</description>
     </item>
     
     <item>
@@ -45,8 +40,7 @@ Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perin
       
       <guid>https://pena-ara.github.io/catatan/sejarah-linux/</guid>
       <description>Sejarah Singkat Linux
-Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux. UNIX mendapatkan perhatian besar karena merupakan sistem operasi pertama yang dibuat bukan oleh hardware maker. Selain itu juga karena seluruh source code-nya dibuat dengan bahasa C, sehingga mempermudah pemindahannya ke berbagai platform.
-Dalam waktu singkat UNIX berkembang secara pesat dan terpecah menjadi dua yakni UNIX yang dikembangkan oleh Universitas Berkeley dan yang dikembangkan oleh AT&amp;amp;T.</description>
+Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux.</description>
     </item>
     
   </channel>

@@ -12,8 +12,7 @@
       <pubDate>Fri, 16 Oct 2020 15:48:06 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/reinstall-all-package-using-pacman/</guid>
-      <description>Catatan ini berisikan bagaimana cara reinstall semua paket/aplikasi yang sudah terinstal di sistem operasi kita menggunakan pacman, langsung saja buka terminal kesayangan kita dan masukan perintah pacman -Qq &amp;gt; reinstall.txt perintah -Qq digunakan muntuk melist semua paket/aplikasi yang terinstall di sistem operasi kita maksud dari &amp;gt; reinstall.txt adalah list paket/aplikasi akan disimpan di file reinstall.txt.
-Setelah semua list paket/aplikasi sudah tersimpan di reinstall.txt, saatnya kita reinstall semua paket/aplikasi yang berada di reinstall.</description>
+      <description>Catatan ini berisikan bagaimana cara reinstall semua paket/aplikasi yang sudah terinstal di sistem operasi kita menggunakan pacman, langsung saja buka terminal kesayangan kita dan masukan perintah pacman -Qq &amp;gt; reinstall.</description>
     </item>
     
   </channel>

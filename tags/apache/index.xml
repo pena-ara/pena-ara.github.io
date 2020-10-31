@@ -12,11 +12,7 @@
       <pubDate>Wed, 14 Oct 2020 07:52:40 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-web-server-apache/</guid>
-      <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.
-Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
- Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
-  Kedua matikan service httpd dengan perintah systemctl disable httpd.
- Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah sudo pacman -S apache, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah systemctl enable httpd untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah systemctl start httpd, dan untuk mengecek statusnya gunakan perintah systemctl status httpd.</description>
+      <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.</description>
     </item>
     
     <item>
@@ -25,8 +21,7 @@ Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saj
       <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</guid>
-      <description>Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ? web server adalah sebuah software yang meberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada client yang biasa kita sebut web browser dan untuk mengirimkan kembali dalam bentuk halaman web dan pada umumnya akan berbentuk HTML.
-sekarang sudah tahukan apa itu web server ?, yang akan kita install sekarang adalah salah satu contoh web server yang lumayan banyak penggunanya yakni apache, langsung saja keproses installasinya, disini ara menggunakan arch linux untuk menginstall apache.</description>
+      <description>Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ?</description>
     </item>
     
   </channel>

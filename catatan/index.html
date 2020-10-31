@@ -245,8 +245,7 @@ if (!doNotTrack) {
                         </div>
 
                         <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.conf di folder .config/fontconfig/conf.d/, isi dari file 99-color-emoji.conf kurang lebih seperti berikut :
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;!DOCTYPE fontconfig SYSTEM &quot;fonts.dtd&quot;&gt; &lt;fontconfig&gt; &lt;match&gt; &lt;test name=&quot;family&quot;&gt;&lt;string&gt;MesloLGS NF&lt;/string&gt;&lt;/test&gt; &lt;edit name=&quot;family&quot; mode=&quot;prepend&quot; binding=&quot;strong&quot;&gt; &lt;string&gt;Noto Color Emoji&lt;/string&gt; &lt;/edit&gt; &lt;/match&gt; &lt;/fontconfig&gt; Setelah membuat file konfigurasi, buka konsole kita dan jalankan fc-cache, dan jangan lupa restart konsole untuk melihat hasilnya &hellip;.
+                            Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.
                         </div>
 
                         
@@ -262,7 +261,7 @@ if (!doNotTrack) {
                         </div>
 
                         <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/82.0, untuk mengganti user agent kita bisa masuk ke preferences &gt; other &gt; user agent manager and now u can login your Google Account.
+                            Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.
                         </div>
 
                         
@@ -279,8 +278,6 @@ if (!doNotTrack) {
 
                         <div name="catatan-post" class="text-gray mb-2 pr-4">
                             Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatan ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :
-/dev/sda1 untuk partisi swap /dev/sda2 untuk partisi / /dev/sda3 untuk partisi /home Jadi langsung saja ke proses mount partisinya
-mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format partisi efinya dengan `mkfs.
                         </div>
 
                         
@@ -296,7 +293,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
                         </div>
 
                         <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.ini kurang lebih akan menjadi seperti ini :
+                            Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.
                         </div>
 
                         
@@ -312,95 +309,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
                         </div>
 
                         <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?, variable merupakan memori sementara untuk menyimpan nilai suatu data. Penulisan variable di php diawali dengan tanda $ dan dilanjutkan dengan nama variablenya, ada beberapa aturan penulisan variable di php, antara lain sebagai berikut :
- Nama variable harus diawali dengan huruf atau _. Nama variable hanya bisa menggunakan karakter a-z, A-Z, 0-9, dan _.
-                        </div>
-
-                        
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://pena-ara.github.io/catatan/komentar-php/">Komentar Php</a>
-                            </h3>
-                        </div>
-
-                        <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php. Penggunaan komentar pada php dapat ditulis menggunakan // diawal komentar dan bisa juga menggunakan /* langsung saja kecontohnya kurang lebih seperti ini:
-// ini komentar /* ini juga komentar komentar tidak akan dijalankan oleh php */ lanjut variable pada php.
-                        </div>
-
-                        
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://pena-ara.github.io/catatan/hello-world-php/">Hello World Php</a>
-                            </h3>
-                        </div>
-
-                        <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php. PHP memiliki aturan dalam penulisan scriptnya, berikut cara penulisan script pada php;
-&lt;? echo &quot;Hello World&quot;; ?&gt; &lt;? php echo &quot;Hello World&quot;; ?&gt; &lt;script language=&quot;php&quot;&gt; echo &quot;Hello World&quot;; &lt;/script&gt; &lt;% echo &quot;Hello World&quot;; %&gt; dari gaya penulisan diatas yang paling banyak digunakan yaitu nomer satu dan dua, pada umumnya PHP memiliki aturan dalam penulisan scriptnya yaitu diawali tanda &lt;?
-                        </div>
-
-                        
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://pena-ara.github.io/catatan/install-php/">Install PHP on Arch Linux</a>
-                            </h3>
-                        </div>
-
-                        <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.conf, lakukan konfigurasi pada httpd.conf, disable mod_mpm_event.so dengan cara menambahkan tanda #, dan enable mod_mpm_prefork.so dengan cara menghilangkan tanda # kurang lebih seperti ini :
-                        </div>
-
-                        
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://pena-ara.github.io/catatan/reinstall-all-package-using-pacman/">Reinstall All Package Using Pacman</a>
-                            </h3>
-                        </div>
-
-                        <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Catatan ini berisikan bagaimana cara reinstall semua paket/aplikasi yang sudah terinstal di sistem operasi kita menggunakan pacman, langsung saja buka terminal kesayangan kita dan masukan perintah pacman -Qq &gt; reinstall.txt perintah -Qq digunakan muntuk melist semua paket/aplikasi yang terinstall di sistem operasi kita maksud dari &gt; reinstall.txt adalah list paket/aplikasi akan disimpan di file reinstall.txt.
-Setelah semua list paket/aplikasi sudah tersimpan di reinstall.txt, saatnya kita reinstall semua paket/aplikasi yang berada di reinstall.
-                        </div>
-
-                        
-                    </div>
-                </li>
-                
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
-                    <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="https://pena-ara.github.io/catatan/fix-web-server-apache/">Fix Web Server Apache</a>
-                            </h3>
-                        </div>
-
-                        <div name="catatan-post" class="text-gray mb-2 pr-4">
-                            Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.
-Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
- Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
-  Kedua matikan service httpd dengan perintah systemctl disable httpd.
- Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah sudo pacman -S apache, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah systemctl enable httpd untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah systemctl start httpd, dan untuk mengecek statusnya gunakan perintah systemctl status httpd.
+                            Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?
                         </div>
 
                         

@@ -12,9 +12,7 @@
       <pubDate>Thu, 22 Oct 2020 19:47:45 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-archlinux/</guid>
-      <description>Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatan ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :
-/dev/sda1 untuk partisi swap /dev/sda2 untuk partisi / /dev/sda3 untuk partisi /home Jadi langsung saja ke proses mount partisinya
-mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format partisi efinya dengan `mkfs.</description>
+      <description>Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatan ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :</description>
     </item>
     
     <item>
@@ -23,7 +21,7 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
       <pubDate>Mon, 19 Oct 2020 22:04:12 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-phpmyadmin/</guid>
-      <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.ini kurang lebih akan menjadi seperti ini :</description>
+      <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.</description>
     </item>
     
   </channel>

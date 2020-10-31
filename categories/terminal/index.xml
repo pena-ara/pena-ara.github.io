@@ -12,8 +12,7 @@
       <pubDate>Sat, 31 Oct 2020 18:20:19 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</guid>
-      <description>Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.conf di folder .config/fontconfig/conf.d/, isi dari file 99-color-emoji.conf kurang lebih seperti berikut :
-&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;!DOCTYPE fontconfig SYSTEM &amp;quot;fonts.dtd&amp;quot;&amp;gt; &amp;lt;fontconfig&amp;gt; &amp;lt;match&amp;gt; &amp;lt;test name=&amp;quot;family&amp;quot;&amp;gt;&amp;lt;string&amp;gt;MesloLGS NF&amp;lt;/string&amp;gt;&amp;lt;/test&amp;gt; &amp;lt;edit name=&amp;quot;family&amp;quot; mode=&amp;quot;prepend&amp;quot; binding=&amp;quot;strong&amp;quot;&amp;gt; &amp;lt;string&amp;gt;Noto Color Emoji&amp;lt;/string&amp;gt; &amp;lt;/edit&amp;gt; &amp;lt;/match&amp;gt; &amp;lt;/fontconfig&amp;gt; Setelah membuat file konfigurasi, buka konsole kita dan jalankan fc-cache, dan jangan lupa restart konsole untuk melihat hasilnya &amp;hellip;.</description>
+      <description>Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.</description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@ let dataJSON;
 
 // ketika tombol 'esc' di tekan pencarian dihentikan
 window.addEventListener('keydown', function(event) {
-    if (event.keyCode === 27)
+    if (event.keyCode === 8)
     {
         searchInput.value = '';
         searchResult.innerHTML = '';

@@ -12,8 +12,7 @@
       <pubDate>Sun, 18 Oct 2020 21:24:50 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/variable-php/</guid>
-      <description>Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?, variable merupakan memori sementara untuk menyimpan nilai suatu data. Penulisan variable di php diawali dengan tanda $ dan dilanjutkan dengan nama variablenya, ada beberapa aturan penulisan variable di php, antara lain sebagai berikut :
- Nama variable harus diawali dengan huruf atau _. Nama variable hanya bisa menggunakan karakter a-z, A-Z, 0-9, dan _.</description>
+      <description>Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?</description>
     </item>
     
     <item>
@@ -22,8 +21,7 @@
       <pubDate>Sun, 18 Oct 2020 16:04:07 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/komentar-php/</guid>
-      <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php. Penggunaan komentar pada php dapat ditulis menggunakan // diawal komentar dan bisa juga menggunakan /* langsung saja kecontohnya kurang lebih seperti ini:
-// ini komentar /* ini juga komentar komentar tidak akan dijalankan oleh php */ lanjut variable pada php.</description>
+      <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php.</description>
     </item>
     
     <item>
@@ -32,8 +30,7 @@
       <pubDate>Sat, 17 Oct 2020 15:23:32 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/hello-world-php/</guid>
-      <description>Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php. PHP memiliki aturan dalam penulisan scriptnya, berikut cara penulisan script pada php;
-&amp;lt;? echo &amp;quot;Hello World&amp;quot;; ?&amp;gt; &amp;lt;? php echo &amp;quot;Hello World&amp;quot;; ?&amp;gt; &amp;lt;script language=&amp;quot;php&amp;quot;&amp;gt; echo &amp;quot;Hello World&amp;quot;; &amp;lt;/script&amp;gt; &amp;lt;% echo &amp;quot;Hello World&amp;quot;; %&amp;gt; dari gaya penulisan diatas yang paling banyak digunakan yaitu nomer satu dan dua, pada umumnya PHP memiliki aturan dalam penulisan scriptnya yaitu diawali tanda &amp;lt;?</description>
+      <description>Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php.</description>
     </item>
     
     <item>
@@ -42,7 +39,7 @@
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-php/</guid>
-      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.conf, lakukan konfigurasi pada httpd.conf, disable mod_mpm_event.so dengan cara menambahkan tanda #, dan enable mod_mpm_prefork.so dengan cara menghilangkan tanda # kurang lebih seperti ini :</description>
+      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.</description>
     </item>
     
     <item>
@@ -52,8 +49,7 @@
       
       <guid>https://pena-ara.github.io/catatan/sejarah-php/</guid>
       <description>Sejarah Singkat PHP
- PHP pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1995, pada awalnya PHP merupakan singkatan dari Personal Home Page, pada waktu itu PHP masih bernama Form Interpreted (FI), yang masih berupa sekumpulan skrip yang digunakan untuk mengelola data formulir dari web, kemudian pada tahun 1996 Rasmus Lerdorf merlilis kode sumber tersebut untuk umum dan diberi nama PHP/FI.
-Pada tahun berikutnya Rasmus Lerdorf merilis kembali PHP/FI dengan versi 2.</description>
+ PHP pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1995, pada awalnya PHP merupakan singkatan dari Personal Home Page, pada waktu itu PHP masih bernama Form Interpreted (FI), yang masih berupa sekumpulan skrip yang digunakan untuk mengelola data formulir dari web, kemudian pada tahun 1996 Rasmus Lerdorf merlilis kode sumber tersebut untuk umum dan diberi nama PHP/FI.</description>
     </item>
     
   </channel>

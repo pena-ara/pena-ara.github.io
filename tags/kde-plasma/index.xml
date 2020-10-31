@@ -12,9 +12,7 @@
       <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
-      <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
- Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.
- </description>
+      <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.</description>
     </item>
     
   </channel>

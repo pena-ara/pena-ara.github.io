@@ -12,7 +12,7 @@
       <pubDate>Sat, 24 Oct 2020 19:31:40 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</guid>
-      <description>Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/82.0, untuk mengganti user agent kita bisa masuk ke preferences &amp;gt; other &amp;gt; user agent manager and now u can login your Google Account.</description>
+      <description>Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.</description>
     </item>
     
   </channel>

@@ -12,8 +12,7 @@
       <pubDate>Sun, 18 Oct 2020 16:04:07 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/komentar-php/</guid>
-      <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php. Penggunaan komentar pada php dapat ditulis menggunakan // diawal komentar dan bisa juga menggunakan /* langsung saja kecontohnya kurang lebih seperti ini:
-// ini komentar /* ini juga komentar komentar tidak akan dijalankan oleh php */ lanjut variable pada php.</description>
+      <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php.</description>
     </item>
     
     <item>
@@ -22,8 +21,7 @@
       <pubDate>Sat, 17 Oct 2020 15:23:32 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/hello-world-php/</guid>
-      <description>Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php. PHP memiliki aturan dalam penulisan scriptnya, berikut cara penulisan script pada php;
-&amp;lt;? echo &amp;quot;Hello World&amp;quot;; ?&amp;gt; &amp;lt;? php echo &amp;quot;Hello World&amp;quot;; ?&amp;gt; &amp;lt;script language=&amp;quot;php&amp;quot;&amp;gt; echo &amp;quot;Hello World&amp;quot;; &amp;lt;/script&amp;gt; &amp;lt;% echo &amp;quot;Hello World&amp;quot;; %&amp;gt; dari gaya penulisan diatas yang paling banyak digunakan yaitu nomer satu dan dua, pada umumnya PHP memiliki aturan dalam penulisan scriptnya yaitu diawali tanda &amp;lt;?</description>
+      <description>Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php.</description>
     </item>
     
     <item>
@@ -32,7 +30,7 @@
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-php/</guid>
-      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.conf, lakukan konfigurasi pada httpd.conf, disable mod_mpm_event.so dengan cara menambahkan tanda #, dan enable mod_mpm_prefork.so dengan cara menghilangkan tanda # kurang lebih seperti ini :</description>
+      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.</description>
     </item>
     
   </channel>
