@@ -43,33 +43,6 @@
     </item>
     
     <item>
-      <title>Variable Php</title>
-      <link>https://pena-ara.github.io/catatan/variable-php/</link>
-      <pubDate>Sun, 18 Oct 2020 21:24:50 +0700</pubDate>
-      
-      <guid>https://pena-ara.github.io/catatan/variable-php/</guid>
-      <description>Pada catatan sebelumnya kita sudah mengerti sedikit tentang komentar php, dicatatan ini kita akan belajar sedikit mengenai variable di php, sebelumnya apa itu variable ?</description>
-    </item>
-    
-    <item>
-      <title>Komentar Php</title>
-      <link>https://pena-ara.github.io/catatan/komentar-php/</link>
-      <pubDate>Sun, 18 Oct 2020 16:04:07 +0700</pubDate>
-      
-      <guid>https://pena-ara.github.io/catatan/komentar-php/</guid>
-      <description>Kemarin kita sudah belajar sedikit mengenai syntax dasar php, dicatatan ini kita akan belajar mengenai komentar di php.</description>
-    </item>
-    
-    <item>
-      <title>Hello World Php</title>
-      <link>https://pena-ara.github.io/catatan/hello-world-php/</link>
-      <pubDate>Sat, 17 Oct 2020 15:23:32 +0700</pubDate>
-      
-      <guid>https://pena-ara.github.io/catatan/hello-world-php/</guid>
-      <description>Dalam catanan ini kita akan belajar sedikit mengenai syntx dasar di php, yang belum install php bisa baca di catatan sebelumnya mengenai install php.</description>
-    </item>
-    
-    <item>
       <title>Install PHP on Arch Linux</title>
       <link>https://pena-ara.github.io/catatan/install-php/</link>
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
