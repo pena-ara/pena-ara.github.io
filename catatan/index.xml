@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/catatan/</link>
     <description>Recent content in Catatans on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Oct 2020 18:20:19 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Nov 2020 19:56:52 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open New Tab External Link Hugo</title>
+      <link>https://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</link>
+      <pubDate>Thu, 12 Nov 2020 19:56:52 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</guid>
+      <description>Catatan Ara kali ini akan berbagi sedikit mengenai hugo, bagaimana caranya membuat external link dibuka pada tab baru, langsung saja tanpa basa basi, buat file render-link.</description>
+    </item>
+    
     <item>
       <title>Enable Emoji on Terminal Konsole</title>
       <link>https://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</link>

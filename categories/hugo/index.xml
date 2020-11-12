@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Pena Ara</title>
+    <link>https://pena-ara.github.io/categories/hugo/</link>
+    <description>Recent content in Hugo on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 12 Nov 2020 19:56:52 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open New Tab External Link Hugo</title>
+      <link>https://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</link>
+      <pubDate>Thu, 12 Nov 2020 19:56:52 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</guid>
+      <description>Catatan Ara kali ini akan berbagi sedikit mengenai hugo, bagaimana caranya membuat external link dibuka pada tab baru, langsung saja tanpa basa basi, buat file render-link.</description>
+    </item>
+    
+  </channel>
+</rss>
