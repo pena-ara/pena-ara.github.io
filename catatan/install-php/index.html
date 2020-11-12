@@ -10,7 +10,7 @@
     
     <meta name="viewport" content="width=device-width">
     <meta name="description"
-        content="Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd." />
+        content="Setelah mengintall apache dan mysql , kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd." />
     <meta name="keywords"
         content="blog, gnu-linux, opensource" />
     <meta name="robots" content="noodp" />
@@ -20,7 +20,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Install PHP on Arch Linux - Pena Ara" />
     <meta name="twitter:description"
-        content="Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd." />
+        content="Setelah mengintall apache dan mysql , kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd." />
     <meta name="twitter:site" content="https://pena-ara.github.io/" />
     <meta name="twitter:creator" content="Ara" />
     <meta name="twitter:image"
@@ -30,7 +30,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Install PHP on Arch Linux - Pena Ara">
     <meta property="og:description"
-        content="Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd." />
+        content="Setelah mengintall apache dan mysql , kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd." />
     <meta property="og:url" content="https://pena-ara.github.io/catatan/install-php/" />
     <meta property="og:site_name" content="Install PHP on Arch Linux" />
     <meta property="og:image"
@@ -149,7 +149,7 @@ if (!doNotTrack) {
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                130 Words
+                                131 Words
                                 <span class="file-info-divider"></span>
                                 
                                [ <a href="/tags/php"
@@ -161,7 +161,8 @@ if (!doNotTrack) {
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>Setelah <a href="https://pena-ara.github.io/catatan/install-apache-dan-mysql/">mengintall apache dan mysql</a>, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah <code>sudo pacman -S php php-apche</code>, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.conf, lakukan konfigurasi pada httpd.conf, disable mod_mpm_event.so dengan cara menambahkan tanda #, dan enable mod_mpm_prefork.so dengan cara menghilangkan tanda #  kurang lebih seperti ini :</p>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>Setelah  <a href="https://pena-ara.github.io/catatan/install-apache-dan-mysql/" rel="noopener noreferrer" target="_blank">mengintall apache dan mysql</a>
+, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah <code>sudo pacman -S php php-apche</code>, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.conf, lakukan konfigurasi pada httpd.conf, disable mod_mpm_event.so dengan cara menambahkan tanda #, dan enable mod_mpm_prefork.so dengan cara menghilangkan tanda #  kurang lebih seperti ini :</p>
 <pre><code>#LoadModule LoadModule mpm_event_module modules/mod_mpm_event.so
 LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
 </code></pre><p>Dan tambahkan module php7 di akhir konfigurasi httpd.conf, kurang lebih seperti ini :</p>

@@ -4,7 +4,7 @@ let searchInput = document.querySelector('#searchInput'),
 let dataJSON;
 
 
-// ketika tombol 'esc' di tekan pencarian dihentikan
+// tombol 'backspace' di tekan pencarian dihentikan
 window.addEventListener('keydown', function(event) {
     if (event.keyCode === 8)
     {
@@ -13,17 +13,13 @@ window.addEventListener('keydown', function(event) {
         searchInput.blur()
     }
 })
-/**
- * mendapatkan daftar catatan kedalam format json
- */
+// mendapatkan daftar catatan kedalam format json
 const getPostsJSON = async () => {
     let response = await fetch('/index.json')
     let data = await response.json()
     return data
 }
-/**
- * element: target element to show the result.
- */
+// tampil hasil
 const filterPostsJSON = (query, element) => {
     let result, itemsWithElement;
     query = new RegExp(query, 'ig')
@@ -39,17 +35,14 @@ const filterPostsJSON = (query, element) => {
     itemsWithElement.unshift
     element.innerHTML = itemsWithElement.join('');
 }
-/**
- * searchInputAction take two arguments, event and callback
- */
+
+
 const searchInputAction = (event, callback) => {
     searchInput.addEventListener(event, callback)
 }
-/**
- * focus on the search input, function getPostsJSON .
- */
+
 searchInputAction('focus', () => getPostsJSON().then(data => dataJSON = data))
-/**
- * filtering result with the query on search input.
- */
+
+// filter hasil pencarian
 searchInputAction('keyup', (event) => filterPostsJSON(event.target.value, searchResult))
+

@@ -39,7 +39,7 @@
       <pubDate>Mon, 19 Oct 2020 22:04:12 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-phpmyadmin/</guid>
-      <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.</description>
+      <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php , pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.</description>
     </item>
     
     <item>
@@ -48,7 +48,7 @@
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-php/</guid>
-      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.</description>
+      <description>Setelah mengintall apache dan mysql , kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.</description>
     </item>
     
     <item>

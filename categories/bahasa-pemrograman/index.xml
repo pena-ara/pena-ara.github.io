@@ -12,7 +12,7 @@
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/install-php/</guid>
-      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.</description>
+      <description>Setelah mengintall apache dan mysql , kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.</description>
     </item>
     
   </channel>
