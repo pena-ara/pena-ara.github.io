@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/categories/</link>
     <description>Recent content in Categories on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Dec 2020 00:43:50 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 15:46:42 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IRC</title>
+      <link>https://pena-ara.github.io/categories/irc/</link>
+      <pubDate>Wed, 30 Dec 2020 15:46:42 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/categories/irc/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Dmenu</title>
       <link>https://pena-ara.github.io/categories/dmenu/</link>
