@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/catatan/</link>
     <description>Recent content in Catatans on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Dec 2020 15:46:42 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jan 2021 15:55:53 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Mode on Qutebrowser</title>
+      <link>https://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</link>
+      <pubDate>Mon, 11 Jan 2021 15:55:53 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</guid>
+      <description>Catatan kali ini berisikian bagaimana mengaktifkan dark mode dibrowser qutebrowser, tanpa panjang lebar langsung saja buka config.</description>
+    </item>
+    
     <item>
       <title>Irc With Weechat</title>
       <link>https://pena-ara.github.io/catatan/irc-with-weechat/</link>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qutebrowser on Pena Ara</title>
+    <link>https://pena-ara.github.io/categories/qutebrowser/</link>
+    <description>Recent content in Qutebrowser on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Jan 2021 15:55:53 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/qutebrowser/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Mode on Qutebrowser</title>
+      <link>https://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</link>
+      <pubDate>Mon, 11 Jan 2021 15:55:53 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</guid>
+      <description>Catatan kali ini berisikian bagaimana mengaktifkan dark mode dibrowser qutebrowser, tanpa panjang lebar langsung saja buka config.</description>
+    </item>
+    
+  </channel>
+</rss>
