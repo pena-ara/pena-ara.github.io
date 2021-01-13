@@ -149,7 +149,7 @@ if (!doNotTrack) {
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                34 Words
+                                43 Words
                                 <span class="file-info-divider"></span>
                                 
                                [ <a href="/tags/dark-mode"
@@ -163,6 +163,9 @@ if (!doNotTrack) {
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
                             <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>Catatan kali ini berisikian bagaimana mengaktifkan dark mode dibrowser qutebrowser, tanpa panjang lebar langsung saja buka <code>config.py</code> di folder <code>~/.config/Qutebrowser/</code> dan masukan settingan berikut :</p>
 <pre><code>c.colors.webpage.darkmode.enabled = True
+c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
+c.colors.webpage.darkmode.grayscale.all = True
+c.colors.webpage.darkmode.grayscale.images = 0.5
 c.colors.webpage.darkmode.policy.images = 'never'
 c.colors.webpage.darkmode.policy.page = 'smart'
 </code></pre><p><img src="/images/catatan/dark-mode.png" alt="Dark Mode"></p>
