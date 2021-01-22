@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/catatan/</link>
     <description>Recent content in Catatans on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jan 2021 07:10:49 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 06:26:41 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run Sudo Command Without Password</title>
+      <link>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</link>
+      <pubDate>Sat, 23 Jan 2021 06:26:41 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</guid>
+      <description>Dicatatan ini berisikan bagaimana caranya jalankan perintah sudo tanpa harus memasukan password, seperti biasa tanpa panjang lebar langsung saja buka terminal kesayangan kita semua lalu edit file sudoers yang berada di folder etc disini ara menggunakan vim,</description>
+    </item>
+    
     <item>
       <title>Auto Login and Startx for a Specific Tty</title>
       <link>https://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</link>
