@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssh on Pena Ara</title>
+    <link>https://pena-ara.github.io/tags/ssh/</link>
+    <description>Recent content in ssh on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 23 Mar 2021 14:11:24 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ssh Github</title>
+      <link>https://pena-ara.github.io/ssh-github/</link>
+      <pubDate>Tue, 23 Mar 2021 14:11:24 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/ssh-github/</guid>
+      <description>Membuat SSH key dengan email (tekan enter saja sampai selesai)  ssh-keygen -t rsa -b 4096 -C &amp;ldquo;nesstero@gmail.</description>
+    </item>
+    
+  </channel>
+</rss>

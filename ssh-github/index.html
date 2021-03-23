@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://pena-ara.github.io/css/frameworks.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://pena-ara.github.io/css/github.css" />
+    
+    <link crossorigin="anonymous" media="(prefers-color-scheme: dark)" rel="stylesheet"
+        href="https://pena-ara.github.io/css/dark.css" />
+    
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="Membuat SSH key dengan email (tekan enter saja sampai selesai)  ssh-keygen -t rsa -b 4096 -C &amp;ldquo;nesstero@gmail." />
+    <meta name="keywords"
+        content="blog, gnu-linux, opensource" />
+    <meta name="robots" content="noodp" />
+    <link rel="canonical" href="https://pena-ara.github.io/ssh-github/" />
+
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Ssh Github - Pena Ara" />
+    <meta name="twitter:description"
+        content="Membuat SSH key dengan email (tekan enter saja sampai selesai)  ssh-keygen -t rsa -b 4096 -C &amp;ldquo;nesstero@gmail." />
+    <meta name="twitter:site" content="https://pena-ara.github.io/" />
+    <meta name="twitter:creator" content="Ara" />
+    <meta name="twitter:image"
+        content="https://pena-ara.github.io/">
+
+    
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Ssh Github - Pena Ara">
+    <meta property="og:description"
+        content="Membuat SSH key dengan email (tekan enter saja sampai selesai)  ssh-keygen -t rsa -b 4096 -C &amp;ldquo;nesstero@gmail." />
+    <meta property="og:url" content="https://pena-ara.github.io/ssh-github/" />
+    <meta property="og:site_name" content="Ssh Github" />
+    <meta property="og:image"
+        content="https://pena-ara.github.io/">
+    <meta property="og:image:width" content="2048">
+    <meta property="og:image:height" content="1024">
+    
+    <meta property="article:published_time" content="2021-03-23 14:11:24 &#43;0700 WIB" />
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+    <title>Ssh Github - Pena Ara</title>
+
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://pena-ara.github.io/images/logo.svg">
+    <meta name="theme-color" content="#1e2327">
+
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-180310531-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+
+<body class="env-production emoji-size-boost page-responsive page-profile">
+  <div class="position-relative js-header-wrapper ">
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+    <header class="Header py-lg-0 js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+        <div class="Header-item d-none d-lg-flex">
+            <a class="Header-link" href="https://pena-ara.github.io/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <img alt="" class="v-align-middle" src="https://pena-ara.github.io/images/logo.svg" height="40">
+            </a>
+        </div>
+        <div
+            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
+                aria-expanded="false">
+                <div class="position-relative">
+                </div>
+            </div>
+        </div>
+        <nav class="d-flex" aria-label="Global">
+            <a class="js-selected-navigation-item Header-link py-lg-3">&nbsp;</a>
+        </nav>
+        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
+            <a class="Header-link" href="https://pena-ara.github.io/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <img alt="" class="v-align-middle" src="https://pena-ara.github.io/images/logo.svg" height="40">
+            </a>
+        </div>
+        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
+            <details class="details-overlay details-reset">
+                <summary class="Header-link" aria-label="View profile and more"
+                    data-ga-click="Header, show menu, icon:avatar">
+                    
+                    <img alt="" class="avatar" src="https://pena-ara.github.io/images/avatar.png" height="20" width="20">
+                    
+                </summary>
+            </details>
+        </div>
+    </header>
+</div>
+
+<div id="start-of-content" class="show-on-focus"></div>
+<div id="js-flash-container">
+</div>
+
+  
+<div class="application-main " data-commit-hovercards-enabled="">
+    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+        <main>
+            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
+                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+                    <div class="mb-3 d-flex">
+                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
+                            <a class="avatar mr-1" href="https://pena-ara.github.io/tentang/">
+                                
+
+                                <img src="https://pena-ara.github.io/images/avatar.png" width="26" height="26">
+                                
+                            </a>
+                            <span class="author"><a href="https://pena-ara.github.io/">Ara</a></span>
+                            <span class="path-divider">/</span>
+                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
+                                    href="https://pena-ara.github.io/ssh-github/">Ssh Github</a></strong>
+                        </h1>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
+                <div class="repository-content ">
+                    <div class="Box mt-3 position-relative">
+                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                                52 Words
+                                <span class="file-info-divider"></span>
+                                
+                               [ <a href="/tags/ssh"
+                                  class="text-primary">SSH</a> ]
+                                
+                                <span class="file-info-divider"></span>
+                                23 March 2021
+                            </div>
+                        </div>
+
+                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1 id="membuat-ssh-key-dengan-email-tekan-enter-saja-sampai-selesai">Membuat SSH key dengan email (tekan enter saja sampai selesai)</h1>
+<blockquote>
+<p>ssh-keygen -t rsa -b 4096 -C &ldquo;<a href="mailto:nesstero@gmail.com">nesstero@gmail.com</a>&rdquo;</p>
+</blockquote>
+<h1 id="jalankan-ssh-agent">Jalankan ssh-agent</h1>
+<blockquote>
+<p>eval $(ssh-agent -s)</p>
+</blockquote>
+<h1 id="tambahkan-ssh-key-ke-ssh-agent">Tambahkan SSH key ke ssh-agent</h1>
+<blockquote>
+<p>ssh-add ~/.ssh/id_rsa</p>
+</blockquote>
+<h1 id="copy-paste-isi-dari-sshid_rsapub-ke-settingan-ssh-key-di-github">Copy-paste isi dari ~/.ssh/id_rsa.pub ke settingan SSH key di Github</h1>
+<h1 id="cek-koneksi-ke-github-kalau-ditanya-sidik-jari-jawab-yes">Cek koneksi ke github (kalau ditanya sidik jari jawab yes)</h1>
+<blockquote>
+<p>ssh -T <a href="mailto:git@github.com">git@github.com</a></p>
+</blockquote>
+</article>
+                        </div>
+                    </div><br>
+                    
+                    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-pena-ara-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+
+  <div class="footer container-lg width-full p-responsive" role="contentinfo">
+    <div
+        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+            
+        </ul>
+
+        <a aria-label="Homepage" title="Pena Ara" class="footer-octicon d-none d-lg-block mx-lg-4"
+            href="https://pena-ara.github.io/">
+            <img alt="" src="https://pena-ara.github.io/images/logo.svg" height="30">
+        </a>
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        </ul>
+    </div>
+    <div class="d-flex flex-justify-center pb-6">
+        <span class="f6 text-gray-light"></span>
+    </div>
+</div>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://pena-ara.github.io/js/frameworks.js"></script>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://pena-ara.github.io/js/github-bootstrap.js"></script>
+<script src="https://pena-ara.github.io/js/stop.js"></script>
+<script src="https://pena-ara.github.io/js/contributions.js"></script>
+<script src="https://pena-ara.github.io/js/cari.js"></script>
+
+
+</body>
+
+</html>
