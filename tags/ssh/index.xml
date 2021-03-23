@@ -8,10 +8,10 @@
     <lastBuildDate>Tue, 23 Mar 2021 14:11:24 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ssh Github</title>
-      <link>https://pena-ara.github.io/ssh-github/</link>
+      <link>https://pena-ara.github.io/catatan/ssh-github/</link>
       <pubDate>Tue, 23 Mar 2021 14:11:24 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/ssh-github/</guid>
+      <guid>https://pena-ara.github.io/catatan/ssh-github/</guid>
       <description>Membuat SSH key dengan email (tekan enter saja sampai selesai)  ssh-keygen -t rsa -b 4096 -C &amp;ldquo;nesstero@gmail.</description>
     </item>
     

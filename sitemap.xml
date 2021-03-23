@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
    
   <url>
+    <loc>https://pena-ara.github.io/catatan/</loc>
+    <lastmod>2021-03-23T14:11:24+07:00</lastmod>
+  </url>
+    
+  <url>
     <loc>https://pena-ara.github.io/categories/</loc>
     <lastmod>2021-03-23T14:11:24+07:00</lastmod>
   </url>
@@ -23,18 +28,13 @@
   </url>
     
   <url>
-    <loc>https://pena-ara.github.io/ssh-github/</loc>
+    <loc>https://pena-ara.github.io/catatan/ssh-github/</loc>
     <lastmod>2021-03-23T14:11:24+07:00</lastmod>
   </url>
     
   <url>
     <loc>https://pena-ara.github.io/tags/</loc>
     <lastmod>2021-03-23T14:11:24+07:00</lastmod>
-  </url>
-    
-  <url>
-    <loc>https://pena-ara.github.io/catatan/</loc>
-    <lastmod>2021-01-23T06:26:41+07:00</lastmod>
   </url>
     
   <url>

@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/catatan/</link>
     <description>Recent content in Catatans on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Jan 2021 06:26:41 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 14:11:24 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ssh Github</title>
+      <link>https://pena-ara.github.io/catatan/ssh-github/</link>
+      <pubDate>Tue, 23 Mar 2021 14:11:24 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/ssh-github/</guid>
+      <description>Membuat SSH key dengan email (tekan enter saja sampai selesai)  ssh-keygen -t rsa -b 4096 -C &amp;ldquo;nesstero@gmail.</description>
+    </item>
+    
     <item>
       <title>Run Sudo Command Without Password</title>
       <link>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</link>
