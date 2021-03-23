@@ -5,7 +5,16 @@
     <link>https://pena-ara.github.io/</link>
     <description>Recent content on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Jan 2021 06:26:41 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 14:19:20 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tes</title>
+      <link>https://pena-ara.github.io/catatan/tes/</link>
+      <pubDate>Tue, 23 Mar 2021 14:19:20 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/tes/</guid>
+      <description>tes</description>
+    </item>
+    
     <item>
       <title>Run Sudo Command Without Password</title>
       <link>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</link>
