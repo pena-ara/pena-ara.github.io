@@ -784,9 +784,7 @@ a:focus {
 .footer_section {
     color: #ffffff;
     padding: 225px 0 15px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    position: relative;
 }
 
 .footer_section .footer_bg_box {
