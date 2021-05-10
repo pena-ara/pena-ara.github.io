@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>arch linux on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/arch-linux/</link>
+    <link>https://pena-ara.github.io/tags/arch-linux/</link>
     <description>Recent content in arch linux on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2020 19:47:45 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 19:47:45 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Arch Linux</title>
-      <link>http://pena-ara.github.io/catatan/install-archlinux/</link>
+      <link>https://pena-ara.github.io/catatan/install-archlinux/</link>
       <pubDate>Thu, 22 Oct 2020 19:47:45 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/install-archlinux/</guid>
+      <guid>https://pena-ara.github.io/catatan/install-archlinux/</guid>
       <description>Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatan ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :
 /dev/sda1 untuk partisi swap /dev/sda2 untuk partisi / /dev/sda3 untuk partisi /home Jadi langsung saja ke proses mount partisinya
 mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format partisi efinya dengan `mkfs.</description>
@@ -20,30 +20,30 @@ mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format 
     
     <item>
       <title>Install Kernel Linux Terbaru</title>
-      <link>http://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</link>
+      <link>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</link>
       <pubDate>Wed, 14 Oct 2020 02:59:39 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</guid>
+      <guid>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</guid>
       <description>Catatan kali ini ara akan membagikan bagaimana cara menginstall kernel linux versi terbaru di sistem operasi arch linux, saat catatan ini di buat kernel linux terbaru memasuki versi 5.9. Kita bisa cek versi dari kernel linux ini di situs resminya kernel.
 Langsung saja ketopik utama, oh iya sekedar menginfokan pada saat catatan ini di buat KDE Plasma baru saja merilis versi barunya yakni 5.20, jadi langsung saja kita install keduanya :).</description>
     </item>
     
     <item>
       <title>Fix Exists in Filesystem</title>
-      <link>http://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
+      <link>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
       <pubDate>Tue, 13 Oct 2020 15:34:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
+      <guid>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
       <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.
 Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in Filesystem langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S &amp;lt;nama aplikasi yang bermasalah&amp;gt; --overwrite &#39;*&#39; dan masalahpun terselesaikan :)</description>
     </item>
     
     <item>
       <title>Fix Screen Flickering</title>
-      <link>http://pena-ara.github.io/catatan/fix-screen-flickering/</link>
+      <link>https://pena-ara.github.io/catatan/fix-screen-flickering/</link>
       <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
+      <guid>https://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
       <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
  Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.
  </description>

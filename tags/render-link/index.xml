@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>render link on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/render-link/</link>
+    <link>https://pena-ara.github.io/tags/render-link/</link>
     <description>Recent content in render link on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2020 19:56:52 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/render-link/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Nov 2020 19:56:52 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/render-link/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Open New Tab External Link Hugo</title>
-      <link>http://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</link>
+      <link>https://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</link>
       <pubDate>Thu, 12 Nov 2020 19:56:52 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</guid>
+      <guid>https://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</guid>
       <description>Catatan Ara kali ini akan berbagi sedikit mengenai hugo, bagaimana caranya membuat external link dibuka pada tab baru, langsung saja tanpa basa basi, buat file render-link.html pada folder layouts theme teman teman layouts/_default/_markup/render-link.html, untuk isi render-link.htmlnya sendiri kurang lebih seperti ini :
 &amp;lt;a href=&amp;#34;{{ .Destination | safeURL }}&amp;#34;{{ with .Title}} title=&amp;#34;{{ . }}&amp;#34;{{ end }}{{ if strings.HasPrefix .Destination &amp;#34;http&amp;#34; }} rel=&amp;#34;noopener noreferrer&amp;#34; target=&amp;#34;_blank&amp;#34;{{ end }}&amp;gt;{{ .Text }}&amp;lt;/a&amp;gt; Sekarang teman-teman jika membuat link external di dalam konten, jika linknya diclick maka akan membuka di tab baru 😁.</description>
     </item>

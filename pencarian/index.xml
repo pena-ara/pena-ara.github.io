@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pencarian on Pena Ara</title>
-    <link>http://pena-ara.github.io/pencarian/</link>
+    <link>https://pena-ara.github.io/pencarian/</link>
     <description>Recent content in Pencarian on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://pena-ara.github.io/pencarian/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://pena-ara.github.io/pencarian/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

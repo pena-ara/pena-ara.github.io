@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>file manager on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/file-manager/</link>
+    <link>https://pena-ara.github.io/tags/file-manager/</link>
     <description>Recent content in file manager on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Mar 2021 20:03:29 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/file-manager/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 20:03:29 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/file-manager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preview Pdf as Image in Ranger</title>
-      <link>http://pena-ara.github.io/catatan/preview-pdf-as-image-in-ranger/</link>
+      <link>https://pena-ara.github.io/catatan/preview-pdf-as-image-in-ranger/</link>
       <pubDate>Wed, 31 Mar 2021 20:03:29 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/preview-pdf-as-image-in-ranger/</guid>
+      <guid>https://pena-ara.github.io/catatan/preview-pdf-as-image-in-ranger/</guid>
       <description>Catatan ini berisikan bagaimana konfigurasi preview pdf di ranger dengan scope.sh, langsung saja seperti biasa buka terminal kesayangan kita masing-masing dan masukan perintah berikut ranger --copy-config=scope, jika sudah saatnya konfigurasi file scopenya yang sudah di copy tadi vim .config/ranger/scope.sh dan uncomment pada baris berikut :
 application/pdf) pdftoppm -f 1 -l 1 \ -scale-to-x 1920 \ -scale-to-y -1 \ -singlefile \ -jpeg -tiffcompression jpeg \ -- &amp;#34;${FILE_PATH}&amp;#34; &amp;#34;${IMAGE_CACHE_PATH%.*}&amp;#34; \ &amp;amp;&amp;amp; exit 6 || exit 1;; jangan lupa save :)</description>
     </item>

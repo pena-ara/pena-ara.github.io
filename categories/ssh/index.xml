@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSH on Pena Ara</title>
-    <link>http://pena-ara.github.io/categories/ssh/</link>
+    <link>https://pena-ara.github.io/categories/ssh/</link>
     <description>Recent content in SSH on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 14:27:51 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/categories/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 14:27:51 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ssh Key Github</title>
-      <link>http://pena-ara.github.io/catatan/ssh-key-github/</link>
+      <link>https://pena-ara.github.io/catatan/ssh-key-github/</link>
       <pubDate>Tue, 23 Mar 2021 14:27:51 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/ssh-key-github/</guid>
+      <guid>https://pena-ara.github.io/catatan/ssh-key-github/</guid>
       <description>Catatan kali ini ara akan mencatat sedikit bagaimana caranya membuat ssh-key dengan e-mail untuk github, langsung saja seperti biasa buka terminal kesayangan kita masing masing dan masukan perintah berikut
 ssh-keygen -t rsa -b 4096 -C &amp;quot;&amp;lt;alamat-email&amp;gt;&amp;quot; 
 Jalankan ssh-agent

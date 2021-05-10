@@ -2,296 +2,296 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/</link>
+    <link>https://pena-ara.github.io/tags/</link>
     <description>Recent content in Tags on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Mar 2021 20:03:29 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 20:03:29 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>file manager</title>
-      <link>http://pena-ara.github.io/tags/file-manager/</link>
+      <link>https://pena-ara.github.io/tags/file-manager/</link>
       <pubDate>Wed, 31 Mar 2021 20:03:29 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/file-manager/</guid>
+      <guid>https://pena-ara.github.io/tags/file-manager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pdf</title>
-      <link>http://pena-ara.github.io/tags/pdf/</link>
+      <link>https://pena-ara.github.io/tags/pdf/</link>
       <pubDate>Wed, 31 Mar 2021 20:03:29 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/pdf/</guid>
+      <guid>https://pena-ara.github.io/tags/pdf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>http://pena-ara.github.io/tags/github/</link>
+      <link>https://pena-ara.github.io/tags/github/</link>
       <pubDate>Tue, 23 Mar 2021 14:27:51 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/github/</guid>
+      <guid>https://pena-ara.github.io/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>password</title>
-      <link>http://pena-ara.github.io/tags/password/</link>
+      <link>https://pena-ara.github.io/tags/password/</link>
       <pubDate>Sat, 23 Jan 2021 06:26:41 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/password/</guid>
+      <guid>https://pena-ara.github.io/tags/password/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sudoers</title>
-      <link>http://pena-ara.github.io/tags/sudoers/</link>
+      <link>https://pena-ara.github.io/tags/sudoers/</link>
       <pubDate>Sat, 23 Jan 2021 06:26:41 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/sudoers/</guid>
+      <guid>https://pena-ara.github.io/tags/sudoers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tty</title>
-      <link>http://pena-ara.github.io/tags/tty/</link>
+      <link>https://pena-ara.github.io/tags/tty/</link>
       <pubDate>Mon, 18 Jan 2021 07:10:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/tty/</guid>
+      <guid>https://pena-ara.github.io/tags/tty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xorg</title>
-      <link>http://pena-ara.github.io/tags/xorg/</link>
+      <link>https://pena-ara.github.io/tags/xorg/</link>
       <pubDate>Mon, 18 Jan 2021 07:10:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/xorg/</guid>
+      <guid>https://pena-ara.github.io/tags/xorg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>zsh</title>
-      <link>http://pena-ara.github.io/tags/zsh/</link>
+      <link>https://pena-ara.github.io/tags/zsh/</link>
       <pubDate>Mon, 18 Jan 2021 07:10:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/zsh/</guid>
+      <guid>https://pena-ara.github.io/tags/zsh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dark mode</title>
-      <link>http://pena-ara.github.io/tags/dark-mode/</link>
+      <link>https://pena-ara.github.io/tags/dark-mode/</link>
       <pubDate>Mon, 11 Jan 2021 15:55:53 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/dark-mode/</guid>
+      <guid>https://pena-ara.github.io/tags/dark-mode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>weechat</title>
-      <link>http://pena-ara.github.io/tags/weechat/</link>
+      <link>https://pena-ara.github.io/tags/weechat/</link>
       <pubDate>Wed, 30 Dec 2020 15:46:42 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/weechat/</guid>
+      <guid>https://pena-ara.github.io/tags/weechat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bin</title>
-      <link>http://pena-ara.github.io/tags/bin/</link>
+      <link>https://pena-ara.github.io/tags/bin/</link>
       <pubDate>Mon, 28 Dec 2020 00:43:50 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/bin/</guid>
+      <guid>https://pena-ara.github.io/tags/bin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcut</title>
-      <link>http://pena-ara.github.io/tags/shortcut/</link>
+      <link>https://pena-ara.github.io/tags/shortcut/</link>
       <pubDate>Mon, 28 Dec 2020 00:43:50 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/shortcut/</guid>
+      <guid>https://pena-ara.github.io/tags/shortcut/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GTK</title>
-      <link>http://pena-ara.github.io/tags/gtk/</link>
+      <link>https://pena-ara.github.io/tags/gtk/</link>
       <pubDate>Tue, 22 Dec 2020 19:49:09 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/gtk/</guid>
+      <guid>https://pena-ara.github.io/tags/gtk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>QT</title>
-      <link>http://pena-ara.github.io/tags/qt/</link>
+      <link>https://pena-ara.github.io/tags/qt/</link>
       <pubDate>Tue, 22 Dec 2020 19:49:09 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/qt/</guid>
+      <guid>https://pena-ara.github.io/tags/qt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash</title>
-      <link>http://pena-ara.github.io/tags/bash/</link>
+      <link>https://pena-ara.github.io/tags/bash/</link>
       <pubDate>Thu, 10 Dec 2020 16:51:38 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/bash/</guid>
+      <guid>https://pena-ara.github.io/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://pena-ara.github.io/tags/hugo/</link>
+      <link>https://pena-ara.github.io/tags/hugo/</link>
       <pubDate>Thu, 12 Nov 2020 19:56:52 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/hugo/</guid>
+      <guid>https://pena-ara.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>render link</title>
-      <link>http://pena-ara.github.io/tags/render-link/</link>
+      <link>https://pena-ara.github.io/tags/render-link/</link>
       <pubDate>Thu, 12 Nov 2020 19:56:52 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/render-link/</guid>
+      <guid>https://pena-ara.github.io/tags/render-link/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>http://pena-ara.github.io/tags/emoji/</link>
+      <link>https://pena-ara.github.io/tags/emoji/</link>
       <pubDate>Sat, 31 Oct 2020 18:20:19 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/emoji/</guid>
+      <guid>https://pena-ara.github.io/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>konsole</title>
-      <link>http://pena-ara.github.io/tags/konsole/</link>
+      <link>https://pena-ara.github.io/tags/konsole/</link>
       <pubDate>Sat, 31 Oct 2020 18:20:19 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/konsole/</guid>
+      <guid>https://pena-ara.github.io/tags/konsole/</guid>
       <description></description>
     </item>
     
     <item>
       <title>falkon</title>
-      <link>http://pena-ara.github.io/tags/falkon/</link>
+      <link>https://pena-ara.github.io/tags/falkon/</link>
       <pubDate>Sat, 24 Oct 2020 19:31:40 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/falkon/</guid>
+      <guid>https://pena-ara.github.io/tags/falkon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arch linux</title>
-      <link>http://pena-ara.github.io/tags/arch-linux/</link>
+      <link>https://pena-ara.github.io/tags/arch-linux/</link>
       <pubDate>Thu, 22 Oct 2020 19:47:45 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/arch-linux/</guid>
+      <guid>https://pena-ara.github.io/tags/arch-linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>phpmyadmin</title>
-      <link>http://pena-ara.github.io/tags/phpmyadmin/</link>
+      <link>https://pena-ara.github.io/tags/phpmyadmin/</link>
       <pubDate>Mon, 19 Oct 2020 22:04:12 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/phpmyadmin/</guid>
+      <guid>https://pena-ara.github.io/tags/phpmyadmin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>php</title>
-      <link>http://pena-ara.github.io/tags/php/</link>
+      <link>https://pena-ara.github.io/tags/php/</link>
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/php/</guid>
+      <guid>https://pena-ara.github.io/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pacman</title>
-      <link>http://pena-ara.github.io/tags/pacman/</link>
+      <link>https://pena-ara.github.io/tags/pacman/</link>
       <pubDate>Fri, 16 Oct 2020 15:48:06 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/pacman/</guid>
+      <guid>https://pena-ara.github.io/tags/pacman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apache</title>
-      <link>http://pena-ara.github.io/tags/apache/</link>
+      <link>https://pena-ara.github.io/tags/apache/</link>
       <pubDate>Wed, 14 Oct 2020 07:52:40 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/apache/</guid>
+      <guid>https://pena-ara.github.io/tags/apache/</guid>
       <description></description>
     </item>
     
     <item>
       <title>desktop environment</title>
-      <link>http://pena-ara.github.io/tags/desktop-environment/</link>
+      <link>https://pena-ara.github.io/tags/desktop-environment/</link>
       <pubDate>Wed, 14 Oct 2020 02:59:39 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/desktop-environment/</guid>
+      <guid>https://pena-ara.github.io/tags/desktop-environment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://pena-ara.github.io/tags/linux/</link>
+      <link>https://pena-ara.github.io/tags/linux/</link>
       <pubDate>Wed, 14 Oct 2020 02:59:39 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/linux/</guid>
+      <guid>https://pena-ara.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>filesystem</title>
-      <link>http://pena-ara.github.io/tags/filesystem/</link>
+      <link>https://pena-ara.github.io/tags/filesystem/</link>
       <pubDate>Tue, 13 Oct 2020 15:34:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/filesystem/</guid>
+      <guid>https://pena-ara.github.io/tags/filesystem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kde plasma</title>
-      <link>http://pena-ara.github.io/tags/kde-plasma/</link>
+      <link>https://pena-ara.github.io/tags/kde-plasma/</link>
       <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/kde-plasma/</guid>
+      <guid>https://pena-ara.github.io/tags/kde-plasma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mysql</title>
-      <link>http://pena-ara.github.io/tags/mysql/</link>
+      <link>https://pena-ara.github.io/tags/mysql/</link>
       <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/mysql/</guid>
+      <guid>https://pena-ara.github.io/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>file</title>
-      <link>http://pena-ara.github.io/tags/file/</link>
+      <link>https://pena-ara.github.io/tags/file/</link>
       <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/file/</guid>
+      <guid>https://pena-ara.github.io/tags/file/</guid>
       <description></description>
     </item>
     
     <item>
       <title>directori</title>
-      <link>http://pena-ara.github.io/tags/directori/</link>
+      <link>https://pena-ara.github.io/tags/directori/</link>
       <pubDate>Fri, 09 Oct 2020 18:16:29 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/tags/directori/</guid>
+      <guid>https://pena-ara.github.io/tags/directori/</guid>
       <description></description>
     </item>
     

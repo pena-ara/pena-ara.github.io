@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>file on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/file/</link>
+    <link>https://pena-ara.github.io/tags/file/</link>
     <description>Recent content in file on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2020 18:39:57 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/file/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Oct 2020 18:39:57 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/file/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mengelola File Pada Gnu Linux</title>
-      <link>http://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</link>
+      <link>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</link>
       <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
+      <guid>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
       <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
 chgrp Perintah ini sudah dijelaskan pada catatan sebelumnya.mengelola directori
 Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesempatan ini akan sedikit di jabarkan, ada beberapa penggunaan perintah cp untuk mengelola file di gnu/linux anatar lain:</description>

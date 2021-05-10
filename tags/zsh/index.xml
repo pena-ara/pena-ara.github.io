@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zsh on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/zsh/</link>
+    <link>https://pena-ara.github.io/tags/zsh/</link>
     <description>Recent content in zsh on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jan 2021 07:10:49 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/zsh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jan 2021 07:10:49 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/zsh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auto Login and Startx for a Specific Tty</title>
-      <link>http://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</link>
+      <link>https://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</link>
       <pubDate>Mon, 18 Jan 2021 07:10:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</guid>
+      <guid>https://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</guid>
       <description>Catatan ini berisikan bagaimana caranya membuat autologin dan auto startx di tty yang telah ditentukan, cara ini cocok bagi teman-teman yang menggunakan single DE/WM yang tidak menggunakan DM, dicatatan ini ara menggunakan tty1 dan z shell, langsung saja tanpa panjang lebar, pertama kita akan setting auto login di tty1, jalankan perintah # systemctl edit getty@tty1, dan masukan tiga baris berikut ini :
 [Service] ExecStart= ExecStart=-/usr/bin/agetty --autologin &amp;lt;username&amp;gt; --noclear %I $TERM jika sudah lanjut ke setting auto startx, edit file .</description>
     </item>
     
     <item>
       <title>Zsh Root Mode</title>
-      <link>http://pena-ara.github.io/catatan/zsh-root-mode/</link>
+      <link>https://pena-ara.github.io/catatan/zsh-root-mode/</link>
       <pubDate>Thu, 10 Dec 2020 16:51:38 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/zsh-root-mode/</guid>
+      <guid>https://pena-ara.github.io/catatan/zsh-root-mode/</guid>
       <description>Sudah lama tidak mencatat, dikarenakan ara yang sok sibuk wkwkwk. Pada catatan ini ara akan membahas bagaimana caranya menggunakan shell z dalam mode root, siapa yang pernah mengalami hal seperti gambar di bawah ini, saat kita menggunakan user root di terminal : bagi teman - teman yang mengalami hal seperti di atas, solusinya cukup sederhana, cukup gunakan sudo -E -s untuk masuk ke mode root, maka hasilnya akan seperti ini : </description>
     </item>
     

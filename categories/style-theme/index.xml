@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Style Theme on Pena Ara</title>
-    <link>http://pena-ara.github.io/categories/style-theme/</link>
+    <link>https://pena-ara.github.io/categories/style-theme/</link>
     <description>Recent content in Style Theme on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Dec 2020 19:49:09 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/categories/style-theme/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 19:49:09 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/style-theme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uniform Look for Qt and GTK Applications</title>
-      <link>http://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</link>
+      <link>https://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</link>
       <pubDate>Tue, 22 Dec 2020 19:49:09 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</guid>
+      <guid>https://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</guid>
       <description>Pada catatan kali ini, kita akan mencoba menyamakan style theme dari qt dan gtk, sebetulnya di sini kita akan memaksa qt menggunakan style theme gtk menggunakan gtk2, jadi yg perlu kita garis bawahi, kita harus menggunakan theme yang suport dengan gtk2 dan gtk3, ok langsung saja seperti biasa tanpa basa basi.
 Dicatatan ini kita menggunakan bantuan qt5-styleplugins, silahkan teman-teman install terlebih dahulu, jika sudah terinstall kita akan menambahkan &amp;lsquo;environment&amp;rsquo; supaya nantinya aplikasi yang menggunakan qt akan menggunakan style theme dari gtk, untuk menambahkan environment, kita bisa menambahkannya di /etc/environment dan masukan QT_QPA_PLATFORMTHEME=gtk2, untuk qt4 kita bisa menambahkannya di ~/.</description>
     </item>

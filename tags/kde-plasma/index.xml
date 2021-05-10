@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kde plasma on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/kde-plasma/</link>
+    <link>https://pena-ara.github.io/tags/kde-plasma/</link>
     <description>Recent content in kde plasma on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2020 15:12:47 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/kde-plasma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2020 15:12:47 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/kde-plasma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fix Screen Flickering</title>
-      <link>http://pena-ara.github.io/catatan/fix-screen-flickering/</link>
+      <link>https://pena-ara.github.io/catatan/fix-screen-flickering/</link>
       <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
+      <guid>https://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
       <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
  Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.
  </description>

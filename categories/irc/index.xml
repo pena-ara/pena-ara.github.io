@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IRC on Pena Ara</title>
-    <link>http://pena-ara.github.io/categories/irc/</link>
+    <link>https://pena-ara.github.io/categories/irc/</link>
     <description>Recent content in IRC on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Dec 2020 15:46:42 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/categories/irc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 15:46:42 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/irc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Irc With Weechat</title>
-      <link>http://pena-ara.github.io/catatan/irc-with-weechat/</link>
+      <link>https://pena-ara.github.io/catatan/irc-with-weechat/</link>
       <pubDate>Wed, 30 Dec 2020 15:46:42 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/irc-with-weechat/</guid>
+      <guid>https://pena-ara.github.io/catatan/irc-with-weechat/</guid>
       <description>Dalam catatan ini kita akan mencoba irc dengan menggunakan weechat, dicatatan ini kita akan mengkonfigurasikan autoconnect to freenode, dan konfigurasi SASL ECDSA-NIST256P-CHALLENGE, langsung saja tanpa panjang lebar install terlebih dahulu Weechat menggunakan sudo pacman -S weechat, jikas sudah terinstall langsung saja pertama kita akan mengkonfigurasi autoconnect to freenode, masuk ke weechat dengan mengetikan weechat di terminal, untuk mengkonfigurasinya cukup masukan baris-baris perintah berikut ini didalam weechat :
 /server add freenode chat.</description>
     </item>

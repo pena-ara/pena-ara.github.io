@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>filesystem on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/filesystem/</link>
+    <link>https://pena-ara.github.io/tags/filesystem/</link>
     <description>Recent content in filesystem on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2020 15:34:49 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Oct 2020 15:34:49 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fix Exists in Filesystem</title>
-      <link>http://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
+      <link>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
       <pubDate>Tue, 13 Oct 2020 15:34:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
+      <guid>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
       <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.
 Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in Filesystem langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S &amp;lt;nama aplikasi yang bermasalah&amp;gt; --overwrite &#39;*&#39; dan masalahpun terselesaikan :)</description>
     </item>

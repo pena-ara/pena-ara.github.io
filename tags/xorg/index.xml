@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xorg on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/xorg/</link>
+    <link>https://pena-ara.github.io/tags/xorg/</link>
     <description>Recent content in xorg on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jan 2021 07:10:49 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/xorg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jan 2021 07:10:49 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/xorg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auto Login and Startx for a Specific Tty</title>
-      <link>http://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</link>
+      <link>https://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</link>
       <pubDate>Mon, 18 Jan 2021 07:10:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</guid>
+      <guid>https://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</guid>
       <description>Catatan ini berisikan bagaimana caranya membuat autologin dan auto startx di tty yang telah ditentukan, cara ini cocok bagi teman-teman yang menggunakan single DE/WM yang tidak menggunakan DM, dicatatan ini ara menggunakan tty1 dan z shell, langsung saja tanpa panjang lebar, pertama kita akan setting auto login di tty1, jalankan perintah # systemctl edit getty@tty1, dan masukan tiga baris berikut ini :
 [Service] ExecStart= ExecStart=-/usr/bin/agetty --autologin &amp;lt;username&amp;gt; --noclear %I $TERM jika sudah lanjut ke setting auto startx, edit file .</description>
     </item>

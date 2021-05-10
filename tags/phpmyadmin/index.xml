@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>phpmyadmin on Pena Ara</title>
-    <link>http://pena-ara.github.io/tags/phpmyadmin/</link>
+    <link>https://pena-ara.github.io/tags/phpmyadmin/</link>
     <description>Recent content in phpmyadmin on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2020 22:04:12 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/phpmyadmin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Oct 2020 22:04:12 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/phpmyadmin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Phpmyadmin</title>
-      <link>http://pena-ara.github.io/catatan/install-phpmyadmin/</link>
+      <link>https://pena-ara.github.io/catatan/install-phpmyadmin/</link>
       <pubDate>Mon, 19 Oct 2020 22:04:12 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/install-phpmyadmin/</guid>
+      <guid>https://pena-ara.github.io/catatan/install-phpmyadmin/</guid>
       <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.ini kurang lebih akan menjadi seperti ini :</description>
     </item>
     

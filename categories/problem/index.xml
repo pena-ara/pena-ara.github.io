@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Problem on Pena Ara</title>
-    <link>http://pena-ara.github.io/categories/problem/</link>
+    <link>https://pena-ara.github.io/categories/problem/</link>
     <description>Recent content in Problem on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 19:31:40 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/categories/problem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2020 19:31:40 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/problem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fix Can&#39;t Login Google Account on Falkon</title>
-      <link>http://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</link>
+      <link>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</link>
       <pubDate>Sat, 24 Oct 2020 19:31:40 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</guid>
+      <guid>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</guid>
       <description>Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/82.0, untuk mengganti user agent kita bisa masuk ke preferences &amp;gt; other &amp;gt; user agent manager and now u can login your Google Account.</description>
     </item>
     
     <item>
       <title>Fix Web Server Apache</title>
-      <link>http://pena-ara.github.io/catatan/fix-web-server-apache/</link>
+      <link>https://pena-ara.github.io/catatan/fix-web-server-apache/</link>
       <pubDate>Wed, 14 Oct 2020 07:52:40 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/fix-web-server-apache/</guid>
+      <guid>https://pena-ara.github.io/catatan/fix-web-server-apache/</guid>
       <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.
 Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
  Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
@@ -31,20 +31,20 @@ Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saj
     
     <item>
       <title>Fix Exists in Filesystem</title>
-      <link>http://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
+      <link>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
       <pubDate>Tue, 13 Oct 2020 15:34:49 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
+      <guid>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
       <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.
 Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in Filesystem langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S &amp;lt;nama aplikasi yang bermasalah&amp;gt; --overwrite &#39;*&#39; dan masalahpun terselesaikan :)</description>
     </item>
     
     <item>
       <title>Fix Screen Flickering</title>
-      <link>http://pena-ara.github.io/catatan/fix-screen-flickering/</link>
+      <link>https://pena-ara.github.io/catatan/fix-screen-flickering/</link>
       <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
       
-      <guid>http://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
+      <guid>https://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
       <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
  Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.
  </description>
