@@ -2,17 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>password on Pena Ara</title>
-    <link>https://pena-ara.github.io/tags/password/</link>
+    <link>http://pena-ara.github.io/tags/password/</link>
     <description>Recent content in password on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Jan 2021 06:26:41 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/password/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Jan 2021 06:26:41 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/password/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Run Sudo Command Without Password</title>
-      <link>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</link>
+      <link>http://pena-ara.github.io/catatan/run-sudo-command-without-password/</link>
       <pubDate>Sat, 23 Jan 2021 06:26:41 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</guid>
-      <description>Dicatatan ini berisikan bagaimana caranya jalankan perintah sudo tanpa harus memasukan password, seperti biasa tanpa panjang lebar langsung saja buka terminal kesayangan kita semua lalu edit file sudoers yang berada di folder etc disini ara menggunakan vim,</description>
+      <guid>http://pena-ara.github.io/catatan/run-sudo-command-without-password/</guid>
+      <description>Dicatatan ini berisikan bagaimana caranya jalankan perintah sudo tanpa harus memasukan password, seperti biasa tanpa panjang lebar langsung saja buka terminal kesayangan kita semua lalu edit file sudoers yang berada di folder etc disini ara menggunakan vim,
+# vim /etc/sudoers dan masukan baris berikut : &amp;lt;username&amp;gt; ALL=(ALL) NOPASSWD:ALL jangan lupa save, bagi yang menggunakan vim gunakan w! untuk menyimpannya. </description>
     </item>
     
   </channel>

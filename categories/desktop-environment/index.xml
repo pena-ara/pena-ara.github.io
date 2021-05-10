@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Desktop Environment on Pena Ara</title>
-    <link>https://pena-ara.github.io/categories/desktop-environment/</link>
+    <link>http://pena-ara.github.io/categories/desktop-environment/</link>
     <description>Recent content in Desktop Environment on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Oct 2020 00:18:51 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/desktop-environment/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Oct 2020 00:18:51 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/categories/desktop-environment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Top 3 Desktop Environment</title>
-      <link>https://pena-ara.github.io/catatan/top-3-desktop-environment/</link>
+      <link>http://pena-ara.github.io/catatan/top-3-desktop-environment/</link>
       <pubDate>Mon, 12 Oct 2020 00:18:51 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/top-3-desktop-environment/</guid>
-      <description>Desktop environment atau Lingkungan desktop umumnya merujuk ke gaya grafis antarmuka pengguna (GUI=Graphical User Interface) yang mememperlihatkan kiasan desktop di layar komputer modern.</description>
+      <guid>http://pena-ara.github.io/catatan/top-3-desktop-environment/</guid>
+      <description>Desktop environment atau Lingkungan desktop umumnya merujuk ke gaya grafis antarmuka pengguna (GUI=Graphical User Interface) yang mememperlihatkan kiasan desktop di layar komputer modern. Lingkungan desktop adalah alternatif yang paling populer sebagai pengganti antarmuka baris perintah (command line interface) (CLI) yang saat ini umumnya digunakan terbatas oleh para pakar komputer. Sistem operasi seperti Microsoft Windows dan Mac OS X masing-masing mempunyai lingkungan desktop tersendiri. GNU/Linux juga mempunyai berbagai lingkungan desktop, diantaranya yang terpopuler adalah KDE, GNOME, dan XFCE.</description>
     </item>
     
   </channel>

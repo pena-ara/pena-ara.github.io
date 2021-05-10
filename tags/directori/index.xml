@@ -2,17 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>directori on Pena Ara</title>
-    <link>https://pena-ara.github.io/tags/directori/</link>
+    <link>http://pena-ara.github.io/tags/directori/</link>
     <description>Recent content in directori on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Oct 2020 18:16:29 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/directori/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Oct 2020 18:16:29 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/tags/directori/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mengelola Directori Pada Gnu Linux</title>
-      <link>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</link>
+      <link>http://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</link>
       <pubDate>Fri, 09 Oct 2020 18:16:29 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</guid>
-      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?</description>
+      <guid>http://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</guid>
+      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?? Langsung kita bahas saja satu persatu.
+Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perintah cd antara lain:
+ cd .. =&amp;gt; digunakan untuk pindah direktori ke level atas, misal kita berada di direktori linux yang berada didalam direktori home jika kita memasukan perintah cd .</description>
     </item>
     
   </channel>

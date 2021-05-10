@@ -2,244 +2,280 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pena Ara</title>
-    <link>https://pena-ara.github.io/</link>
+    <link>http://pena-ara.github.io/</link>
     <description>Recent content on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 31 Mar 2021 20:03:29 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Mar 2021 20:03:29 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preview Pdf as Image in Ranger</title>
-      <link>https://pena-ara.github.io/catatan/preview-pdf-as-image-in-ranger/</link>
+      <link>http://pena-ara.github.io/catatan/preview-pdf-as-image-in-ranger/</link>
       <pubDate>Wed, 31 Mar 2021 20:03:29 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/preview-pdf-as-image-in-ranger/</guid>
-      <description>Catatan ini berisikan bagaimana konfigurasi preview pdf di ranger dengan scope.</description>
+      <guid>http://pena-ara.github.io/catatan/preview-pdf-as-image-in-ranger/</guid>
+      <description>Catatan ini berisikan bagaimana konfigurasi preview pdf di ranger dengan scope.sh, langsung saja seperti biasa buka terminal kesayangan kita masing-masing dan masukan perintah berikut ranger --copy-config=scope, jika sudah saatnya konfigurasi file scopenya yang sudah di copy tadi vim .config/ranger/scope.sh dan uncomment pada baris berikut :
+application/pdf) pdftoppm -f 1 -l 1 \ -scale-to-x 1920 \ -scale-to-y -1 \ -singlefile \ -jpeg -tiffcompression jpeg \ -- &amp;#34;${FILE_PATH}&amp;#34; &amp;#34;${IMAGE_CACHE_PATH%.*}&amp;#34; \ &amp;amp;&amp;amp; exit 6 || exit 1;; jangan lupa save :)</description>
     </item>
     
     <item>
       <title>Ssh Key Github</title>
-      <link>https://pena-ara.github.io/catatan/ssh-key-github/</link>
+      <link>http://pena-ara.github.io/catatan/ssh-key-github/</link>
       <pubDate>Tue, 23 Mar 2021 14:27:51 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/ssh-key-github/</guid>
-      <description>Catatan kali ini ara akan mencatat sedikit bagaimana caranya membuat ssh-key dengan e-mail untuk github, langsung saja seperti biasa buka terminal kesayangan kita masing masing dan masukan perintah berikut</description>
+      <guid>http://pena-ara.github.io/catatan/ssh-key-github/</guid>
+      <description>Catatan kali ini ara akan mencatat sedikit bagaimana caranya membuat ssh-key dengan e-mail untuk github, langsung saja seperti biasa buka terminal kesayangan kita masing masing dan masukan perintah berikut
+ssh-keygen -t rsa -b 4096 -C &amp;quot;&amp;lt;alamat-email&amp;gt;&amp;quot; 
+Jalankan ssh-agent
+eval $(ssh-agent -s)
+Tambahkan SSH key ke ssh-agent
+ssh-add ~/.ssh/id_rsa
+Copy-paste isi dari ~/.ssh/id_rsa.pub ke settingan SSH key di Github
+Cek koneksi ke github (kalau ditanya sidik jari jawab yes)
+ssh -T git@github.</description>
     </item>
     
     <item>
       <title>Run Sudo Command Without Password</title>
-      <link>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</link>
+      <link>http://pena-ara.github.io/catatan/run-sudo-command-without-password/</link>
       <pubDate>Sat, 23 Jan 2021 06:26:41 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</guid>
-      <description>Dicatatan ini berisikan bagaimana caranya jalankan perintah sudo tanpa harus memasukan password, seperti biasa tanpa panjang lebar langsung saja buka terminal kesayangan kita semua lalu edit file sudoers yang berada di folder etc disini ara menggunakan vim,</description>
+      <guid>http://pena-ara.github.io/catatan/run-sudo-command-without-password/</guid>
+      <description>Dicatatan ini berisikan bagaimana caranya jalankan perintah sudo tanpa harus memasukan password, seperti biasa tanpa panjang lebar langsung saja buka terminal kesayangan kita semua lalu edit file sudoers yang berada di folder etc disini ara menggunakan vim,
+# vim /etc/sudoers dan masukan baris berikut : &amp;lt;username&amp;gt; ALL=(ALL) NOPASSWD:ALL jangan lupa save, bagi yang menggunakan vim gunakan w! untuk menyimpannya. </description>
     </item>
     
     <item>
       <title>Auto Login and Startx for a Specific Tty</title>
-      <link>https://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</link>
+      <link>http://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</link>
       <pubDate>Mon, 18 Jan 2021 07:10:49 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</guid>
-      <description>Catatan ini berisikan bagaimana caranya membuat autologin dan auto startx di tty yang telah ditentukan, cara ini cocok bagi teman-teman yang menggunakan single DE/WM yang tidak menggunakan DM, dicatatan ini ara menggunakan tty1 dan z shell, langsung saja tanpa panjang lebar, pertama kita akan setting auto login di tty1, jalankan perintah # systemctl edit getty@tty1, dan masukan tiga baris berikut ini :</description>
+      <guid>http://pena-ara.github.io/catatan/auto-login-and-startx-for-a-specific-tty/</guid>
+      <description>Catatan ini berisikan bagaimana caranya membuat autologin dan auto startx di tty yang telah ditentukan, cara ini cocok bagi teman-teman yang menggunakan single DE/WM yang tidak menggunakan DM, dicatatan ini ara menggunakan tty1 dan z shell, langsung saja tanpa panjang lebar, pertama kita akan setting auto login di tty1, jalankan perintah # systemctl edit getty@tty1, dan masukan tiga baris berikut ini :
+[Service] ExecStart= ExecStart=-/usr/bin/agetty --autologin &amp;lt;username&amp;gt; --noclear %I $TERM jika sudah lanjut ke setting auto startx, edit file .</description>
     </item>
     
     <item>
       <title>Dark Mode on Qutebrowser</title>
-      <link>https://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</link>
+      <link>http://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</link>
       <pubDate>Mon, 11 Jan 2021 15:55:53 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</guid>
-      <description>Catatan kali ini berisikian bagaimana mengaktifkan dark mode dibrowser qutebrowser, tanpa panjang lebar langsung saja buka config.</description>
+      <guid>http://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</guid>
+      <description>Catatan kali ini berisikian bagaimana mengaktifkan dark mode dibrowser qutebrowser, tanpa panjang lebar langsung saja buka config.py di folder ~/.config/Qutebrowser/ dan masukan settingan berikut :
+c.colors.webpage.darkmode.enabled = True c.colors.webpage.darkmode.algorithm = &amp;#39;lightness-cielab&amp;#39; c.colors.webpage.darkmode.grayscale.all = True c.colors.webpage.darkmode.grayscale.images = 0.5 c.colors.webpage.darkmode.policy.images = &amp;#39;never&amp;#39; c.colors.webpage.darkmode.policy.page = &amp;#39;smart&amp;#39; </description>
     </item>
     
     <item>
       <title>Irc With Weechat</title>
-      <link>https://pena-ara.github.io/catatan/irc-with-weechat/</link>
+      <link>http://pena-ara.github.io/catatan/irc-with-weechat/</link>
       <pubDate>Wed, 30 Dec 2020 15:46:42 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/irc-with-weechat/</guid>
-      <description>Dalam catatan ini kita akan mencoba irc dengan menggunakan weechat, dicatatan ini kita akan mengkonfigurasikan autoconnect to freenode, dan konfigurasi SASL ECDSA-NIST256P-CHALLENGE, langsung saja tanpa panjang lebar install terlebih dahulu Weechat menggunakan sudo pacman -S weechat, jikas sudah terinstall langsung saja pertama kita akan mengkonfigurasi autoconnect to freenode, masuk ke weechat dengan mengetikan weechat di terminal, untuk mengkonfigurasinya cukup masukan baris-baris perintah berikut ini didalam weechat :</description>
+      <guid>http://pena-ara.github.io/catatan/irc-with-weechat/</guid>
+      <description>Dalam catatan ini kita akan mencoba irc dengan menggunakan weechat, dicatatan ini kita akan mengkonfigurasikan autoconnect to freenode, dan konfigurasi SASL ECDSA-NIST256P-CHALLENGE, langsung saja tanpa panjang lebar install terlebih dahulu Weechat menggunakan sudo pacman -S weechat, jikas sudah terinstall langsung saja pertama kita akan mengkonfigurasi autoconnect to freenode, masuk ke weechat dengan mengetikan weechat di terminal, untuk mengkonfigurasinya cukup masukan baris-baris perintah berikut ini didalam weechat :
+/server add freenode chat.</description>
     </item>
     
     <item>
       <title>Create Bin for Launch App on Dmenu</title>
-      <link>https://pena-ara.github.io/catatan/create-bin-for-launch-app-on-dmenu/</link>
+      <link>http://pena-ara.github.io/catatan/create-bin-for-launch-app-on-dmenu/</link>
       <pubDate>Mon, 28 Dec 2020 00:43:50 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/create-bin-for-launch-app-on-dmenu/</guid>
-      <description>Dicatatan ini berisikan bagaimana membuat shortcut sebuah aplikasi untuk di jalankan melalui dmenu, perlu di ketahui bahwa dmenu membaca file bin bukan file .</description>
+      <guid>http://pena-ara.github.io/catatan/create-bin-for-launch-app-on-dmenu/</guid>
+      <description>Dicatatan ini berisikan bagaimana membuat shortcut sebuah aplikasi untuk di jalankan melalui dmenu, perlu di ketahui bahwa dmenu membaca file bin bukan file .desktop seperi launcher app pada umumnya, untuk itu kita perlu membuat file bin kita sendiri untuk beberapa aplikasi, seperti contohnya libreoffice writer, libreoffice impress, dan beberapa aplikasi yang berjalan diatas terminal seperti contohnya ranger, vim, youtube-viewer, dan aplikasi lainnya.
+Seperti biasa tanpa panjang lebar langsung saja siapkan peralatannya, peralatan yang dibutuhkan adalah :</description>
     </item>
     
     <item>
       <title>Uniform Look for Qt and GTK Applications</title>
-      <link>https://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</link>
+      <link>http://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</link>
       <pubDate>Tue, 22 Dec 2020 19:49:09 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</guid>
-      <description>Pada catatan kali ini, kita akan mencoba menyamakan style theme dari qt dan gtk, sebetulnya di sini kita akan memaksa qt menggunakan style theme gtk menggunakan gtk2, jadi yg perlu kita garis bawahi, kita harus menggunakan theme yang suport dengan gtk2 dan gtk3, ok langsung saja seperti biasa tanpa basa basi.</description>
+      <guid>http://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</guid>
+      <description>Pada catatan kali ini, kita akan mencoba menyamakan style theme dari qt dan gtk, sebetulnya di sini kita akan memaksa qt menggunakan style theme gtk menggunakan gtk2, jadi yg perlu kita garis bawahi, kita harus menggunakan theme yang suport dengan gtk2 dan gtk3, ok langsung saja seperti biasa tanpa basa basi.
+Dicatatan ini kita menggunakan bantuan qt5-styleplugins, silahkan teman-teman install terlebih dahulu, jika sudah terinstall kita akan menambahkan &amp;lsquo;environment&amp;rsquo; supaya nantinya aplikasi yang menggunakan qt akan menggunakan style theme dari gtk, untuk menambahkan environment, kita bisa menambahkannya di /etc/environment dan masukan QT_QPA_PLATFORMTHEME=gtk2, untuk qt4 kita bisa menambahkannya di ~/.</description>
     </item>
     
     <item>
       <title>Zsh Root Mode</title>
-      <link>https://pena-ara.github.io/catatan/zsh-root-mode/</link>
+      <link>http://pena-ara.github.io/catatan/zsh-root-mode/</link>
       <pubDate>Thu, 10 Dec 2020 16:51:38 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/zsh-root-mode/</guid>
+      <guid>http://pena-ara.github.io/catatan/zsh-root-mode/</guid>
       <description>Sudah lama tidak mencatat, dikarenakan ara yang sok sibuk wkwkwk. Pada catatan ini ara akan membahas bagaimana caranya menggunakan shell z dalam mode root, siapa yang pernah mengalami hal seperti gambar di bawah ini, saat kita menggunakan user root di terminal : bagi teman - teman yang mengalami hal seperti di atas, solusinya cukup sederhana, cukup gunakan sudo -E -s untuk masuk ke mode root, maka hasilnya akan seperti ini : </description>
     </item>
     
     <item>
       <title>Open New Tab External Link Hugo</title>
-      <link>https://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</link>
+      <link>http://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</link>
       <pubDate>Thu, 12 Nov 2020 19:56:52 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</guid>
-      <description>Catatan Ara kali ini akan berbagi sedikit mengenai hugo, bagaimana caranya membuat external link dibuka pada tab baru, langsung saja tanpa basa basi, buat file render-link.</description>
+      <guid>http://pena-ara.github.io/catatan/open-new-tab-external-link-hugo/</guid>
+      <description>Catatan Ara kali ini akan berbagi sedikit mengenai hugo, bagaimana caranya membuat external link dibuka pada tab baru, langsung saja tanpa basa basi, buat file render-link.html pada folder layouts theme teman teman layouts/_default/_markup/render-link.html, untuk isi render-link.htmlnya sendiri kurang lebih seperti ini :
+&amp;lt;a href=&amp;#34;{{ .Destination | safeURL }}&amp;#34;{{ with .Title}} title=&amp;#34;{{ . }}&amp;#34;{{ end }}{{ if strings.HasPrefix .Destination &amp;#34;http&amp;#34; }} rel=&amp;#34;noopener noreferrer&amp;#34; target=&amp;#34;_blank&amp;#34;{{ end }}&amp;gt;{{ .Text }}&amp;lt;/a&amp;gt; Sekarang teman-teman jika membuat link external di dalam konten, jika linknya diclick maka akan membuka di tab baru 😁.</description>
     </item>
     
     <item>
       <title>Enable Emoji on Terminal Konsole</title>
-      <link>https://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</link>
+      <link>http://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</link>
       <pubDate>Sat, 31 Oct 2020 18:20:19 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</guid>
-      <description>Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.</description>
+      <guid>http://pena-ara.github.io/catatan/enable-emoji-on-terminal-konsole/</guid>
+      <description>Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.conf di folder .config/fontconfig/conf.d/, isi dari file 99-color-emoji.conf kurang lebih seperti berikut :
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt; &amp;lt;!DOCTYPE fontconfig SYSTEM &amp;#34;fonts.dtd&amp;#34;&amp;gt; &amp;lt;fontconfig&amp;gt; &amp;lt;match&amp;gt; &amp;lt;test name=&amp;#34;family&amp;#34;&amp;gt;&amp;lt;string&amp;gt;MesloLGS NF&amp;lt;/string&amp;gt;&amp;lt;/test&amp;gt; &amp;lt;edit name=&amp;#34;family&amp;#34; mode=&amp;#34;prepend&amp;#34; binding=&amp;#34;strong&amp;#34;&amp;gt; &amp;lt;string&amp;gt;Noto Color Emoji&amp;lt;/string&amp;gt; &amp;lt;/edit&amp;gt; &amp;lt;/match&amp;gt; &amp;lt;/fontconfig&amp;gt; Setelah membuat file konfigurasi, buka konsole kita dan jalankan fc-cache, dan jangan lupa restart konsole untuk melihat hasilnya &amp;hellip;.</description>
     </item>
     
     <item>
       <title>Fix Can&#39;t Login Google Account on Falkon</title>
-      <link>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</link>
+      <link>http://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</link>
       <pubDate>Sat, 24 Oct 2020 19:31:40 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</guid>
-      <description>Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.</description>
+      <guid>http://pena-ara.github.io/catatan/fix-cant-login-google-acc-on-falkon/</guid>
+      <description>Catatan kali ini ara akan membahas bagaimana mengatasi tidak bisa login Google Account di browser Falkon, Bagi para pengguna falkon pasti kesaal saat kita mau login google account, tetapi di blok oleh google sendiri, untuk mengatasi masalah ini kita cukup mengganti user agent kita dengan Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/82.0, untuk mengganti user agent kita bisa masuk ke preferences &amp;gt; other &amp;gt; user agent manager and now u can login your Google Account.</description>
     </item>
     
     <item>
       <title>Install Arch Linux</title>
-      <link>https://pena-ara.github.io/catatan/install-archlinux/</link>
+      <link>http://pena-ara.github.io/catatan/install-archlinux/</link>
       <pubDate>Thu, 22 Oct 2020 19:47:45 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/install-archlinux/</guid>
-      <description>Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatan ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :</description>
+      <guid>http://pena-ara.github.io/catatan/install-archlinux/</guid>
+      <description>Catatan kalai ini berisi tentang bagaimana cara install arch linux, di catatan ini ara tidak akan mencatat bagaimana membuat partisi pada saat instalasi :), jadi sekema partisi yang akan di pakai kurang lebih seperti ini :
+/dev/sda1 untuk partisi swap /dev/sda2 untuk partisi / /dev/sda3 untuk partisi /home Jadi langsung saja ke proses mount partisinya
+mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format partisi efinya dengan `mkfs.</description>
     </item>
     
     <item>
       <title>Install Phpmyadmin</title>
-      <link>https://pena-ara.github.io/catatan/install-phpmyadmin/</link>
+      <link>http://pena-ara.github.io/catatan/install-phpmyadmin/</link>
       <pubDate>Mon, 19 Oct 2020 22:04:12 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/install-phpmyadmin/</guid>
-      <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php , pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.</description>
+      <guid>http://pena-ara.github.io/catatan/install-phpmyadmin/</guid>
+      <description>Catatan-catatan sebelumnya kita sudah menginstall Apache, MySQL dan juga kita sudah menginstall php, pada catatan ini kita akan mencoba menginstall phpMyadmin, phpMyadmin digunakan untuk mempermudah penggunaan mysql, langsung saja seperti biasa buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S phpmyadmin, tunggu sampai proses instalasi selesai, sesudah installasi selesai lakukan beberapa konfigurasi pada php kita, aktifkan extensi bz2 dan mysqli dengan cara menghapus tanda ; pada file /etct/php/php.ini kurang lebih akan menjadi seperti ini :</description>
     </item>
     
     <item>
       <title>Install PHP on Arch Linux</title>
-      <link>https://pena-ara.github.io/catatan/install-php/</link>
+      <link>http://pena-ara.github.io/catatan/install-php/</link>
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/install-php/</guid>
-      <description>Setelah mengintall apache dan mysql , kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.</description>
+      <guid>http://pena-ara.github.io/catatan/install-php/</guid>
+      <description>Setelah mengintall apache dan mysql, kali ini ara akan mencoba menginstall php di sistem operasi arch linux, pada catatan ini buat php pada versi 7, langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S php php-apche, setelah php terinstall kita akan melakukan sedikit konfigurasi pada apache di file /etc/httpd/conf/httpd.conf, lakukan konfigurasi pada httpd.conf, disable mod_mpm_event.so dengan cara menambahkan tanda #, dan enable mod_mpm_prefork.so dengan cara menghilangkan tanda # kurang lebih seperti ini :</description>
     </item>
     
     <item>
       <title>Reinstall All Package Using Pacman</title>
-      <link>https://pena-ara.github.io/catatan/reinstall-all-package-using-pacman/</link>
+      <link>http://pena-ara.github.io/catatan/reinstall-all-package-using-pacman/</link>
       <pubDate>Fri, 16 Oct 2020 15:48:06 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/reinstall-all-package-using-pacman/</guid>
-      <description>Catatan ini berisikan bagaimana cara reinstall semua paket/aplikasi yang sudah terinstal di sistem operasi kita menggunakan pacman, langsung saja buka terminal kesayangan kita dan masukan perintah pacman -Qq &amp;gt; reinstall.</description>
+      <guid>http://pena-ara.github.io/catatan/reinstall-all-package-using-pacman/</guid>
+      <description>Catatan ini berisikan bagaimana cara reinstall semua paket/aplikasi yang sudah terinstal di sistem operasi kita menggunakan pacman, langsung saja buka terminal kesayangan kita dan masukan perintah pacman -Qq &amp;gt; reinstall.txt perintah -Qq digunakan muntuk melist semua paket/aplikasi yang terinstall di sistem operasi kita maksud dari &amp;gt; reinstall.txt adalah list paket/aplikasi akan disimpan di file reinstall.txt.
+Setelah semua list paket/aplikasi sudah tersimpan di reinstall.txt, saatnya kita reinstall semua paket/aplikasi yang berada di reinstall.</description>
     </item>
     
     <item>
       <title>Fix Web Server Apache</title>
-      <link>https://pena-ara.github.io/catatan/fix-web-server-apache/</link>
+      <link>http://pena-ara.github.io/catatan/fix-web-server-apache/</link>
       <pubDate>Wed, 14 Oct 2020 07:52:40 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/fix-web-server-apache/</guid>
-      <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.</description>
+      <guid>http://pena-ara.github.io/catatan/fix-web-server-apache/</guid>
+      <description>Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.
+Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
+ Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
+  Kedua matikan service httpd dengan perintah systemctl disable httpd.
+ Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah sudo pacman -S apache, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah systemctl enable httpd untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah systemctl start httpd, dan untuk mengecek statusnya gunakan perintah systemctl status httpd.</description>
     </item>
     
     <item>
       <title>Install Kernel Linux Terbaru</title>
-      <link>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</link>
+      <link>http://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</link>
       <pubDate>Wed, 14 Oct 2020 02:59:39 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</guid>
-      <description>Catatan kali ini ara akan membagikan bagaimana cara menginstall kernel linux versi terbaru di sistem operasi arch linux, saat catatan ini di buat kernel linux terbaru memasuki versi 5.</description>
+      <guid>http://pena-ara.github.io/catatan/install-kernel-linux-terbaru/</guid>
+      <description>Catatan kali ini ara akan membagikan bagaimana cara menginstall kernel linux versi terbaru di sistem operasi arch linux, saat catatan ini di buat kernel linux terbaru memasuki versi 5.9. Kita bisa cek versi dari kernel linux ini di situs resminya kernel.
+Langsung saja ketopik utama, oh iya sekedar menginfokan pada saat catatan ini di buat KDE Plasma baru saja merilis versi barunya yakni 5.20, jadi langsung saja kita install keduanya :).</description>
     </item>
     
     <item>
       <title>Fix Exists in Filesystem</title>
-      <link>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
+      <link>http://pena-ara.github.io/catatan/fix-exists-in-filesystem/</link>
       <pubDate>Tue, 13 Oct 2020 15:34:49 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
-      <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.</description>
+      <guid>http://pena-ara.github.io/catatan/fix-exists-in-filesystem/</guid>
+      <description>Pada catatan ini kita akan mencoba menyelesaikan masalah Exists in Filesystem pada saat install aplikasi di sistem operasi arch linux.
+Di catatan ini ara menggunakan pacman untuk menyelesaikan masalah Exists in Filesystem langsung saja buka terminal kesayangan kita semua dan masukan perintah sudo pacman -S &amp;lt;nama aplikasi yang bermasalah&amp;gt; --overwrite &#39;*&#39; dan masalahpun terselesaikan :)</description>
     </item>
     
     <item>
       <title>Fix Screen Flickering</title>
-      <link>https://pena-ara.github.io/catatan/fix-screen-flickering/</link>
+      <link>http://pena-ara.github.io/catatan/fix-screen-flickering/</link>
       <pubDate>Mon, 12 Oct 2020 15:12:47 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
-      <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.</description>
+      <guid>http://pena-ara.github.io/catatan/fix-screen-flickering/</guid>
+      <description>Pada catatan ini kita akan mencoba memperbaiki Screen Flickering pada saat recording di DE KDE Plasma.
+ Pergi ke pengaturan Display and Monitor kemudian ke compositor atur vsync ke never.
+ </description>
     </item>
     
     <item>
       <title>Sejarah Php</title>
-      <link>https://pena-ara.github.io/catatan/sejarah-php/</link>
+      <link>http://pena-ara.github.io/catatan/sejarah-php/</link>
       <pubDate>Mon, 12 Oct 2020 00:39:07 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/sejarah-php/</guid>
+      <guid>http://pena-ara.github.io/catatan/sejarah-php/</guid>
       <description>Sejarah Singkat PHP
- PHP pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1995, pada awalnya PHP merupakan singkatan dari Personal Home Page, pada waktu itu PHP masih bernama Form Interpreted (FI), yang masih berupa sekumpulan skrip yang digunakan untuk mengelola data formulir dari web, kemudian pada tahun 1996 Rasmus Lerdorf merlilis kode sumber tersebut untuk umum dan diberi nama PHP/FI.</description>
+ PHP pertama kali diciptakan oleh Rasmus Lerdorf pada tahun 1995, pada awalnya PHP merupakan singkatan dari Personal Home Page, pada waktu itu PHP masih bernama Form Interpreted (FI), yang masih berupa sekumpulan skrip yang digunakan untuk mengelola data formulir dari web, kemudian pada tahun 1996 Rasmus Lerdorf merlilis kode sumber tersebut untuk umum dan diberi nama PHP/FI.
+Pada tahun berikutnya Rasmus Lerdorf merilis kembali PHP/FI dengan versi 2.</description>
     </item>
     
     <item>
       <title>Top 3 Desktop Environment</title>
-      <link>https://pena-ara.github.io/catatan/top-3-desktop-environment/</link>
+      <link>http://pena-ara.github.io/catatan/top-3-desktop-environment/</link>
       <pubDate>Mon, 12 Oct 2020 00:18:51 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/top-3-desktop-environment/</guid>
-      <description>Desktop environment atau Lingkungan desktop umumnya merujuk ke gaya grafis antarmuka pengguna (GUI=Graphical User Interface) yang mememperlihatkan kiasan desktop di layar komputer modern.</description>
+      <guid>http://pena-ara.github.io/catatan/top-3-desktop-environment/</guid>
+      <description>Desktop environment atau Lingkungan desktop umumnya merujuk ke gaya grafis antarmuka pengguna (GUI=Graphical User Interface) yang mememperlihatkan kiasan desktop di layar komputer modern. Lingkungan desktop adalah alternatif yang paling populer sebagai pengganti antarmuka baris perintah (command line interface) (CLI) yang saat ini umumnya digunakan terbatas oleh para pakar komputer. Sistem operasi seperti Microsoft Windows dan Mac OS X masing-masing mempunyai lingkungan desktop tersendiri. GNU/Linux juga mempunyai berbagai lingkungan desktop, diantaranya yang terpopuler adalah KDE, GNOME, dan XFCE.</description>
     </item>
     
     <item>
       <title>Install Web Server Apache Dan DBMS Mysql</title>
-      <link>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</link>
+      <link>http://pena-ara.github.io/catatan/install-apache-dan-mysql/</link>
       <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/install-apache-dan-mysql/</guid>
-      <description>Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ?</description>
+      <guid>http://pena-ara.github.io/catatan/install-apache-dan-mysql/</guid>
+      <description>Sebelum ke proses installasinya ara akan menjelaskan sedikit tentang web server, apa itu web server ? web server adalah sebuah software yang meberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada client yang biasa kita sebut web browser dan untuk mengirimkan kembali dalam bentuk halaman web dan pada umumnya akan berbentuk HTML.
+sekarang sudah tahukan apa itu web server ?, yang akan kita install sekarang adalah salah satu contoh web server yang lumayan banyak penggunanya yakni apache, langsung saja keproses installasinya, disini ara menggunakan arch linux untuk menginstall apache.</description>
     </item>
     
     <item>
       <title>Mengelola File Pada Gnu Linux</title>
-      <link>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</link>
+      <link>http://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</link>
       <pubDate>Fri, 09 Oct 2020 18:39:57 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
-      <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.</description>
+      <guid>http://pena-ara.github.io/catatan/mengelola-file-pada-gnu-linux/</guid>
+      <description>Pada catatan sebelumnya kita sudah sedikit belajar mengenai 10 perintah dasar untuk mengelola direktori di sistem opersai gnu/linux, pada kesempatan ini kita akan sedikit belajar perintah dasar mengelola file di sistem opersai gnu/linux, ok langsung saja tanpa panjang lebar mari kita belajar bersama apa saja perintah dasar untuk mengelola file di sistem opersai gnu/linux.
+chgrp Perintah ini sudah dijelaskan pada catatan sebelumnya.mengelola directori
+Perintah cp juga sudah dijelaskan pada kesempatan sebelumnya, namaun pada kesempatan ini akan sedikit di jabarkan, ada beberapa penggunaan perintah cp untuk mengelola file di gnu/linux anatar lain:</description>
     </item>
     
     <item>
       <title>Mengelola Directori Pada Gnu Linux</title>
-      <link>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</link>
+      <link>http://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</link>
       <pubDate>Fri, 09 Oct 2020 18:16:29 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</guid>
-      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?</description>
+      <guid>http://pena-ara.github.io/catatan/mengelola-directori-pada-gnu-linux/</guid>
+      <description>Pada catatan ini kita akan belajar sedikit bagaimana cara mengelola direktori pada sistem operasi gnu/linux menggunakan terminal , ada beberapa perintah yang digunakan untuk mengelola direktori pada sistem operasi gnu/linux, kita akan membahas 10 dasar perintah untuk mengelola direktori pada sisitem operasi gnu/linux menggunakan terminal, apa saja perintahnya?? Langsung kita bahas saja satu persatu.
+Perintah cd digunakan untuk berpindah direktori, ada beberapa penggunanaan perintah cd antara lain:
+ cd .. =&amp;gt; digunakan untuk pindah direktori ke level atas, misal kita berada di direktori linux yang berada didalam direktori home jika kita memasukan perintah cd .</description>
     </item>
     
     <item>
       <title>Sejarah Linux</title>
-      <link>https://pena-ara.github.io/catatan/sejarah-linux/</link>
+      <link>http://pena-ara.github.io/catatan/sejarah-linux/</link>
       <pubDate>Fri, 09 Oct 2020 18:07:45 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/sejarah-linux/</guid>
+      <guid>http://pena-ara.github.io/catatan/sejarah-linux/</guid>
       <description>Sejarah Singkat Linux
-Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux.</description>
+Pada tahun 1969, Ken Thompson dan Dennis Ritchie (juga adalah developer bahasa C), para peneliti di AT&amp;amp;T Bell Laboratorium Amerika, membuat sistem operasi UNIX, cikal bakal dari Linux. UNIX mendapatkan perhatian besar karena merupakan sistem operasi pertama yang dibuat bukan oleh hardware maker. Selain itu juga karena seluruh source code-nya dibuat dengan bahasa C, sehingga mempermudah pemindahannya ke berbagai platform.
+Dalam waktu singkat UNIX berkembang secara pesat dan terpecah menjadi dua yakni UNIX yang dikembangkan oleh Universitas Berkeley dan yang dikembangkan oleh AT&amp;amp;T.</description>
     </item>
     
   </channel>

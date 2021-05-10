@@ -2,17 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qutebrowser on Pena Ara</title>
-    <link>https://pena-ara.github.io/categories/qutebrowser/</link>
+    <link>http://pena-ara.github.io/categories/qutebrowser/</link>
     <description>Recent content in Qutebrowser on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Jan 2021 15:55:53 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/qutebrowser/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Jan 2021 15:55:53 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/categories/qutebrowser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dark Mode on Qutebrowser</title>
-      <link>https://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</link>
+      <link>http://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</link>
       <pubDate>Mon, 11 Jan 2021 15:55:53 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</guid>
-      <description>Catatan kali ini berisikian bagaimana mengaktifkan dark mode dibrowser qutebrowser, tanpa panjang lebar langsung saja buka config.</description>
+      <guid>http://pena-ara.github.io/catatan/dark-mode-on-qutebrowser/</guid>
+      <description>Catatan kali ini berisikian bagaimana mengaktifkan dark mode dibrowser qutebrowser, tanpa panjang lebar langsung saja buka config.py di folder ~/.config/Qutebrowser/ dan masukan settingan berikut :
+c.colors.webpage.darkmode.enabled = True c.colors.webpage.darkmode.algorithm = &amp;#39;lightness-cielab&amp;#39; c.colors.webpage.darkmode.grayscale.all = True c.colors.webpage.darkmode.grayscale.images = 0.5 c.colors.webpage.darkmode.policy.images = &amp;#39;never&amp;#39; c.colors.webpage.darkmode.policy.page = &amp;#39;smart&amp;#39; </description>
     </item>
     
   </channel>

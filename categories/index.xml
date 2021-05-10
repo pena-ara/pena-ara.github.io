@@ -2,196 +2,197 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Pena Ara</title>
-    <link>https://pena-ara.github.io/categories/</link>
+    <link>http://pena-ara.github.io/categories/</link>
     <description>Recent content in Categories on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 31 Mar 2021 20:03:29 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Mar 2021 20:03:29 +0700</lastBuildDate><atom:link href="http://pena-ara.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ranger</title>
-      <link>https://pena-ara.github.io/categories/ranger/</link>
+      <link>http://pena-ara.github.io/categories/ranger/</link>
       <pubDate>Wed, 31 Mar 2021 20:03:29 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/ranger/</guid>
+      <guid>http://pena-ara.github.io/categories/ranger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SSH</title>
-      <link>https://pena-ara.github.io/categories/ssh/</link>
+      <link>http://pena-ara.github.io/categories/ssh/</link>
       <pubDate>Tue, 23 Mar 2021 14:27:51 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/ssh/</guid>
+      <guid>http://pena-ara.github.io/categories/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sudo</title>
-      <link>https://pena-ara.github.io/categories/sudo/</link>
+      <link>http://pena-ara.github.io/categories/sudo/</link>
       <pubDate>Sat, 23 Jan 2021 06:26:41 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/sudo/</guid>
+      <guid>http://pena-ara.github.io/categories/sudo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xorg</title>
-      <link>https://pena-ara.github.io/categories/xorg/</link>
+      <link>http://pena-ara.github.io/categories/xorg/</link>
       <pubDate>Mon, 18 Jan 2021 07:10:49 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/xorg/</guid>
+      <guid>http://pena-ara.github.io/categories/xorg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qutebrowser</title>
-      <link>https://pena-ara.github.io/categories/qutebrowser/</link>
+      <link>http://pena-ara.github.io/categories/qutebrowser/</link>
       <pubDate>Mon, 11 Jan 2021 15:55:53 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/qutebrowser/</guid>
+      <guid>http://pena-ara.github.io/categories/qutebrowser/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IRC</title>
-      <link>https://pena-ara.github.io/categories/irc/</link>
+      <link>http://pena-ara.github.io/categories/irc/</link>
       <pubDate>Wed, 30 Dec 2020 15:46:42 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/irc/</guid>
+      <guid>http://pena-ara.github.io/categories/irc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dmenu</title>
-      <link>https://pena-ara.github.io/categories/dmenu/</link>
+      <link>http://pena-ara.github.io/categories/dmenu/</link>
       <pubDate>Mon, 28 Dec 2020 00:43:50 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/dmenu/</guid>
+      <guid>http://pena-ara.github.io/categories/dmenu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Style Theme</title>
-      <link>https://pena-ara.github.io/categories/style-theme/</link>
+      <link>http://pena-ara.github.io/categories/style-theme/</link>
       <pubDate>Tue, 22 Dec 2020 19:49:09 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/style-theme/</guid>
+      <guid>http://pena-ara.github.io/categories/style-theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shell</title>
-      <link>https://pena-ara.github.io/categories/shell/</link>
+      <link>http://pena-ara.github.io/categories/shell/</link>
       <pubDate>Thu, 10 Dec 2020 16:51:38 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/shell/</guid>
+      <guid>http://pena-ara.github.io/categories/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://pena-ara.github.io/categories/hugo/</link>
+      <link>http://pena-ara.github.io/categories/hugo/</link>
       <pubDate>Thu, 12 Nov 2020 19:56:52 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/hugo/</guid>
+      <guid>http://pena-ara.github.io/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terminal</title>
-      <link>https://pena-ara.github.io/categories/terminal/</link>
+      <link>http://pena-ara.github.io/categories/terminal/</link>
       <pubDate>Sat, 31 Oct 2020 18:20:19 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/terminal/</guid>
+      <guid>http://pena-ara.github.io/categories/terminal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Problem</title>
-      <link>https://pena-ara.github.io/categories/problem/</link>
+      <link>http://pena-ara.github.io/categories/problem/</link>
       <pubDate>Sat, 24 Oct 2020 19:31:40 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/problem/</guid>
+      <guid>http://pena-ara.github.io/categories/problem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arch Linux</title>
-      <link>https://pena-ara.github.io/categories/arch-linux/</link>
+      <link>http://pena-ara.github.io/categories/arch-linux/</link>
       <pubDate>Thu, 22 Oct 2020 19:47:45 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/arch-linux/</guid>
+      <guid>http://pena-ara.github.io/categories/arch-linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bahasa Pemrograman</title>
-      <link>https://pena-ara.github.io/categories/bahasa-pemrograman/</link>
+      <link>http://pena-ara.github.io/categories/bahasa-pemrograman/</link>
       <pubDate>Sat, 17 Oct 2020 15:21:21 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/bahasa-pemrograman/</guid>
+      <guid>http://pena-ara.github.io/categories/bahasa-pemrograman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pacman</title>
-      <link>https://pena-ara.github.io/categories/pacman/</link>
+      <link>http://pena-ara.github.io/categories/pacman/</link>
       <pubDate>Fri, 16 Oct 2020 15:48:06 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/pacman/</guid>
+      <guid>http://pena-ara.github.io/categories/pacman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kernel Linux</title>
-      <link>https://pena-ara.github.io/categories/kernel-linux/</link>
+      <link>http://pena-ara.github.io/categories/kernel-linux/</link>
       <pubDate>Wed, 14 Oct 2020 02:59:39 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/kernel-linux/</guid>
+      <guid>http://pena-ara.github.io/categories/kernel-linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Programing</title>
-      <link>https://pena-ara.github.io/categories/web-programing/</link>
+      <link>http://pena-ara.github.io/categories/web-programing/</link>
       <pubDate>Mon, 12 Oct 2020 00:39:07 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/web-programing/</guid>
+      <guid>http://pena-ara.github.io/categories/web-programing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Desktop Environment</title>
-      <link>https://pena-ara.github.io/categories/desktop-environment/</link>
+      <link>http://pena-ara.github.io/categories/desktop-environment/</link>
       <pubDate>Mon, 12 Oct 2020 00:18:51 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/desktop-environment/</guid>
+      <guid>http://pena-ara.github.io/categories/desktop-environment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GNU-Linux</title>
-      <link>https://pena-ara.github.io/categories/gnu-linux/</link>
+      <link>http://pena-ara.github.io/categories/gnu-linux/</link>
       <pubDate>Mon, 12 Oct 2020 00:18:51 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/gnu-linux/</guid>
+      <guid>http://pena-ara.github.io/categories/gnu-linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DBMS</title>
-      <link>https://pena-ara.github.io/categories/dbms/</link>
+      <link>http://pena-ara.github.io/categories/dbms/</link>
       <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/dbms/</guid>
+      <guid>http://pena-ara.github.io/categories/dbms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Server</title>
-      <link>https://pena-ara.github.io/categories/web-server/</link>
+      <link>http://pena-ara.github.io/categories/web-server/</link>
       <pubDate>Sat, 10 Oct 2020 16:45:33 +0700</pubDate>
       
-      <guid>https://pena-ara.github.io/categories/web-server/</guid>
+      <guid>http://pena-ara.github.io/categories/web-server/</guid>
       <description></description>
     </item>
     
