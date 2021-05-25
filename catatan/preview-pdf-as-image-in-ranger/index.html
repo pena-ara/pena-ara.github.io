@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
     <meta name="keywords" content="Arch Linux, GNU/Linux, Open Source" />
-    <meta name="description" content="Catatan Ara berisikan mengenai permasalahan / problem saat menggunakan OS GNU/LINUX khususnya Arch Linux yang dialami oleh ara sendiri, tidak hanya berisi permasalahan / problem, Pena Ara juga berisi berbagai informasi tentang Open Source dan GNU/LINUX." />
+    <meta name="description"
+    content="Catatan ini berisikan bagaimana konfigurasi preview pdf di ranger dengan scope.sh, langsung saja seperti biasa buka terminal kesayangan kita masing-masing dan masukan perintah berikut ranger --copy-config=scope, jika sudah saatnya konfigurasi file scopenya yang sudah di copy tadi vim .config/ranger/scope.sh dan uncomment pada baris berikut :
+application/pdf) pdftoppm -f 1 -l 1 \ -scale-to-x 1920 \ -scale-to-y -1 \ -singlefile \ -jpeg -tiffcompression jpeg \ -- &amp;#34;${FILE_PATH}&amp;#34; &amp;#34;${IMAGE_CACHE_PATH%.*}&amp;#34; \ &amp;amp;&amp;amp; exit 6 || exit 1;; jangan lupa save :)" />
     <meta name="author" content="Ara" />
     <link rel="shortcut icon" href="https://pena-ara.github.io/images/favicon.png" type="">
 

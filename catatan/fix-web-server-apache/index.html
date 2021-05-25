@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
     <meta name="keywords" content="Arch Linux, GNU/Linux, Open Source" />
-    <meta name="description" content="Catatan Ara berisikan mengenai permasalahan / problem saat menggunakan OS GNU/LINUX khususnya Arch Linux yang dialami oleh ara sendiri, tidak hanya berisi permasalahan / problem, Pena Ara juga berisi berbagai informasi tentang Open Source dan GNU/LINUX." />
+    <meta name="description"
+    content="Pada catatan ini kita akan mencoba untuk memperbaiki service httpd yang gagal dijalankan.
+Problem ini di dapatkan ara pada saat upgrade kernel versi terbaru. Langsung saja buka terminal kesayangan kita semua seperti biasa.
+ Pertama yang harus dilakukan adalah dengan menghentikan service httpd terlebih dahulu dengan perintah systemctl stop httpd.
+  Kedua matikan service httpd dengan perintah systemctl disable httpd.
+ Jika sudah melakuakn dua langkah di atas saatnya kita untuk menginstall ulang apachenya dengan perintah sudo pacman -S apache, setelah install ulang selesai hidupkan dan jalankan kembali service httpd dengan perintah systemctl enable httpd untuk menghidupkan service httpd dan untuk menjalankannya menggunakan perintah systemctl start httpd, dan untuk mengecek statusnya gunakan perintah systemctl status httpd." />
     <meta name="author" content="Ara" />
     <link rel="shortcut icon" href="https://pena-ara.github.io/images/favicon.png" type="">
 
