@@ -6,7 +6,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
-    <meta name="keywords" content="Arch Linux, GNU/Linux, Open Source" />
+    <meta name="keywords" content="GNU/Linux, Open Source" />
     <meta name="description"
     content="Catatan ini berisikan bagaimana caranya membuat autologin dan auto startx di tty yang telah ditentukan, cara ini cocok bagi teman-teman yang menggunakan single DE/WM yang tidak menggunakan DM, dicatatan ini ara menggunakan tty1 dan z shell, langsung saja tanpa panjang lebar, pertama kita akan setting auto login di tty1, jalankan perintah # systemctl edit getty@tty1, dan masukan tiga baris berikut ini :
 [Service] ExecStart= ExecStart=-/usr/bin/agetty --autologin &amp;lt;username&amp;gt; --noclear %I $TERM jika sudah lanjut ke setting auto startx, edit file ." />

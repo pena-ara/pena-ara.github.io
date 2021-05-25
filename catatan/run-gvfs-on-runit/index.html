@@ -6,7 +6,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
-    <meta name="keywords" content="Arch Linux, GNU/Linux, Open Source" />
+    <meta name="keywords" content="GNU/Linux, Open Source" />
     <meta name="description"
     content="Pada catatn ini ara akan mencatat sedikit masalah yang baru saja di alami setelah bermigrasi dari arch systemd ke artix runit, yaitu tidak jalannya gvfs pada file manager pcmanfm, langsung saja ke solusinya, solusinya cukup mudah cukup tambahkan dbus-launch pada saat melakukan start atau bisa di buatkan otomatisnya dengan menambahkan beberapa perintah di profile shell yang kita gunakan di sini ara menggunakan zsh edit file .zprofile :
 if [[ -z &amp;#34;$DISPLAY&amp;#34; ]] &amp;amp;&amp;amp; [[ $(tty) = /dev/tty1 ]]; then exec dbus-launch startx fi jika ingin otomatis login bisa tambahkan --autologin &amp;lt;username&amp;gt; di /etc/runit/sv/agetty-tty1/conf" />

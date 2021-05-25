@@ -6,7 +6,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
-    <meta name="keywords" content="Arch Linux, GNU/Linux, Open Source" />
+    <meta name="keywords" content="GNU/Linux, Open Source" />
     <meta name="description"
     content="Dicatatn ini berisikan bagaimana cara menampilkan emoji pada emulator terminal konsole, pada catatan ini ara menggunakan font Noto Color Emoji untuk emojji dan MeslolGS NF untuk font di konsolenya, langsung saja buat file konfigurasinya 99-color-emoji.conf di folder .config/fontconfig/conf.d/, isi dari file 99-color-emoji.conf kurang lebih seperti berikut :
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt; &amp;lt;!DOCTYPE fontconfig SYSTEM &amp;#34;fonts.dtd&amp;#34;&amp;gt; &amp;lt;fontconfig&amp;gt; &amp;lt;match&amp;gt; &amp;lt;test name=&amp;#34;family&amp;#34;&amp;gt;&amp;lt;string&amp;gt;MesloLGS NF&amp;lt;/string&amp;gt;&amp;lt;/test&amp;gt; &amp;lt;edit name=&amp;#34;family&amp;#34; mode=&amp;#34;prepend&amp;#34; binding=&amp;#34;strong&amp;#34;&amp;gt; &amp;lt;string&amp;gt;Noto Color Emoji&amp;lt;/string&amp;gt; &amp;lt;/edit&amp;gt; &amp;lt;/match&amp;gt; &amp;lt;/fontconfig&amp;gt; Setelah membuat file konfigurasi, buka konsole kita dan jalankan fc-cache, dan jangan lupa restart konsole untuk melihat hasilnya &amp;hellip;." />

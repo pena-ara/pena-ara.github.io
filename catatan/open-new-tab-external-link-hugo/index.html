@@ -6,7 +6,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
-    <meta name="keywords" content="Arch Linux, GNU/Linux, Open Source" />
+    <meta name="keywords" content="GNU/Linux, Open Source" />
     <meta name="description"
     content="Catatan Ara kali ini akan berbagi sedikit mengenai hugo, bagaimana caranya membuat external link dibuka pada tab baru, langsung saja tanpa basa basi, buat file render-link.html pada folder layouts theme teman teman layouts/_default/_markup/render-link.html, untuk isi render-link.htmlnya sendiri kurang lebih seperti ini :
 &amp;lt;a href=&amp;#34;{{ .Destination | safeURL }}&amp;#34;{{ with .Title}} title=&amp;#34;{{ . }}&amp;#34;{{ end }}{{ if strings.HasPrefix .Destination &amp;#34;http&amp;#34; }} rel=&amp;#34;noopener noreferrer&amp;#34; target=&amp;#34;_blank&amp;#34;{{ end }}&amp;gt;{{ .Text }}&amp;lt;/a&amp;gt; Sekarang teman-teman jika membuat link external di dalam konten, jika linknya diclick maka akan membuka di tab baru 😁." />
