@@ -1,5 +1,9 @@
 [
     {
+      "title": "List Applications",
+      "url": "/catatan/list-applications/"
+    },
+    {
       "title": "Install Artix Runit",
       "url": "/catatan/install-artix-runit/"
     },

@@ -6,7 +6,21 @@
     <description>Recent content on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 May 2021 17:48:28 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 May 2021 19:26:24 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List Applications</title>
+      <link>https://pena-ara.github.io/catatan/list-applications/</link>
+      <pubDate>Tue, 25 May 2021 19:26:24 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/list-applications/</guid>
+      <description>List aplikasi yang di install setelah menginstall distro gnu/linux :
+System Tools
+ alacritty =&amp;gt; Terminal emulator pcmanfm =&amp;gt; File manager ranger =&amp;gt; File manager  Preferences
+ lxappearance =&amp;gt; Customizes look &amp;amp; feel qt5ct &amp;amp; qt5-styleplugins =&amp;gt; Customizes look &amp;amp; feel  Sound &amp;amp; Video
+ mpv =&amp;gt; Media player simplescreenrecorder =&amp;gt; Screen recorder cinelerra =&amp;gt; Video editing  Internet
+ qutebrowser =&amp;gt; Browser aria2 =&amp;gt; Download manager speedtest-cli =&amp;gt; Testing internet bandwidth  Graphics</description>
+    </item>
+    
     <item>
       <title>Install Artix Runit</title>
       <link>https://pena-ara.github.io/catatan/install-artix-runit/</link>
