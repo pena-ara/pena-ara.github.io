@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>runit on Pena Ara</title>
+    <link>https://pena-ara.github.io/tags/runit/</link>
+    <description>Recent content in runit on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 May 2021 12:05:20 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/runit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run Gvfs on Runit</title>
+      <link>https://pena-ara.github.io/catatan/run-gvfs-on-runit/</link>
+      <pubDate>Tue, 25 May 2021 12:05:20 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/run-gvfs-on-runit/</guid>
+      <description>Pada catatn ini ara akan mencatat sedikit masalah yang baru saja di alami setelah bermigrasi dari arch systemd ke artix runit, yaitu tidak jalannya gvfs pada file manager pcmanfm, langsung saja ke solusinya, solusinya cukup mudah cukup tambahkan dbus-launch pada saat melakukan start atau bisa di buatkan otomatisnya dengan menambahkan beberapa perintah di profile shell yang kita gunakan di sini ara menggunakan zsh edit file .zprofile :
+if [[ -z &amp;#34;$DISPLAY&amp;#34; ]] &amp;amp;&amp;amp; [[ $(tty) = /dev/tty1 ]]; then exec dbus-launch startx fi jika ingin otomatis login bisa tambahkan --autologin &amp;lt;username&amp;gt; di /etc/runit/sv/agetty-tty1/conf</description>
+    </item>
+    
+  </channel>
+</rss>
