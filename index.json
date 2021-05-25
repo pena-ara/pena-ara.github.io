@@ -1,5 +1,9 @@
 [
     {
+      "title": "Install Artix Runit",
+      "url": "/catatan/install-artix-runit/"
+    },
+    {
       "title": "Run Gvfs on Runit",
       "url": "/catatan/run-gvfs-on-runit/"
     },

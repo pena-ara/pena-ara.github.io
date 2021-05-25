@@ -6,7 +6,17 @@
     <description>Recent content in runit on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 May 2021 12:05:20 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/runit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 May 2021 17:48:28 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/runit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Artix Runit</title>
+      <link>https://pena-ara.github.io/catatan/install-artix-runit/</link>
+      <pubDate>Tue, 25 May 2021 17:48:28 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/install-artix-runit/</guid>
+      <description>Dalam catatan ini berisikan bagaimana cara menginstall artix linux runit, seperti biasa tanpa panjang lebar langsung ke TKP. Sekedar informasi ara juga pernah mencatat bagaimana menginstall arch linux yang mau install silahkan di baca. pada catatan ini juga ara tidak akan menjelaskan bagaimana cara membuat partisi, sekema partisinya masih sama waktu install arch linux :
+/dev/sda1 untuk partisi swap /dev/sda2 untuk partisi / /dev/sda3 untuk partisi /home  mount partisi  mkswap /dev/sda1 (untuk format partisi swap (*untuk yang pakai uefi bisa format partisi efinya dengan `mkfs.</description>
+    </item>
+    
     <item>
       <title>Run Gvfs on Runit</title>
       <link>https://pena-ara.github.io/catatan/run-gvfs-on-runit/</link>
