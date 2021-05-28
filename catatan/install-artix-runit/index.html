@@ -137,7 +137,8 @@ connmanctl&gt;exit
 </code></pre></div><ul>
 <li>Configure base system</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"># ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"># artix-chroot /mnt
+# ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 # hwclock --systohc
 # nano /etc/locale.gen (hilangkan tanda `#` pada `en_US.UTF-8` dan `id_ID.UTF-8`)
 # locale-gen (generate locale)
