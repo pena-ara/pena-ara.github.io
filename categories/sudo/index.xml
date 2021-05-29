@@ -6,7 +6,18 @@
     <description>Recent content in Sudo on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jan 2021 06:26:41 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/sudo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 May 2021 15:27:13 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/categories/sudo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Poweroff &amp; Reboot Without Password</title>
+      <link>https://pena-ara.github.io/catatan/poweroff-reboot-without-password/</link>
+      <pubDate>Sat, 29 May 2021 15:27:13 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/poweroff-reboot-without-password/</guid>
+      <description>Pada catatan ini kita akan membuat bagaimana caranya melakukan poweroff dan reboot tanpa menggunakan password, seperti biasa tanpa panjang lebar kita langsung ke TKP. edit file sudoers di /etc/sudoers dan tambahkan kode baris berikut di akhir,
+%wheel ALL=(ALL) NOPASSWD: /usr/bin/halt, /usr/bin/poweroff, /usr/bin/reboot, /usr/bin/shutdown simpan, dan kita juga bisa membuat aliasnya seperti berikut,
+alias reboot=&amp;#39;sudo reboot&amp;#39; alias poweroff=&amp;#39;sudo poweroff&amp;#39; </description>
+    </item>
+    
     <item>
       <title>Run Sudo Command Without Password</title>
       <link>https://pena-ara.github.io/catatan/run-sudo-command-without-password/</link>

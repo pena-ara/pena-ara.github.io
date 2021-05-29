@@ -8,14 +8,14 @@
     
     <meta name="keywords" content="GNU/Linux, Open Source" />
     <meta name="description"
-    content="" />
+    content="Pada catatan ini kita akan membuat bagaimana caranya melakukan poweroff dan reboot tanpa menggunakan password, seperti biasa tanpa panjang lebar kita langsung ke TKP. edit file sudoers di /etc/sudoers dan tambahkan kode baris berikut di akhir,
+%wheel ALL=(ALL) NOPASSWD: /usr/bin/halt, /usr/bin/poweroff, /usr/bin/reboot, /usr/bin/shutdown simpan, dan kita juga bisa membuat aliasnya seperti berikut,
+alias reboot=&amp;#39;sudo reboot&amp;#39; alias poweroff=&amp;#39;sudo poweroff&amp;#39; " />
     <meta name="author" content="Ara" />
     <link rel="shortcut icon" href="https://pena-ara.github.io/images/favicon.png" type="">
 
     
     
-    <link href="/categories/sudo/index.xml" rel="alternate" type="application/rss+xml" title="Pena Ara" />
-    
 
     
     
@@ -23,7 +23,7 @@
     
     
 
-    <title> Sudo </title>
+    <title> Poweroff &amp; Reboot Without Password </title>
 
     
     <link rel="stylesheet" type="text/css" href="https://pena-ara.github.io/css/bootstrap.css" />
@@ -95,63 +95,50 @@ if (!doNotTrack) {
 
     </div>
     <section class="service_section layout_padding">
-        <div class="service_container">
-            <div class="container ">
-                <div class="heading_container heading_center">
-                    <h2>
-                        Catatan <span>Pena Ara</span>
-                    </h2>
-                </div>
-                <div class="row">
-                    
-                    <div class="col-md-6 ">
-                        <div class="box ">
-                            <div class="img-box">
-                                <img src="https://pena-ara.github.io/images/thumb.png" alt="Pena Ara">
-                            </div>
-                            <div class="detail-box">
-                                <h5>
-                                    Poweroff &amp; Reboot Without Password
-                                </h5>
-                                <p>
-                                    
-                                    <a class="btn btn-secondary" href="/tags/sudo" class="text-primary">Sudo</a>
-                                    
-                                </p>
-                                <a href="https://pena-ara.github.io/catatan/poweroff-reboot-without-password/">
-                                    Baca Catatan
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6 ">
-                        <div class="box ">
-                            <div class="img-box">
-                                <img src="https://pena-ara.github.io/images/thumb.png" alt="Pena Ara">
-                            </div>
-                            <div class="detail-box">
-                                <h5>
-                                    Run Sudo Command Without Password
-                                </h5>
-                                <p>
-                                    
-                                    <a class="btn btn-secondary" href="/tags/password" class="text-primary">Password</a>
-                                    
-                                    <a class="btn btn-secondary" href="/tags/sudoers" class="text-primary">Sudoers</a>
-                                    
-                                </p>
-                                <a href="https://pena-ara.github.io/catatan/run-sudo-command-without-password/">
-                                    Baca Catatan
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <br>
-                
-            </div>
+        <div class="container ">
+            <div class="heading_container heading_center">
+                <h2>
+                    <span>Poweroff &amp; Reboot Without Password</span>
+                </h2>
+                <p>
+                    29 May 2021
+                    <span class="file-info-divider"></span>
+                </p>
+            </div><br>
+        </div>
+        <div class="container"><p>Pada catatan ini kita akan membuat bagaimana caranya melakukan poweroff dan reboot tanpa menggunakan password, seperti biasa tanpa panjang lebar kita langsung ke TKP. edit file sudoers di <code>/etc/sudoers</code> dan tambahkan kode baris berikut di akhir,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">%wheel ALL=(ALL) NOPASSWD: /usr/bin/halt, /usr/bin/poweroff, /usr/bin/reboot, /usr/bin/shutdown
+</code></pre></div><p>simpan, dan kita juga bisa membuat aliasnya seperti berikut,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">alias reboot=&#39;sudo reboot&#39;
+alias poweroff=&#39;sudo poweroff&#39;
+</code></pre></div><h5>
+                <b> Tags : </b>
+            </h5>
+            
+            <a class="btn btn-secondary" href="/tags/sudo" class="text-primary">Sudo</a>
+            
+            <br>
+            
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-pena-ara-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
         </div>
     </section>
     
