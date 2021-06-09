@@ -13,12 +13,11 @@
       <pubDate>Tue, 25 May 2021 19:26:24 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/catatan/list-applications/</guid>
-      <description>List aplikasi yang di install setelah menginstall distro gnu/linux :
+      <description>List aplikasi yang di install setelah menginstall distro gnu/linux (core) :
 System Tools
- alacritty =&amp;gt; Terminal emulator pcmanfm =&amp;gt; File manager ranger =&amp;gt; File manager  Preferences
+ alacritty =&amp;gt; Terminal emulator pcmanfm =&amp;gt; File manager ranger =&amp;gt; File manager dwm =&amp;gt; Window manager  Preferences
  lxappearance =&amp;gt; Customizes look &amp;amp; feel qt5ct &amp;amp; qt5-styleplugins =&amp;gt; Customizes look &amp;amp; feel  Sound &amp;amp; Video
- mpv =&amp;gt; Media player moc =&amp;gt; Audio player simplescreenrecorder =&amp;gt; Screen recorder cinelerra =&amp;gt; Video editing  Internet
- qutebrowser =&amp;gt; Browser aria2 =&amp;gt; Download manager speedtest-cli =&amp;gt; Testing internet bandwidth  Graphics</description>
+ mpv =&amp;gt; Media player moc =&amp;gt; Audio player simplescreenrecorder =&amp;gt; Screen recorder cinelerra =&amp;gt; Video editing kdenlive =&amp;gt; Video editing  Internet</description>
     </item>
     
   </channel>
