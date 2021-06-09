@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kvm on Pena Ara</title>
+    <link>https://pena-ara.github.io/tags/kvm/</link>
+    <description>Recent content in kvm on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jun 2021 19:32:50 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Qemu Virtual Machine Manager Onartix Runit</title>
+      <link>https://pena-ara.github.io/catatan/install-qemu-virtual-machine-manager-onartix-runit/</link>
+      <pubDate>Wed, 09 Jun 2021 19:32:50 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/install-qemu-virtual-machine-manager-onartix-runit/</guid>
+      <description>Pada catatan ini kita akan menginstall qemu dan virtual machine manager pada sistem operasi Artix Linux (runit) langsung saja seperti biasa tanpa panjang lebar. Pertama pastikan repo [extra], [community], dan [multilib] dari Arch Linux telah di aktifkan. Langsung saja install paket-paket yang dibutuhkan seperti berikut :
+# pacman -S qemu virt-manager libvirt-runit vde2 dnsmasq ebtables bridge-utils openbsd-netcat konfigurasi pada /etc/libvirt/libvirtd.conf uncomment pada baris berikut :
+unix_sock_group = &amp;#34;libvirt&amp;#34; unix_sock_rw_perms = &amp;#34;0770&amp;#34; tambahkan group libvirt</description>
+    </item>
+    
+  </channel>
+</rss>

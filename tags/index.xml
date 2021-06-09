@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 May 2021 15:27:13 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 19:32:50 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kvm</title>
+      <link>https://pena-ara.github.io/tags/kvm/</link>
+      <pubDate>Wed, 09 Jun 2021 19:32:50 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/kvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qemu</title>
+      <link>https://pena-ara.github.io/tags/qemu/</link>
+      <pubDate>Wed, 09 Jun 2021 19:32:50 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/qemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>runit</title>
+      <link>https://pena-ara.github.io/tags/runit/</link>
+      <pubDate>Wed, 09 Jun 2021 19:32:50 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/tags/runit/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>sudo</title>
       <link>https://pena-ara.github.io/tags/sudo/</link>
@@ -31,15 +58,6 @@
       <pubDate>Tue, 25 May 2021 17:48:28 +0700</pubDate>
       
       <guid>https://pena-ara.github.io/tags/artix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>runit</title>
-      <link>https://pena-ara.github.io/tags/runit/</link>
-      <pubDate>Tue, 25 May 2021 17:48:28 +0700</pubDate>
-      
-      <guid>https://pena-ara.github.io/tags/runit/</guid>
       <description></description>
     </item>
     
