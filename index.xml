@@ -6,7 +6,19 @@
     <description>Recent content on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jun 2021 19:32:50 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 11:38:32 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install and Configure Mutt E-mail Client</title>
+      <link>https://pena-ara.github.io/catatan/install-and-configure-mutt-email-client/</link>
+      <pubDate>Sun, 13 Jun 2021 11:38:32 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/install-and-configure-mutt-email-client/</guid>
+      <description>Pada catatan ini kita akan menginstall dan mengkonigurasi mutt dengan akun gmail, langsung seperti biasa install terlebih dahulu muttnya dengan cara
+# pacman -S mutt buat beberapa folder dan file untuk konfigurasi :
+mkdir -p ~/.mutt/cache/headers mkdir ~/.mutt/cache/bodies touch ~/.mutt/certificates touch ~/.mutt/muttrc isi file ~/.mutt/muttrc
+# IMAP set imap_user = &amp;lt;username&amp;gt;@gmail.com set imap_pass = &amp;lt;password&amp;gt; set spoolfile = imaps://imap.gmail.com/INBOX set folder = imaps://imap.gmail.com/ set record=&amp;#34;imaps://imap.gmail.com/[Gmail]/Sent Mail&amp;#34; set postponed=&amp;#34;imaps://imap.gmail.com/[Gmail]/Drafts&amp;#34; set mbox=&amp;#34;imaps://imap.gmail.com/[Gmail]/All Mail&amp;#34; set header_cache = &amp;#34;~/.</description>
+    </item>
+    
     <item>
       <title>Install Qemu Virtual Machine Manager On Artix Runit</title>
       <link>https://pena-ara.github.io/catatan/install-qemu-virtual-machine-manager-onartix-runit/</link>

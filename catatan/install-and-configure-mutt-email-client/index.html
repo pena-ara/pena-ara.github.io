@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    
+    <meta name="keywords" content="GNU/Linux, Open Source" />
+    <meta name="description"
+    content="Pada catatan ini kita akan menginstall dan mengkonigurasi mutt dengan akun gmail, langsung seperti biasa install terlebih dahulu muttnya dengan cara
+# pacman -S mutt buat beberapa folder dan file untuk konfigurasi :
+mkdir -p ~/.mutt/cache/headers mkdir ~/.mutt/cache/bodies touch ~/.mutt/certificates touch ~/.mutt/muttrc isi file ~/.mutt/muttrc
+# IMAP set imap_user = &amp;lt;username&amp;gt;@gmail.com set imap_pass = &amp;lt;password&amp;gt; set spoolfile = imaps://imap.gmail.com/INBOX set folder = imaps://imap.gmail.com/ set record=&amp;#34;imaps://imap.gmail.com/[Gmail]/Sent Mail&amp;#34; set postponed=&amp;#34;imaps://imap.gmail.com/[Gmail]/Drafts&amp;#34; set mbox=&amp;#34;imaps://imap.gmail.com/[Gmail]/All Mail&amp;#34; set header_cache = &amp;#34;~/." />
+    <meta name="author" content="Ara" />
+    <link rel="shortcut icon" href="https://pena-ara.github.io/images/favicon.png" type="">
+
+    
+    
+
+    
+    
+
+    
+    
+
+    <title> Install and Configure Mutt E-mail Client </title>
+
+    
+    <link rel="stylesheet" type="text/css" href="https://pena-ara.github.io/css/bootstrap.css" />
+
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    
+    <link href="https://pena-ara.github.io/css/font-awesome.min.css" rel="stylesheet" />
+
+    
+    <link href="https://pena-ara.github.io/css/style.css" rel="stylesheet" />
+    
+    <link href="https://pena-ara.github.io/css/responsive.css" rel="stylesheet" />
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-180310531-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body><div id="content">
+
+<body class="sub_page">
+    <div class="hero_area">
+        <div class="hero_bg_box">
+            <img src="https://pena-ara.github.io/images/hero-bg.png" alt="">
+        </div>
+        
+<header class="header_section">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="https://pena-ara.github.io/">
+                <span>
+                    Pena Ara
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://pena-ara.github.io/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://pena-ara.github.io/catatan">Catatan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://pena-ara.github.io/pencarian"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+    </div>
+    <section class="service_section layout_padding">
+        <div class="container ">
+            <div class="heading_container heading_center">
+                <h2>
+                    <span>Install and Configure Mutt E-mail Client</span>
+                </h2>
+                <p>
+                    13 June 2021
+                    <span class="file-info-divider"></span>
+                </p>
+            </div><br>
+        </div>
+        <div class="container"><p>Pada catatan ini kita akan menginstall dan mengkonigurasi mutt dengan akun gmail, langsung seperti biasa install terlebih dahulu <code>mutt</code>nya dengan cara</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> # pacman -S mutt
+</code></pre></div><p>buat beberapa folder dan file untuk konfigurasi :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> mkdir -p ~/.mutt/cache/headers
+ mkdir ~/.mutt/cache/bodies
+ touch ~/.mutt/certificates
+ touch ~/.mutt/muttrc
+</code></pre></div><p>isi file ~/.mutt/muttrc</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> # IMAP
+ set imap_user = &lt;<span style="color:#f92672">username</span>&gt;@gmail.com
+ set imap_pass = &lt;<span style="color:#f92672">password</span>&gt;
+ set spoolfile = imaps://imap.gmail.com/INBOX
+ set folder = imaps://imap.gmail.com/
+ set record=&#34;imaps://imap.gmail.com/[Gmail]/Sent Mail&#34;
+ set postponed=&#34;imaps://imap.gmail.com/[Gmail]/Drafts&#34;
+ set mbox=&#34;imaps://imap.gmail.com/[Gmail]/All Mail&#34;
+ set header_cache = &#34;~/.mutt/cache/headers&#34;
+ set message_cachedir = &#34;~/.mutt/cache/bodies&#34;
+ set certificate_file = &#34;~/.mutt/certificates&#34;
+ # SMTP
+ set smtp_url = &#34;smtp://&lt;<span style="color:#f92672">username</span>&gt;@smtp.gmail.com:587/&#34;
+ set smtp_pass = $imap_pass
+ set ssl_force_tls = yes # Require encrypted connection
+ # Editing
+ set editor = &#34;nvim&#34;
+ set edit_headers = yes
+ set charset = UTF-8
+ # Sender
+ unset use_domain
+ set realname = &#34;&lt;<span style="color:#f92672">name</span>&gt;&#34;
+ set from = &#34;&lt;<span style="color:#f92672">username</span>&gt;@gmail.com&#34;
+ set use_from = yes
+</code></pre></div><p>berikan akses mutt
+<a href="https://myaccount.google.com/lesssecureapps">Less secure app access</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> Allow less secure apps: ON
+</code></pre></div><h5>
+                <b> Tags : </b>
+            </h5>
+            
+            <a class="btn btn-secondary" href="/tags/mutt" class="text-primary">Mutt</a>
+            
+            <br>
+            
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-pena-ara-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </section>
+    
+        </div>
+<footer class="footer_section">
+    <div class="footer_bg_box">
+        <img src="https://pena-ara.github.io/images/footer-bg.png" alt="">
+    </div>
+    <div class="footer-info">
+        <p>
+            &copy; <span id="displayYear"></span> Pena Ara
+        </p>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript" src="https://pena-ara.github.io/js/jquery-3.4.1.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+
+<script type="text/javascript" src="https://pena-ara.github.io/js/bootstrap.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script type="text/javascript" src="https://pena-ara.github.io/js/custom.js"></script>
+<script type="text/javascript" src="https://pena-ara.github.io/js/cari.js"></script>
+</body>
+</html>

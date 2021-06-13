@@ -4,12 +4,37 @@
    
   <url>
     <loc>https://pena-ara.github.io/catatan/</loc>
-    <lastmod>2021-06-09T19:32:50+07:00</lastmod>
+    <lastmod>2021-06-13T11:38:32+07:00</lastmod>
   </url>
     
   <url>
     <loc>https://pena-ara.github.io/categories/</loc>
-    <lastmod>2021-06-09T19:32:50+07:00</lastmod>
+    <lastmod>2021-06-13T11:38:32+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/categories/e-mail-client/</loc>
+    <lastmod>2021-06-13T11:38:32+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/catatan/install-and-configure-mutt-email-client/</loc>
+    <lastmod>2021-06-13T11:38:32+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/tags/mutt/</loc>
+    <lastmod>2021-06-13T11:38:32+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/</loc>
+    <lastmod>2021-06-13T11:38:32+07:00</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://pena-ara.github.io/tags/</loc>
+    <lastmod>2021-06-13T11:38:32+07:00</lastmod>
   </url>
     
   <url>
@@ -23,22 +48,12 @@
   </url>
     
   <url>
-    <loc>https://pena-ara.github.io/</loc>
-    <lastmod>2021-06-09T19:32:50+07:00</lastmod>
-  </url>
-    
-  <url>
     <loc>https://pena-ara.github.io/tags/qemu/</loc>
     <lastmod>2021-06-09T19:32:50+07:00</lastmod>
   </url>
     
   <url>
     <loc>https://pena-ara.github.io/tags/runit/</loc>
-    <lastmod>2021-06-09T19:32:50+07:00</lastmod>
-  </url>
-    
-  <url>
-    <loc>https://pena-ara.github.io/tags/</loc>
     <lastmod>2021-06-09T19:32:50+07:00</lastmod>
   </url>
     

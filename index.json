@@ -1,5 +1,9 @@
 [
     {
+      "title": "Install and Configure Mutt E-mail Client",
+      "url": "/catatan/install-and-configure-mutt-email-client/"
+    },
+    {
       "title": "Install Qemu Virtual Machine Manager On Artix Runit",
       "url": "/catatan/install-qemu-virtual-machine-manager-onartix-runit/"
     },
