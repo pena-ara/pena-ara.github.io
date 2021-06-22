@@ -8,8 +8,8 @@
     
     <meta name="keywords" content="GNU/Linux, Open Source" />
     <meta name="description"
-    content="Pada catatan kali ini, kita akan mencoba menyamakan style theme dari qt dan gtk, sebetulnya di sini kita akan memaksa qt menggunakan style theme gtk menggunakan gtk2, jadi yg perlu kita garis bawahi, kita harus menggunakan theme yang suport dengan gtk2 dan gtk3, ok langsung saja seperti biasa tanpa basa basi.
-Dicatatan ini kita menggunakan bantuan qt5-styleplugins, silahkan teman-teman install terlebih dahulu, jika sudah terinstall kita akan menambahkan &amp;lsquo;environment&amp;rsquo; supaya nantinya aplikasi yang menggunakan qt akan menggunakan style theme dari gtk, untuk menambahkan environment, kita bisa menambahkannya di /etc/environment dan masukan QT_QPA_PLATFORMTHEME=qt5ct, untuk qt4 kita bisa menambahkannya di ~/." />
+    content="Pada catatan ini kita aka menghidupkan mode tapping pada touchpad seperti biasa tanpa panjang lebar buka terminal dan ketikan perintah xinput dan hasilnya kurang lebis sebagai berikut :
+⎡ Virtual core pointer id=2	[master pointer (3)] ⎜ ↳ Virtual core XTEST pointer id=4 [slave pointer (2)] ⎜ ↳ SynPS/2 Synaptics TouchPad id=11	[slave pointer (2)] ⎣ Virtual core keyboard id=3	[master keyboard (2)] ↳ Virtual core XTEST keyboard id=5	[slave keyboard (3)] ↳ Power Button id=6	[slave keyboard (3)] ↳ Video Bus id=7	[slave keyboard (3)] ↳ Power Button id=8	[slave keyboard (3)] ↳ HP Webcam-50: HP Webcam-50 id=9	[slave keyboard (3)] ↳ AT Translated Set 2 keyboard id=10	[slave keyboard (3)] ↳ HP WMI hotkeys id=12	[slave keyboard (3)] catat id pada SynPS/2 Synaptics TouchPad masukan perintah berikutnya xinput list-props 11, 11 adalah id dari SynPS/2 Synaptics TouchPad, catat id dari libinput Tapping Enabled," />
     <meta name="author" content="Ara" />
     <link rel="shortcut icon" href="https://pena-ara.github.io/images/favicon.png" type="">
 
@@ -22,7 +22,7 @@ Dicatatan ini kita menggunakan bantuan qt5-styleplugins, silahkan teman-teman in
     
     
 
-    <title> Uniform Look for Qt and GTK Applications </title>
+    <title> Enabling Tapping Touchpad </title>
 
     
     <link rel="stylesheet" type="text/css" href="https://pena-ara.github.io/css/bootstrap.css" />
@@ -97,28 +97,67 @@ if (!doNotTrack) {
         <div class="container ">
             <div class="heading_container heading_center">
                 <h2>
-                    <span>Uniform Look for Qt and GTK Applications</span>
+                    <span>Enabling Tapping Touchpad</span>
                 </h2>
                 <p>
-                    22 December 2020
+                    22 June 2021
                     <span class="file-info-divider"></span>
                 </p>
             </div><br>
         </div>
-        <div class="container"><p>Pada catatan kali ini, kita akan mencoba menyamakan style theme dari qt dan gtk, sebetulnya di sini kita akan memaksa qt menggunakan style theme gtk menggunakan gtk2, jadi yg perlu kita garis bawahi, kita harus menggunakan theme yang suport dengan gtk2 dan gtk3, ok langsung saja seperti biasa tanpa basa basi.</p>
-<p>Dicatatan ini kita menggunakan bantuan <a href="https://aur.archlinux.org/packages/qt5-styleplugins/">qt5-styleplugins</a>, silahkan teman-teman install terlebih dahulu, jika sudah terinstall kita akan menambahkan &lsquo;environment&rsquo; supaya nantinya aplikasi yang menggunakan qt akan menggunakan style theme dari gtk, untuk menambahkan <code>environment</code>, kita bisa menambahkannya di <code>/etc/environment</code> dan masukan <code>QT_QPA_PLATFORMTHEME=qt5ct</code>, untuk qt4 kita bisa menambahkannya di <code>~/.config/Trolltech.conf</code>, dan isinya kurang lebih seperti ini;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">[Qt]
-style=GTK+
-</code></pre></div><p>jangan lupa save dan restart untuk melihat hasilnya. :).
-Berikut beberapa aplikasi yang menggunakan qt dengan style theme gtk ;
-<img src="/images/catatan/qt-gtk.png" alt="qt-gtk"></p>
+        <div class="container"><p>Pada catatan ini kita aka menghidupkan mode <code>tapping</code> pada touchpad seperti biasa tanpa panjang lebar buka terminal dan ketikan perintah <code>xinput</code> dan hasilnya kurang lebis sebagai berikut :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> ⎡ Virtual core pointer                    	 id=2	  [master pointer  (3)]
+ ⎜   ↳ Virtual core XTEST pointer            id=4   [slave  pointer  (2)]
+ ⎜   ↳ SynPS/2 Synaptics TouchPad            id=11	[slave  pointer  (2)]
+ ⎣ Virtual core keyboard                   	 id=3	  [master keyboard (2)]
+     ↳ Virtual core XTEST keyboard           id=5	  [slave  keyboard (3)]
+     ↳ Power Button                          id=6	  [slave  keyboard (3)]
+     ↳ Video Bus                             id=7	  [slave  keyboard (3)]
+     ↳ Power Button                          id=8	  [slave  keyboard (3)]
+     ↳ HP Webcam-50: HP Webcam-50            id=9	  [slave  keyboard (3)]
+     ↳ AT Translated Set 2 keyboard          id=10	[slave  keyboard (3)]
+     ↳ HP WMI hotkeys                        id=12	[slave  keyboard (3)]
+</code></pre></div><p>catat <code>id</code> pada <code>SynPS/2 Synaptics TouchPad</code> masukan perintah berikutnya <code>xinput list-props 11</code>, <code>11</code> adalah id dari <code>SynPS/2 Synaptics TouchPad</code>, catat <code>id</code> dari <code>libinput Tapping Enabled</code>,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> Device &#39;SynPS/2 Synaptics TouchPad&#39;:
+ 	Device Enabled (172):	1
+ 	Coordinate Transformation Matrix (174):	1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000
+	libinput Tapping Enabled (307):	0
+	libinput Tapping Enabled Default (308):	0
+	libinput Tapping Drag Enabled (309):	1
+	libinput Tapping Drag Enabled Default (310):	1
+	libinput Tapping Drag Lock Enabled (311):	0
+	libinput Tapping Drag Lock Enabled Default (312):	0
+	libinput Tapping Button Mapping Enabled (313):	1, 0
+	libinput Tapping Button Mapping Default (314):	1, 0
+	libinput Natural Scrolling Enabled (315):	0
+	libinput Natural Scrolling Enabled Default (316):	0
+	libinput Disable While Typing Enabled (317):	1
+	libinput Disable While Typing Enabled Default (318):	1
+	libinput Scroll Methods Available (319):	1, 1, 0
+	libinput Scroll Method Enabled (320):	1, 0, 0
+	libinput Scroll Method Enabled Default (321):	1, 0, 0
+	libinput Accel Speed (322):	0.000000
+	libinput Accel Speed Default (323):	0.000000
+	libinput Accel Profiles Available (324):	1, 1
+	libinput Accel Profile Enabled (325):	1, 0
+	libinput Accel Profile Enabled Default (326):	1, 0
+	libinput Left Handed Enabled (327):	0
+	libinput Left Handed Enabled Default (328):	0
+	libinput Send Events Modes Available (292):	1, 1
+	libinput Send Events Mode Enabled (293):	0, 0
+	libinput Send Events Mode Enabled Default (294):	0, 0
+	Device Node (295):	&#34;/dev/input/event5&#34;
+	Device Product ID (296):	2, 7
+	libinput Drag Lock Buttons (329):	&lt;<span style="color:#f92672">no</span> <span style="color:#a6e22e">items</span>&gt;
+	libinput Horizontal Scroll Enabled (330):	1
+</code></pre></div><p>aktifkan mode tapping dengan <code>xinput set-prop 11 307 1</code>, supaya tidak berubah lagi saat di restart masukan <code>xinput set-prop 11 307 1</code> di <code>.$HOME/.profile</code> atau <code>$HOME/.zshrc</code> bagi pengguna <code>z shell</code> atau bisa juga di <code>$HOME/.xinitrc</code></p>
 <h5>
                 <b> Tags : </b>
             </h5>
             
-            <a class="btn btn-secondary" href="/tags/qt" class="text-primary">Qt</a>
+            <a class="btn btn-secondary" href="/tags/tapping" class="text-primary">Tapping</a>
             
-            <a class="btn btn-secondary" href="/tags/gtk" class="text-primary">Gtk</a>
+            <a class="btn btn-secondary" href="/tags/xinput" class="text-primary">Xinput</a>
             
             <br>
             

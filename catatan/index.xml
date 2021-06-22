@@ -6,7 +6,17 @@
     <description>Recent content in Catatans on Pena Ara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 11:38:32 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jun 2021 19:55:47 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/catatan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enabling Tapping Touchpad</title>
+      <link>https://pena-ara.github.io/catatan/enabling-tapping-touchpad/</link>
+      <pubDate>Tue, 22 Jun 2021 19:55:47 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/enabling-tapping-touchpad/</guid>
+      <description>Pada catatan ini kita aka menghidupkan mode tapping pada touchpad seperti biasa tanpa panjang lebar buka terminal dan ketikan perintah xinput dan hasilnya kurang lebis sebagai berikut :
+⎡ Virtual core pointer id=2	[master pointer (3)] ⎜ ↳ Virtual core XTEST pointer id=4 [slave pointer (2)] ⎜ ↳ SynPS/2 Synaptics TouchPad id=11	[slave pointer (2)] ⎣ Virtual core keyboard id=3	[master keyboard (2)] ↳ Virtual core XTEST keyboard id=5	[slave keyboard (3)] ↳ Power Button id=6	[slave keyboard (3)] ↳ Video Bus id=7	[slave keyboard (3)] ↳ Power Button id=8	[slave keyboard (3)] ↳ HP Webcam-50: HP Webcam-50 id=9	[slave keyboard (3)] ↳ AT Translated Set 2 keyboard id=10	[slave keyboard (3)] ↳ HP WMI hotkeys id=12	[slave keyboard (3)] catat id pada SynPS/2 Synaptics TouchPad masukan perintah berikutnya xinput list-props 11, 11 adalah id dari SynPS/2 Synaptics TouchPad, catat id dari libinput Tapping Enabled,</description>
+    </item>
+    
     <item>
       <title>Install and Configure Mutt E-mail Client</title>
       <link>https://pena-ara.github.io/catatan/install-and-configure-mutt-email-client/</link>
@@ -158,7 +168,7 @@ Seperti biasa tanpa panjang lebar langsung saja siapkan peralatannya, peralatan 
       
       <guid>https://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</guid>
       <description>Pada catatan kali ini, kita akan mencoba menyamakan style theme dari qt dan gtk, sebetulnya di sini kita akan memaksa qt menggunakan style theme gtk menggunakan gtk2, jadi yg perlu kita garis bawahi, kita harus menggunakan theme yang suport dengan gtk2 dan gtk3, ok langsung saja seperti biasa tanpa basa basi.
-Dicatatan ini kita menggunakan bantuan qt5-styleplugins, silahkan teman-teman install terlebih dahulu, jika sudah terinstall kita akan menambahkan &amp;lsquo;environment&amp;rsquo; supaya nantinya aplikasi yang menggunakan qt akan menggunakan style theme dari gtk, untuk menambahkan environment, kita bisa menambahkannya di /etc/environment dan masukan QT_QPA_PLATFORMTHEME=gtk2, untuk qt4 kita bisa menambahkannya di ~/.</description>
+Dicatatan ini kita menggunakan bantuan qt5-styleplugins, silahkan teman-teman install terlebih dahulu, jika sudah terinstall kita akan menambahkan &amp;lsquo;environment&amp;rsquo; supaya nantinya aplikasi yang menggunakan qt akan menggunakan style theme dari gtk, untuk menambahkan environment, kita bisa menambahkannya di /etc/environment dan masukan QT_QPA_PLATFORMTHEME=qt5ct, untuk qt4 kita bisa menambahkannya di ~/.</description>
     </item>
     
     <item>

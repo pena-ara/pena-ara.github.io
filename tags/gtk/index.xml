@@ -14,7 +14,7 @@
       
       <guid>https://pena-ara.github.io/catatan/uniform-look-for-qt-and-gtk-applications/</guid>
       <description>Pada catatan kali ini, kita akan mencoba menyamakan style theme dari qt dan gtk, sebetulnya di sini kita akan memaksa qt menggunakan style theme gtk menggunakan gtk2, jadi yg perlu kita garis bawahi, kita harus menggunakan theme yang suport dengan gtk2 dan gtk3, ok langsung saja seperti biasa tanpa basa basi.
-Dicatatan ini kita menggunakan bantuan qt5-styleplugins, silahkan teman-teman install terlebih dahulu, jika sudah terinstall kita akan menambahkan &amp;lsquo;environment&amp;rsquo; supaya nantinya aplikasi yang menggunakan qt akan menggunakan style theme dari gtk, untuk menambahkan environment, kita bisa menambahkannya di /etc/environment dan masukan QT_QPA_PLATFORMTHEME=gtk2, untuk qt4 kita bisa menambahkannya di ~/.</description>
+Dicatatan ini kita menggunakan bantuan qt5-styleplugins, silahkan teman-teman install terlebih dahulu, jika sudah terinstall kita akan menambahkan &amp;lsquo;environment&amp;rsquo; supaya nantinya aplikasi yang menggunakan qt akan menggunakan style theme dari gtk, untuk menambahkan environment, kita bisa menambahkannya di /etc/environment dan masukan QT_QPA_PLATFORMTHEME=qt5ct, untuk qt4 kita bisa menambahkannya di ~/.</description>
     </item>
     
   </channel>

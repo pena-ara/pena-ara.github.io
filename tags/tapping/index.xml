@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tapping on Pena Ara</title>
+    <link>https://pena-ara.github.io/tags/tapping/</link>
+    <description>Recent content in tapping on Pena Ara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Jun 2021 19:55:47 +0700</lastBuildDate><atom:link href="https://pena-ara.github.io/tags/tapping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enabling Tapping Touchpad</title>
+      <link>https://pena-ara.github.io/catatan/enabling-tapping-touchpad/</link>
+      <pubDate>Tue, 22 Jun 2021 19:55:47 +0700</pubDate>
+      
+      <guid>https://pena-ara.github.io/catatan/enabling-tapping-touchpad/</guid>
+      <description>Pada catatan ini kita aka menghidupkan mode tapping pada touchpad seperti biasa tanpa panjang lebar buka terminal dan ketikan perintah xinput dan hasilnya kurang lebis sebagai berikut :
+⎡ Virtual core pointer id=2	[master pointer (3)] ⎜ ↳ Virtual core XTEST pointer id=4 [slave pointer (2)] ⎜ ↳ SynPS/2 Synaptics TouchPad id=11	[slave pointer (2)] ⎣ Virtual core keyboard id=3	[master keyboard (2)] ↳ Virtual core XTEST keyboard id=5	[slave keyboard (3)] ↳ Power Button id=6	[slave keyboard (3)] ↳ Video Bus id=7	[slave keyboard (3)] ↳ Power Button id=8	[slave keyboard (3)] ↳ HP Webcam-50: HP Webcam-50 id=9	[slave keyboard (3)] ↳ AT Translated Set 2 keyboard id=10	[slave keyboard (3)] ↳ HP WMI hotkeys id=12	[slave keyboard (3)] catat id pada SynPS/2 Synaptics TouchPad masukan perintah berikutnya xinput list-props 11, 11 adalah id dari SynPS/2 Synaptics TouchPad, catat id dari libinput Tapping Enabled,</description>
+    </item>
+    
+  </channel>
+</rss>
